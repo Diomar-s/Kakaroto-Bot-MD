@@ -741,16 +741,18 @@ console.error(e)
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> David-Chian.', 
-owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador.', 
-mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladores.*', 
-premium: '「🍧」 *Esta función solo es para usuarios Premium.', 
-group: '「🐢」 *Esta funcion solo puede ser ejecutada en grupos.*', 
-private: '「🍭」 *Esta función solo puede ser usada en chat privado.*', 
-admin: '「👑」 *Este comando solo puede ser usado por admins.*', 
-botAdmin: '「🚩」 *Para usar esta función debo ser admin.*', 
-unreg: '「🍟」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg David.23*',
-restrict: '「💫」 *Esta característica esta desactivada.*'
+global.dfail = (type, m, conn) => {
+const msg = {
+rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> KING.', 
+owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.', 
+mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladores canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.*', 
+premium: '「🍧」 *Esta función solo es para usuarios Premium canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.', 
+group: '「🐢」 *Esta funcion solo puede ser ejecutada en grupos canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.*', 
+private: '「🍭」 *Esta función solo puede ser usada en chat privado canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.*', 
+admin: '「👑」 *Este comando solo puede ser usado por admins *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.*', 
+botAdmin: '「🚩」 *Para usar esta función debo ser admin*\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.', 
+unreg: '「🍟」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg KING.18*\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.,
+restrict: '「💫」 *Esta característica esta desactivada*\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.*'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 const file = global.__filename(import.meta.url, true);
