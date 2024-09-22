@@ -1,7 +1,7 @@
 > 🚩 Versión Actual: 3.0.1
 
-## 💥 **`Drako - Bot`**
-## 💥 **`El bot más explosivo de WhatsApp!`**
+## 💨 **`Drako - Bot`**
+## 💨 **`El bot más sayayin de WhatsApp!`**
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+ĹєǤ𝒆𝐧𝐃+King;👑+BOOM!!!;👑)](https://git.io/typing-svg)
 ![Kakaroto](https://qu.ax/xmbi.jpg)
 
