@@ -2,10 +2,10 @@
 
 ## 💥 **`Drako - Bot`**
 ## 💥 **`El bot más explosivo de WhatsApp!`**
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Drako+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+Diomar+King;👑+BOOM!!!;👑)](https://git.io/typing-svg)
-![Drako](https://qu.ax/JLFj.jpg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+ĹєǤ𝒆𝐧𝐃+King;👑+BOOM!!!;👑)](https://git.io/typing-svg)
+![Kakaroto](https://qu.ax/xmbi.jpg)
 
-> Copyright (c) 2024 **[KING-DIOMAR](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)**.
+> Copyright (c) 2024 **[ĹєǤ𝒆𝐧𝐃](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)**.
 ---
 
 ### ☁️ CORINPLUS HOTS 
@@ -32,10 +32,10 @@
 - Grupo de WhatsApp: [【 🔰 Azura-ultra grupo🔰 】](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
 -
 
-> **`AVISO`**: Drako-Bot no funciona en la terminal (termux).
+> **`AVISO`**: Kakaroto-Bot no funciona en la terminal (termux).
 > Estaremos arreglando el error de la bot para que se pueda instalar en la terminal (termux).
 
-> **`Drako - Bot -`** es un super bot de WhatsApp con multi funciones.
+> **`Kakaroto - Bot -`** es un super bot de WhatsApp con multi funciones.
 ---
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
