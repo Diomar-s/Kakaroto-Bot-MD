@@ -10,14 +10,14 @@ let bang = m.key.id
 let bot = global.db.data.settings[this.user.jid] || {}
 const isGroupLink = linkRegex.exec(m.text)
 const grupo = `https://chat.whatsapp.com`
-if (isAdmin && chat.antiLink && m.text.includes(grupo)) return conn.reply(m.chat, `🐲 *Hey!! el anti link esta activo pero eres sayagin, ¡salvado admin corrupto 🗣️!*`, m, rcanal, )
+if (isAdmin && chat.antiLink && m.text.includes(grupo)) return conn.reply(m.chat, `🐲 *nooo!! el anti link esta activo pero eres sayagin, ¡salvado admin corrupto 🗣️!*`, m, rcanal, )
 if (chat.antiLink && isGroupLink && !isAdmin) {
 if (isBotAdmin) {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
 if (m.text.includes(linkThisGroup)) return !0
 }
-await conn.reply(m.chat, `📎 *¡Enlace detectado!*\n\n*${await this.getName(m.sender)} mandaste un enlace prohibido por lo cual seras eliminado*`, m, rcanal, )
-if (!isBotAdmin) return conn.reply(m.chat, `🐲 *No soy admin, no puedo eliminar intrusos*`, m, rcanal, )
+await conn.reply(m.chat, `📎 *¡𝐄𝐇 𝐕𝐈𝐒𝐓𝐎 𝐔𝐍 𝐄𝐍𝐋𝐀𝐂𝐄!*\n\n*${await this.getName(m.sender)} 𝐌𝐀𝐍𝐃𝐀𝐒𝐓𝐄𝐒 𝐔𝐍 𝐋𝐈𝐍𝐊 𝐐𝐔𝐄 𝐍𝐎 𝐄𝐒𝐓𝐀 𝐏𝐑𝐎𝐇𝐈𝐁𝐈𝐃𝐎 𝐋𝐎 𝐂𝐔𝐀𝐋 𝐕𝐀𝐒 𝐀 𝐒𝐄𝐑 𝐄𝐋𝐈𝐌𝐈𝐍𝐀𝐃𝐎*`, m, rcanal, )
+if (!isBotAdmin) return conn.reply(m.chat, `🐲 *𝐁𝐔𝐄𝐍𝐎 𝐏𝐔𝐄𝐃𝐄𝐒 𝐇𝐀𝐂𝐄𝐑𝐋𝐎 𝐍𝐎 𝐒𝐎𝐘 𝐀𝐃𝐌𝐈𝐍 𝐍𝐎 𝐏𝐔𝐄𝐃𝐎 𝐄𝐋𝐈𝐌𝐈𝐍𝐀𝐑 𝐀 𝐍𝐀𝐃𝐈𝐄 𝐗𝐃*`, m, rcanal, )
 if (isBotAdmin) {
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
