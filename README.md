@@ -2,8 +2,8 @@
 
 ## 💨 **`Drako - Bot`**
 ## 💨 **`El bot más sayayin de WhatsApp!`**
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+ĹєǤ𝒆𝐧𝐃+King;👑+BOOM!!!;👑)](https://git.io/typing-svg)
-![Kakaroto](https://qu.ax/ZYsQ.mp4)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+Ĺєgendary+King;👑+BOOM!!!;👑)](https://git.io/typing-svg)
+![Kakaroto](https://qu.ax/MrrZ.jpg)
 
 > Copyright (c) 2024 **[ĹєǤ𝒆𝐧𝐃](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)**.
 ---
