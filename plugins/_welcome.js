@@ -4,8 +4,8 @@ import fetch from 'node-fetch';
 export async function before(m, { conn, participants, groupMetadata }) {
   if (!m.messageStubType || !m.isGroup) return true;
 
-  let vn = 'https://qu.ax/cTDa.mp3';
-  let vn2 = 'https://qu.ax/xynz.mp3';
+  let vn = 'https://qu.ax/QgXi.m4a';
+  let vn2 = 'https://qu.ax/pnSf.m4a';
   let welc = welcome;
   let adi = adios;
   let chat = global.db.data.chats[m.chat];
@@ -25,7 +25,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
         mentionedJid: getMentionedJid(),
         "externalAdReply": {
           "thumbnail": welc,
-          "title": "  ͟͞ Ｗ Ｅ Ｌ Ｃ Ｏ Ｍ Ｅ ͟͞  ",
+          "title": "  ͟͞ 𝐁 𝐈 𝐄 𝐍 𝐕 𝐄 𝐍 𝐈 𝐃 𝐎 ͟͞  ",
           "body": `${userName}!`,
           "previewType": "PHOTO",
           "thumbnailUrl": null,
@@ -46,7 +46,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
         mentionedJid: getMentionedJid(),
         "externalAdReply": {
         "thumbnail": adi,
-        "title": '  ͟͞ Ａ Ｄ Ｉ Ｏ Ｓ ͟͞  ',
+        "title": '  ͟͞ 𝐀 𝐃 𝐃 𝐎 𝐒 ͟͞  ',
         "body": `${userName}, se despide.`,
         "previewType": "PHOTO",
           "showAdAttribution": true,
