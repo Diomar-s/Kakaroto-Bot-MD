@@ -46,7 +46,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
         mentionedJid: getMentionedJid(),
         "externalAdReply": {
         "thumbnail": adi,
-        "title": '  ͟͞ 𝐀 𝐃 𝐃 𝐎 𝐒 ͟͞  ',
+        "title": '  ͟͞ 𝐀 𝐃 i 𝐎 𝐒 ͟͞  ',
         "body": `${userName}, se despide.`,
         "previewType": "PHOTO",
           "showAdAttribution": true,
