@@ -15,7 +15,7 @@
 <summary><b> 馃挘 Cont谩ctos</b></summary>
 
 * themeguminbot@gmail.com
-* https://wa.me/5493876432076
+* https://wa.me/+573142051545
 * https://wa.me/5351524614
 
 </details>
@@ -36,7 +36,7 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/David-Chian/Megumin-Bot-MD/master/megu.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diomar-s/KAKAROTO-BOT-MD/master/megu.sh | bash
 ```
 
 #### **馃尯 Instalaci贸n manual por termux**
@@ -54,7 +54,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/David-Chian/Megumin-Bot-MD && cd Megumin-Bot-MD 
+git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd Kakaroto-Bot-MD 
 ```
 
 ```bash
@@ -77,7 +77,7 @@ Si despu茅s de instalar el bot en Termux se detiene (pantalla en blanco, p茅rd
 
 1. Abre Termux y navega al directorio del bot:
     ```bash
-    cd Megumin-Bot-MD
+    cd Kakaroto-Bot-MD
     ```
 
 2. Inicia el bot nuevamente:
@@ -93,7 +93,7 @@ Si despu茅s de instalar el bot en Termux y iniciar la session del bot (el numer
 
 1. Abre Termux y navega al directorio del bot:
     ```bash
-    cd Megumin-Bot-MD
+    cd Kakaroto-Bot-MD
     ```
 
 2. Elimina la carpeta MiniSession:
@@ -144,69 +144,6 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 - Grupo de WhatsApp: [【 🔰 Azura-ultra grupo🔰 】](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
 -
 
-> **`AVISO`**: Kakaroto-Bot no funciona en la terminal (termux).
-> Estaremos arreglando el error de la bot para que se pueda instalar en la terminal (termux).
-
-> **`Kakaroto - Bot -`** es un super bot de WhatsApp con multi funciones.
----
-
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
-
-> Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo. 🍟
-
-[![Click Aquí](https://img.shields.io/badge/Grupo-Drako-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Jjs2l4X3LdP7RHr06WsasW)
-
-🍟 **`INSTALACION MANUAL POR TERMUX`**
-
-[`🚩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
-
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-
-```bash
-termux-setup-storage
-```
-```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-```
-```bash
-https://github.com/Diomar-s/Drako-king-12-.git
-```
-```bash
-yarn install && npm install
-```
-```bash
-npm start
-```
-
-🍟 **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`**
-```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
-> cd Drako-MD
-> npm start
-```
-
-🔥 **`OBTENER OTRO CODIGO QR`**
-```bash
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd Drako-MD
-> rm -rf MiniSession
-> npm start
-```
-
-🍟 **`Drako 24/7 (TERMUX)`**
-```bash
-> termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
-```
-
-💥 **`ACTUALIZAR Drako`**
-> Note Comandos para actualizar Drako-Bot de forma automática
-```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/David-Chian/Megumin-Bot-MD/master/update.sh | bash
-```
-Para que no pierda su progreso en Drako, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-
-> Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
 <a href="https://wa.me/526741108057?text=!code"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
