@@ -34,16 +34,16 @@ global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
-global.packname = ` ✎𝑫𝑹𝑨𝑲𝑶 - 𝑩𝑶𝑻`
-global.author = `♾━━━━━━━━\n⇝͟͞ ۵𝑫𝑹𝑨𝑲𝑶-𝑩𝑶𝑻⋰∴⋱𝕺𝖋𝖎𝖈𝖎𝖆𝖑\n⇝ ۵✎𝕱𝖚𝖊𝖓𝖙𝖊⋰⋰𝕺𝖜𝖓𝖊𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆❄︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢KᗩKᗩᖇOTO-ᗷOT❁༯`;
+global.packname = ` ༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎`
+global.author = `♾━━━━━━━━\n⇝͟͞ ۵༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎⋰∴⋱𝕺𝖋𝖎𝖈𝖎𝖆𝖑\n⇝ ۵✎𝕱𝖚𝖊𝖓𝖙𝖊⋰⋰𝕺𝖜𝖓𝖊𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆❄︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢KᗩKᗩᖇOTO-ᗷOT❁༯`;
 global.wm = '༆𝙺𝚊𝚔𝚊𝚛𝚘𝚝𝚘 𝙱𝚘𝚝༆';
 global.titulowm = '༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎';
 global.titulowm2 = `𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻 𝑶𝑭𝑪`
 global.igfg = '༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎'
 global.botname = '𝑩𝑶𝑻 𝑶𝑭𝑪 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎᯾'
-global.dev = '🔥 Powered By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
+global.dev = '💨 Powered By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
 global.textbot = ' 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༆ : ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
-global.gt = '͟͞ ৎ𝑫𝑹𝑨𝑲𝑶⋰⋰𝑩𝑶𝑻';
+global.gt = '༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎';
 global.namechannel = 'ᑕᕼᗩᑎᑎᗴᒪ 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༆ : ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
 global.vs = '3.0.1'
 
