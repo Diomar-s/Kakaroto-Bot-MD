@@ -744,7 +744,7 @@ const msg = {
 global.dfail = (type, m, conn) => {
 const msg = {
 rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> KING.', 
-owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.*', 
+owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.', 
 mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladores canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.*', 
 premium: '「🍧」 *Esta función solo es para usuarios Premium canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.', 
 group: '「🐢」 *Esta funcion solo puede ser ejecutada en grupos canal *\n\n*_Siguenos en nuestro canal ♥️💨https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.*', 
