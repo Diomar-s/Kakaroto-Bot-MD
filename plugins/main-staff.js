@@ -5,10 +5,10 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 
 👑 *Propietario:*
 
-• Diamond
+• legendary
 🍟 *Rol:* Propietario
-🚩 *Número:* wa.me/5351524614
-✨️ *GitHub:* https://github.com/David-Chian
+🚩 *Número:* wa.me/573142051545
+✨️ *GitHub:* https://github.com/Diomar-s
 
 🌸  *Colaboradores:*
 
@@ -22,7 +22,7 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 
 • Dino
 🍟 *Rol:* Editor
-🚩 *Número:* Wa.me/527774603921
+🚩 *Número:* Wa.me/573142051545
 `
 await conn.sendFile(m.chat, icons, 'yaemori.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
