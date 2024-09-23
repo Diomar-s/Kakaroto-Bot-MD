@@ -43,7 +43,7 @@ const defaultMenu = {
 ╭╼🪄𑁍⃪࣭۪ٜ݊݊݊݊݊໑𝑴𝑬𝑵𝑼-𝑲𝑨𝑲𝑨𝑹𝑶𝑻𝑶໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪🪄
 ┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬🌹፝⃟ᰯ🌹◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ ─๋︩︪─๋︩︪ ─╯
 ├ׁ̟̇✰👺 *ᘜᖇᑌᑭO : https://chat.whatsapp.com/Jjs2l4X3LdP7RHr06WsasW
-├ׁ̟̇✰👑 *ᑕᖇᗴᗩᗪOᖇ:* King
+├ׁ̟̇✰👑 *ᑕᖇᗴᗩᗪOᖇ:* legendary
 ├ׁ̟̇✰🎮 *ᗰOᗪO:* Público
 ├ׁ̟̇✰🌠 *ᗷᗩIᒪᗴYՏ:* Multi Device
 ├ׁ̟̇✰⏱️ *ᗩᑕTIᐯᗩᗪO:* %muptime
