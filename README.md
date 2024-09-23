@@ -7,6 +7,118 @@
 
 > Copyright (c) 2024 **[ĹєǤ𝒆𝐧𝐃](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)**.
 ---
+---
+
+### **`馃挱 Cont谩ctanos`**
+
+<details>
+<summary><b> 馃挘 Cont谩ctos</b></summary>
+
+* themeguminbot@gmail.com
+* https://wa.me/5493876432076
+* https://wa.me/5351524614
+
+</details>
+
+---
+
+#### **`馃殌 Instalaci贸n por termux`**
+
+<details>
+ <summary><b> 馃尭 Comandos</b></summary>
+
+#### **鉁笍 Instalaci贸n automatica por termux**
+
+> Copia los c贸digos uno por uno, no los pegues todos juntos a la vez.
+
+```bash
+termux-setup-storage
+```
+
+```bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/David-Chian/Megumin-Bot-MD/master/megu.sh | bash
+```
+
+#### **馃尯 Instalaci贸n manual por termux**
+
+```bash
+termux-setup-storage
+```
+
+```bash
+apt-get update -y && apt-get upgrade -y
+```
+
+```bash
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+```
+
+```bash
+git clone https://github.com/David-Chian/Megumin-Bot-MD && cd Megumin-Bot-MD 
+```
+
+```bash
+yarn install
+```
+
+```bash
+npm install
+```
+
+```bash
+npm start
+```
+
+---
+
+#### **馃煝 Activar en caso de detenerse en termux**
+
+Si despu茅s de instalar el bot en Termux se detiene (pantalla en blanco, p茅rdida de conexi贸n a Internet, reinicio del dispositivo), sigue estos pasos:
+
+1. Abre Termux y navega al directorio del bot:
+    ```bash
+    cd Megumin-Bot-MD
+    ```
+
+2. Inicia el bot nuevamente:
+    ```bash
+    npm start
+    ```
+
+---
+
+#### **馃崿 Obtener otro codigo qr en termux**
+
+Si despu茅s de instalar el bot en Termux y iniciar la session del bot (el numero se va a soporte, se cierra la conexi贸n o demorastes al conectar), sigue estos pasos:
+
+1. Abre Termux y navega al directorio del bot:
+    ```bash
+    cd Megumin-Bot-MD
+    ```
+
+2. Elimina la carpeta MiniSession:
+    ```bash
+    rm -rf MeguminSession
+    ```
+
+3. Inicia el bot nuevamente:
+    ```bash
+    npm start
+    ```
+
+---
+
+### **馃 Para activar 24/7 (termux)**
+
+> comando para obtener la bot 24/7 en termux
+
+```bash
+npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+```
+
+</details>
+
+---
 
 ### ☁️ CORINPLUS HOTS 
 <a href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125px"></a>
