@@ -9,20 +9,19 @@
 ---
 ---
 
-### **`馃挱 Cont谩ctanos`**
+### **`💨 contactanos`**
 
 <details>
 <summary><b> 馃挘 Cont谩ctos</b></summary>
 
-* themeguminbot@gmail.com
 * https://wa.me/+573142051545
-* https://wa.me/5351524614
+
 
 </details>
 
 ---
 
-#### **`馃殌 Instalaci贸n por termux`**
+#### **`🔥 intalación por termux`**
 
 <details>
  <summary><b> 馃尭 Comandos</b></summary>
