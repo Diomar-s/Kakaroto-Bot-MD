@@ -85,10 +85,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     switch (v.type) {
       case 'video': return `
 ° *_${v.title}_*
-↳ 🫐 *_Link :_* ${v.url}
-↳ 🕒 *_DuraciÃ³n :_* ${v.timestamp}
-↳ 📥 *_Subido :_* ${v.ago}
-↳ 👁 *_Vistas :_* ${v.views}`;
+↳ 🫐 *_𝐄𝐍𝐋𝐀𝐂𝐄 :_* ${v.url}
+↳ 🕒 *_𝐃𝐔𝐑𝐀𝐂𝐈𝐎𝐍 :_* ${v.timestamp}
+↳ 📥 *_𝐏𝐔𝐁𝐋𝐈𝐂𝐀𝐃𝐎 :_* ${v.ago}
+↳ 👁 *_𝐕𝐈𝐒𝐈𝐓𝐀𝐒 :_* ${v.views}`;
     }
   }).filter((v) => v).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
   conn.sendFile(m.chat, tes[0].thumbnail, 'error.jpg', teks.trim(), m);      
