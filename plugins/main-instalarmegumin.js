@@ -14,7 +14,7 @@ apt-get update -y && apt-get upgrade -y
 
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 
-git clone https://github.com/David-Chian/Megumin-Bot-MD && cd Megumin-MD && yarn install && npm install 
+git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd Kakaroto-MD && yarn install && npm install 
 
 ls
 
@@ -52,9 +52,9 @@ conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/c24470edcbe5e250
 }
 
 }
-handler.help = ['instalarmegumin']
+handler.help = ['instalarKakaroto']
 handler.tags = ['main']
-handler.command = ['instalarmegu','instalarbot','instalarmegumin']
+handler.command = ['instalargoku','instalarbot','instalarKakaroto']
 
 export default handler
 
