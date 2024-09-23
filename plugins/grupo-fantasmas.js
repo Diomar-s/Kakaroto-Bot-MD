@@ -22,7 +22,7 @@ const handler = async (m, {conn, text, participants}) => {
     }
   }
   if (total == 0) return conn.reply(m.chat, `『✅』El grupo no tiene inactivos.`, m);
-  m.reply(`*『👀』Revisando inactividad de usuarios...\n\n*『🌐』Grupo:* ${await conn.getName(m.chat)}\n*『👥』Participantes:* ${sum}\n\n*『👻』Fantasmas:*\n${sider.map((v) => '  » @' + v.replace(/@.+/, '')).join('\n')}\n\n*『🏷️』Esto no puede ser confirmado ya que el bot comienza el conteo al entrar al grupo.*`, null, {mentions: sider});
+  m.reply(`*『🔱』Revisando inactividad de usuarios...\n\n*『💨』Grupo:* ${await conn.getName(m.chat)}\n*『👥』Participantes:* ${sum}\n\n*『👻』Fantasmas:*\n${sider.map((v) => '  » @' + v.replace(/@.+/, '')).join('\n')}\n\n*『🏷️』Esto no puede ser confirmado ya que el bot comienza el conteo al entrar al grupo.*`, null, {mentions: sider});
 };
 handler.command = /^(verfantasmas|fantasmas|sider)$/i;
 handler.admin = true;
