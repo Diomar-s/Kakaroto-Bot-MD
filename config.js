@@ -14,8 +14,8 @@ global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-  ['526748616996', '✎𝑫𝑹𝑨𝑲𝑶 - 𝑩𝑶𝑻', true],
-  ['573142051545', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 𝑲𝑰𝑵𝑮◉‿◉', true],
+  ['526748616996', 'Kakaroto- 𝑩𝑶𝑻', true],
+  ['573142051545', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
   ['584248778828'],
   ['573142051545'],
   ['584248778828'],
@@ -35,16 +35,16 @@ global.prems = []
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
 global.packname = ` ✎𝑫𝑹𝑨𝑲𝑶 - 𝑩𝑶𝑻`
-global.author = `♾━━━━━━━━\n⇝͟͞ ۵𝑫𝑹𝑨𝑲𝑶-𝑩𝑶𝑻⋰∴⋱𝕺𝖋𝖎𝖈𝖎𝖆𝖑\n⇝ ۵✎𝕱𝖚𝖊𝖓𝖙𝖊⋰⋰𝕺𝖜𝖓𝖊𝖗 𝑲𝑰𝑵𝑮❄︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢𝑫𝒓𝒂𝒌𝒐-𝑩𝒐𝒕❁༯`;
-global.wm = 'ꨄ𝐃𝐫𝐚𝐤𝐨 𝐁𝐨𝐭';
-global.titulowm = '✎𝑫𝑹𝑨𝑲𝑶 - 𝑩𝑶𝑻';
-global.titulowm2 = `𝑫𝑹𝑨𝑲𝑶 - 𝑩𝑶𝑻 𝑶𝑭𝑪`
-global.igfg = 'ꨄ𝑫𝑹𝑨𝑲𝑶'
-global.botname = '𝑩𝑶𝑻 𝑶𝑭𝑪 𝑫𝑹𝑨𝑲𝑶࿐'
-global.dev = '🔥 Powered By 𝑲𝑰𝑵𝑮'
-global.textbot = ' 𝑫𝑹𝑨𝑲𝑶 - 𝑩𝑶𝑻࿐ : 𝑲𝑰𝑵𝑮✍︎'
+global.author = `♾━━━━━━━━\n⇝͟͞ ۵𝑫𝑹𝑨𝑲𝑶-𝑩𝑶𝑻⋰∴⋱𝕺𝖋𝖎𝖈𝖎𝖆𝖑\n⇝ ۵✎𝕱𝖚𝖊𝖓𝖙𝖊⋰⋰𝕺𝖜𝖓𝖊𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆❄︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢KᗩKᗩᖇOTO-ᗷOT❁༯`;
+global.wm = '༆𝙺𝚊𝚔𝚊𝚛𝚘𝚝𝚘 𝙱𝚘𝚝༆';
+global.titulowm = '༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎';
+global.titulowm2 = `𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻 𝑶𝑭𝑪`
+global.igfg = '༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎'
+global.botname = '𝑩𝑶𝑻 𝑶𝑭𝑪 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎᯾'
+global.dev = '🔥 Powered By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
+global.textbot = ' 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༆ : ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
 global.gt = '͟͞ ৎ𝑫𝑹𝑨𝑲𝑶⋰⋰𝑩𝑶𝑻';
-global.namechannel = 'ʕ•ᴥ•ʔＤＲＡＫＯ Ｘ ＫＡＫＡＲＯＴＯ★᭄ꦿ᭄ꦿ'
+global.namechannel = 'ᑕᕼᗩᑎᑎᗴᒪ 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༆ : ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
 global.vs = '3.0.1'
 
 
@@ -87,17 +87,17 @@ global.sickerque = [que, que2, que3, que4, que5, que6]
 global.photoSity = [imagen8, imagen1, imagen4, imagen6]
 
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Drako-Bot࿐', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᴋᴀʟᴀʀᴏᴛᴏ-Bot࿐', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Drako', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕⚔️', jpegThumbnail: logo5 }}};
+global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Kakaroto', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕⚔️', jpegThumbnail: logo5 }}};
 
-global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Drako', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄DRAKO (￣へ ￣ ) 🔥', jpegThumbnail: logo3 }}};
+global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Kakaroto', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄DRAKO (￣へ ￣ ) 🔥', jpegThumbnail: logo3 }}};
 
-global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Drako', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄DRAKO-BOT (^_^♪) ⚔️', jpegThumbnail: logo5 }}};
+global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Kakaroto', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄Kᴀᴋᴀʀᴏᴛᴏ (^_^♪) ⚔️', jpegThumbnail: logo5 }}};
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'DRAKO࿐', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Kakaroto༆', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`͟͞ 𓆩ꪶꪾKING࠱࠭ ͟͞`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `DRAKO-KING࿐\n  ͟͞ 𓆩ꪶꪾKING-DIOMARৎ୭࠱࠭ ͟͞`, 'jpegThumbnail': logo4 }}}
+global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`͟͞ 𓆩ꪶꪾᒪᗴᘜᗴᑎᗪᗩᖇY༒︎࠱࠭ ͟͞`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `Kᴀᴋᴀʀᴏᴛᴏ-ʟᴇɢᴇɴ࿐\n  ͟͞ 𓆩ꪶꪾ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆ ͟͞`, 'jpegThumbnail': logo4 }}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.gp4 = 'https://chat.whatsapp.com/Jjs2l4X3LdP7RHr06WsasW' //Grupo Oficial De Drako
@@ -123,7 +123,7 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n𝑫𝒓𝒂𝒌𝒐 - 𝑩𝒐𝒕`;
+global.wm2 = `${dia} ${fecha}\nKakaroto - Bot`;
 global.nomorown = '573142051545';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
