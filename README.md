@@ -160,10 +160,14 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ---
 
-#### **`🌌 ACTIVAR EN CODESPACE`**
+### **🔱`AZURA-ULTRA-HOSTING`**
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=David-Chian/Megumin-Bot-MD&ref=main&geo=UsEast)
+- Dash: [Dash Azura-ultra](https://store.azuraultra-host.pro/login)
+- Panel: [Panel Azura-ultra](https://store.azuraultra-host.pro/login)
+- Canal de WhatsApp: [【 🔰 Azura-ultra channel 🔰 】](https://whatsapp.com/channel/0029VamOVm08fewr5jix2Z3t)
+- Grupo de WhatsApp: [【 🔰 Azura-ultra grupo🔰 】](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
 
+- 
 ----- 
 #### **`⏏️ ACTIVAR EN KOYEB`**
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Diomar-s/Kakaroto-Bot-MD&branch=master&name=kakarotobot-md)
