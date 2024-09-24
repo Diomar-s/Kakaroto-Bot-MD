@@ -26,6 +26,19 @@
 * https://wa.me/573142051545
 
 
+ ### ✅ servidor: Azura-ultra-hosting unos de los buenos ✅ 
+
+<details>
+
+href="https://store.azuraultra-host.pro/home"><img src="https://qu.ax/tMAP.jpg" height="125px"></a>
+## Información del hosting 
+
+- Dash: [Dash Azura-ultra](https://store.azuraultra-host.pro/login)
+- Panel: [Panel Azura-ultra](https://store.azuraultra-host.pro/login)
+- Canal de WhatsApp: [【 🔰 Azura-ultra channel 🔰 】](https://whatsapp.com/channel/0029VamOVm08fewr5jix2Z3t)
+- Grupo de WhatsApp: [【 🔰 Azura-ultra grupo🔰 】](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
+-
+
 </details>
 
 ---
