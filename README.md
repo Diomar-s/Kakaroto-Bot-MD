@@ -27,14 +27,6 @@
 
 ---
 
-### **`🔥AZURA-ULTRA-HOSTING🔥`**
-
-
-
-<details>
- <summary><b> 💥 servidor</b></summary>
-
-
 
 </details>
 
