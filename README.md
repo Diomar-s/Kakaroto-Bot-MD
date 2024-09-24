@@ -8,7 +8,7 @@
 ### **`❕️ Información importante`**
 
 <details>
- <summary><b> 🌹 Info Bot</b></summary>
+ <summary><b> 🔱 Info Bot</b></summary>
 
 * Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. WhatsApp` es una marca registrada de `WhatsApp LLC`, y este bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
 
@@ -33,7 +33,7 @@
 <details>
  <summary><b> 🔱 Comandos</b></summary>
 
-#### **💥 Instalación automatica por termux**
+#### **❣️ Instalación automatica por termux**
 
 > Copia los códigos uno por uno, no los pegues todos juntos a la vez.
 
@@ -42,7 +42,7 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/David-Chian/Megumin-Bot-MD/master/megu.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diomar-s/Kakaroto-Bot-MD/master/megu.sh | bash
 ```
 
 #### **🪄 Instalación manual por termux**
@@ -60,7 +60,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/David-Chian/Megumin-Bot-MD && cd Megumin-Bot-MD 
+git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd Kakaroto-Bot-MD
 ```
 
 ```bash
@@ -83,7 +83,7 @@ Si después de instalar el bot en Termux se detiene (pantalla en blanco, pérdid
 
 1. Abre Termux y navega al directorio del bot:
     ```bash
-    cd Megumin-Bot-MD
+    cd Kakaroto-Bot-MD
     ```
 
 2. Inicia el bot nuevamente:
@@ -99,12 +99,12 @@ Si después de instalar el bot en Termux y iniciar la session del bot (el numero
 
 1. Abre Termux y navega al directorio del bot:
     ```bash
-    cd Megumin-Bot-MD
+    cd Kakaroto-Bot-MD
     ```
 
 2. Elimina la carpeta MiniSession:
     ```bash
-    rm -rf MeguminSession
+    rm -rf KakarotoSession
     ```
 
 3. Inicia el bot nuevamente:
@@ -114,7 +114,7 @@ Si después de instalar el bot en Termux y iniciar la session del bot (el numero
 
 ---
 
-### **🤖 Para activar 24/7 (termux)**
+### **😼 Para activar 24/7 (termux)**
 
 > comando para obtener la bot 24/7 en termux
 
@@ -137,11 +137,11 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 [`💥 Instalar Cloud Shell Clic Aqui`](https://www.mediafire.com/file/bp2l6cci2p30hjv/Cloud+Shell_1.apk/file)
 
 ```bash
-> git clone https://github.com/David-Chian/Megumin-Bot-MD
+> git clone https://github.com/Diomar-s/Kakaroto-Bot-MD
 ```
 
 ```bash
-> cd Megumin-Bot-MD && yarn install
+> cd Kakaroto-Bot-MD && yarn install
 ```
 
 ```bash
@@ -162,17 +162,17 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ----- 
 #### **`⏏️ ACTIVAR EN KOYEB`**
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/David-Chian/Megumin-Bot-MD&branch=master&name=meguminbot-md)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Diomar-s/Kakaroto-Bot-MD&branch=master&name=kakarotobot-md)
 
 ------------------
 #### **`☁️ ACTIVAR EN RENDER`**
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FDavid-Chian%2FMegumin-Bot-MD)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FDiomar-s%2FKakaroto-Bot-MD)
 
 ------------------
 ##### **`💻 PARA USUARIOS DE WINDOWS/VPS/RDP`**
 
 <details>
- <summary><b> ⚡️ Comandos</b></summary>
+ <summary><b> 🌹 Comandos</b></summary>
 
 * Descargar e instala Git [`Aquí`](https://git-scm.com/downloads)
 * Descargar e instala NodeJS [`Aquí`](https://nodejs.org/en/download)
@@ -180,7 +180,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * Descargar e instala ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
 * Descargar e instala Yarn [`Aquí`](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 ```bash
-git clone https://github.com/David-Chian/Megumin-Bot-MD && cd Megumin-Bot-MD && npm install && npm update && node .
+git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd Kakaroto-Bot-MD && npm install && npm update && node .
 ```
 
 </details>
