@@ -166,8 +166,6 @@ href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125p
 
 </details>
 
----
-
 ----- 
 #### **`⏏️ ACTIVAR EN KOYEB`**
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Diomar-s/Kakaroto-Bot-MD&branch=master&name=kakarotobot-md)
