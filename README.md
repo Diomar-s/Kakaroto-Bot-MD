@@ -132,6 +132,9 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ##### **`💌 AZURA-ULTRA-HOSTING`**
 
+<a
+href="https://store.azuraultra-host.pro/home"><img src="https://qu.ax/tMAP.jpg" height="125px"></a>
+
 <details>
  <summary><b> 🌹 servidor</b></summary>
 
@@ -195,7 +198,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 <a
 href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
 
-</a>
+</a> 
 
 ### **`👑 PROPIETARIO`**
 <a
