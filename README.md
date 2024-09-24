@@ -213,14 +213,13 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 | APP | TIPO | ENLACE |
 |------|-------------|-------|
 | WhatsApp | Canal | [¡Click aquí!](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t) |
-| WhatsApp | Team Sunlight | [¡Click aquí!](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t) |
+| WhatsApp | Team Kakaroto | [¡Click aquí!](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t) |
 | WhatsApp | Grupo Ofc | [¡Click aquí!](https://chat.whatsapp.com/Jjs2l4X3LdP7RHr06WsasW) |
-
----
+ 
 
 ### **`🔱 COLABORADORES`**
 <a
-href="+573142051545"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
+href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
 
 </a>
 
