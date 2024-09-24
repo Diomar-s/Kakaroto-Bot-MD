@@ -155,11 +155,11 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```bash
 > npm start
 ```
-
-</details>
-
+---
 
 ### **🔱`AZURA-ULTRA-HOSTING`**
+
+</details>
 <summary><b> 💥 Coms</b></summary>
 
 - Dash: [Dash Azura-ultra](https://store.azuraultra-host.pro/login)
