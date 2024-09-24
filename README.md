@@ -156,6 +156,9 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * Panel Corin [`Panel`](https://panel.corinplus.com)
 * Canal de WhatsApp  [`Canal Corin`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
 * Comunidad Corin [`Click`](https://chat.whatsapp.com/HR3OLhsuZPqCMImzuHcuON)
+---
+
+</details>
 
 ---
 
