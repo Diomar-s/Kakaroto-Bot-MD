@@ -220,7 +220,7 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 
 ### **`🔱 COLABORADORES`**
 <a
-href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
+href="+573142051545"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
 
 </a>
 
