@@ -142,7 +142,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 href="https://store.azuraultra-host.pro/home"><img src="https://qu.ax/tMAP.jpg" height="125px"></a>
 
 <details>
- <summary><b> 🌹 servidor</b></summary>
+ <summary><b> 🌹 servidor Azura</b></summary>
 
 * Azura-ultra  [`Aquí`](https://store.azuraultra-host.pro/home)
 * Dash Azura[`Dash`](https://store.azuraultra-host.pro/login)
@@ -161,7 +161,7 @@ href="https://store.azuraultra-host.pro/home"><img src="https://qu.ax/tMAP.jpg" 
 href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125px"></a>
 
 <details>
- <summary><b> 🔥 servidor</b></summary>
+ <summary><b> 🔥 servidor Corin</b></summary>
 
 * Estado Corin [`Status`](https://status.corinplus.com)
 * Dash Corin[`Dash`](https://dash.corinplus.com)
