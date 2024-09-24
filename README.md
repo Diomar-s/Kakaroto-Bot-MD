@@ -159,17 +159,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 </details>
 
 
-### **🔱`AZURA-ULTRA-HOSTING`**
 
-</details>
-<summary><b> 💥 Coms</b></summary>
-
-- Dash: [Dash Azura-ultra](https://store.azuraultra-host.pro/login)
-- Panel: [Panel Azura-ultra](https://store.azuraultra-host.pro/login)
-- Canal de WhatsApp: [【 🔰 Azura-ultra channel 🔰 】](https://whatsapp.com/channel/0029VamOVm08fewr5jix2Z3t)
-- Grupo de WhatsApp: [【 🔰 Azura-ultra grupo🔰 】](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
-
-- 
 ----- 
 #### **`⏏️ ACTIVAR EN KOYEB`**
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Diomar-s/Kakaroto-Bot-MD&branch=master&name=kakarotobot-md)
