@@ -200,7 +200,7 @@ href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130"
 
 ### **`👑 PROPIETARIO`**
 <a
-href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
+href="https://wa.me/573142051545?text="><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
 
 ### **`🌹 CREDITOS`**
 <a
