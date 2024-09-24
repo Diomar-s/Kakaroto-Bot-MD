@@ -1,14 +1,15 @@
-
-## `Goku` 
-<p align="center">
-<img src="https://qu.ax/mkNa.jpg" alt="Kakaroto-Bot-MD" width="900"/>
+## 💨🔥**`KAKAROTO - BOT`**
+## 💨🔥 **`El bot más explosivo de WhatsApp!`**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+Legendary;👑+BOOM!!!;👑)](https://git.io/typing-svg)
+![Drako](https://qu.ax/mkNa.jpg)
+## `KAKAROTO💨` 
 </p>
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 
 
-### `✨Goku-Black-Bot-MD-Lite✨`
+### `💥 KAKAROTO-BOT-MD 💥`
 
 <a href="https://api.whatsapp.com/send/?phone=595992809980&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
