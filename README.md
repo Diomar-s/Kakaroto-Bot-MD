@@ -1,5 +1,5 @@
 <h1 align="center">KAKAROTO-BOT-MD 💨</h1>
- <p align="center">💥 Bot sayayin de WhatsApp</p>
+ <p align="center">💥 sayayin de WhatsApp</p>
 </p>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+legendary;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
@@ -219,13 +219,12 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 ---
 
 ### **`🌴 COLABORADORES`**
-<a href="https://github.com/David-Chian/Megumin-Bot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=David-Chian/Megumin-Bot-MD" /> 
+<img src="https://github.com/Diomar-s/Kakaroto-Bot-MD.git" /> 
 </a>
 
 ### **`👑 PROPIETARIO`**
 <a
-href="https://github.com/David-Chian"><img src="https://github.com/David-Chian.png" width="130" height="130" alt="David"/></a>
+href="https://github.com/Diomar-s"><img src="https://github.com/David-Chian.png" width="130" height="130" alt="David"/></a>
 
 ### **`🌹 CREDITOS`**
 <a
