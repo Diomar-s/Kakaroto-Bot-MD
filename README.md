@@ -167,6 +167,10 @@ href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125p
 * Comunidad Corin [`Click`](https://chat.whatsapp.com/HR3OLhsuZPqCMImzuHcuON)
 ---
 
+### **`👑 PROPIETARIO`**
+<a
+href="https://wa.me/573142051545?text="><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
+
 </details>
 
 ----- 
@@ -198,9 +202,7 @@ href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130"
 
 </a> 
 
-### **`👑 PROPIETARIO`**
-<a
-href="https://wa.me/573142051545?text="><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
+
 
 ### **`🌹 CREDITOS`**
 <a
