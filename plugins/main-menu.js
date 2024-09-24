@@ -32,8 +32,8 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `.........․⁀⸱⁀⸱︵⸌⸃૰⳹․KING․⳼૰⸂⸍︵⸱⁀⸱⁀․........
-𔓕꯭  ꯭ 𓏲꯭֟፝੭ ꨄ 𝐃𝐑𝐀𝐊𝐎 - 𝐊𝐈𝐍𝐆 ꨄ 𓏲꯭֟፝੭ ꯭  ꯭𔓕
+  before: `.........․⁀⸱☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆⸱⁀․........
+𔓕꯭  ꯭ 𓏲꯭֟፝੭ ꨄ ༒︎Kakaroto-Bot༒︎ ꨄ 𓏲꯭֟፝੭ ꯭  ꯭𔓕
 ՏIᘜᑌᗴᑎOՏ https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t
 ▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭
 
@@ -44,7 +44,6 @@ const defaultMenu = {
      ╭∪─∪───────────────╮
 ╭╼🪄𑁍⃪࣭۪ٜ݊݊݊݊݊໑𝑴𝑬𝑵𝑼-𝑲𝑨𝑲𝑨𝑹𝑶𝑻𝑶໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪🪄
 ┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬🌹፝⃟ᰯ🌹◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ ─๋︩︪─๋︩︪ ─╯
-├ׁ̟̇✰👺 *ᘜᖇᑌᑭO : https://chat.whatsapp.com/Jjs2l4X3LdP7RHr06WsasW
 ├ׁ̟̇✰👑 *ᑕᖇᗴᗩᗪOᖇ:* legendary
 ├ׁ̟̇✰🎮 *ᗰOᗪO:* Público
 ├ׁ̟̇✰🌠 *ᗷᗩIᒪᗴYՏ:* Multi Device
