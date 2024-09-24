@@ -130,31 +130,16 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ---
 
-#### **`💣 Instalación por cloudshell`**
+##### **`💌 AZURA-ULTRA-HOSTING`**
 
 <details>
- <summary><b> 💥 Comandos</b></summary>
+ <summary><b> 🌹 servidor</b></summary>
 
-[![blog](https://img.shields.io/badge/Video-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/175OipZkeLQ?si=8fbNFwaXqMG6XXt)
-
-[`💥 Instalar Cloud Shell Clic Aqui`](https://www.mediafire.com/file/bp2l6cci2p30hjv/Cloud+Shell_1.apk/file)
-
-```bash
-> git clone https://github.com/Diomar-s/Kakaroto-Bot-MD
-```
-
-```bash
-> cd Kakaroto-Bot-MD && yarn install
-```
-
-```bash
-> npm install
-```
-
-```bash
-> npm start
-```
+* Azura-ultra  [`Aquí`](https://store.azuraultra-host.pro/home)
+* Dash Azura[`Dash`](https://store.azuraultra-host.pro/login)
+* Panel Azura [`Panel`](https://store.azuraultra-host.pro/login)
+* Canal de WhatsApp  [`Canal azura`](https://whatsapp.com/channel/0029VamOVm08fewr5jix2Z3t)
+* Grupo azura [`Aquí`](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
 ---
 </details>
 
@@ -169,18 +154,8 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FDiomar-s%2FKakaroto-Bot-MD)
 
 ------------------
-##### **`💌 AZURA-ULTRA-HOSTING`**
 
-<details>
- <summary><b> 🌹 servidor</b></summary>
 
-* Azura-ultra  [`Aquí`](https://store.azuraultra-host.pro/home)
-* Dash Azura[`Dash`](https://store.azuraultra-host.pro/login)
-* Panel Azura [`Panel`](https://store.azuraultra-host.pro/login)
-* Canal de WhatsApp  [`Canal azura`](https://whatsapp.com/channel/0029VamOVm08fewr5jix2Z3t)
-* Grupo azura [`Aquí`](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
-```bash
-git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd Kakaroto-Bot-MD && npm install && npm update && node .
 ```
 
 </details>
