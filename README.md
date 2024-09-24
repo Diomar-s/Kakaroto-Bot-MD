@@ -2,8 +2,8 @@
  <p align="center">💥 Bot sayayin de WhatsApp</p>
 </p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Megumin+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+David+Chian;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
-![Megumin](https://telegra.ph/file/b8170842d84523340c674.jpg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+legendary;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
+![Kakaroto](https://qu.ax/mkNa.jpg)
 
 ### **`❕️ Información importante`**
 
