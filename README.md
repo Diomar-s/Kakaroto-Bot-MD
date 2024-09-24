@@ -1,8 +1,8 @@
-## 💨🔥**`KAKAROTO - BOT`**
-## 💨🔥 **`El bot más explosivo de WhatsApp!`**
+## 💨🔥 `KAKAROTO - BOT`
+## 💨🔥 `El bot más explosivo de WhatsApp!`
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+Legendary;👑+BOOM!!!;👑)](https://git.io/typing-svg)
 ![Drako](https://qu.ax/mkNa.jpg)
-## `KAKAROTO💨` 
+## `KAKAROTO` 💨
 </p>
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
@@ -16,6 +16,103 @@
 𝗦𝗜 𝗡𝗢 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗘𝗦 𝗣𝗢𝗥 𝗤𝗨𝗘 𝗘𝗟 𝗡𝗨𝗠𝗘𝗥𝗢 𝗘𝗦𝗧𝗔 𝗘𝗡 𝗦𝗢𝗣𝗢𝗥𝗧𝗘 𝗬 𝗘𝗡 𝗘𝗦𝗘 𝗖𝗔𝗦𝗢 𝗛𝗔𝗕𝗟𝗘 𝗖𝗢𝗡 𝗘𝗟 𝗦𝗧𝗔𝗙𝗙💖
 
 
+</details>
+
+---
+
+#### **`馃殌 Instalaci贸n por termux`**
+
+<details>
+ <summary><b> 馃尭 Comandos</b></summary>
+
+#### **鉁笍 Instalaci贸n automatica por termux**
+
+> Copia los c贸digos uno por uno, no los pegues todos juntos a la vez.
+
+```bash
+termux-setup-storage
+```
+
+```bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/David-Chian/Megumin-Bot-MD/master/megu.sh | bash
+```
+
+#### **馃尯 Instalaci贸n manual por termux**
+
+```bash
+termux-setup-storage
+```
+
+```bash
+apt-get update -y && apt-get upgrade -y
+```
+
+```bash
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+```
+
+```bash
+git clone https://github.com/David-Chian/Megumin-Bot-MD && cd Megumin-Bot-MD 
+```
+
+```bash
+yarn install
+```
+
+```bash
+npm install
+```
+
+```bash
+npm start
+```
+
+---
+
+#### **馃煝 Activar en caso de detenerse en termux**
+
+Si despu茅s de instalar el bot en Termux se detiene (pantalla en blanco, p茅rdida de conexi贸n a Internet, reinicio del dispositivo), sigue estos pasos:
+
+1. Abre Termux y navega al directorio del bot:
+    ```bash
+    cd Megumin-Bot-MD
+    ```
+
+2. Inicia el bot nuevamente:
+    ```bash
+    npm start
+    ```
+
+---
+
+#### **馃崿 Obtener otro codigo qr en termux**
+
+Si despu茅s de instalar el bot en Termux y iniciar la session del bot (el numero se va a soporte, se cierra la conexi贸n o demorastes al conectar), sigue estos pasos:
+
+1. Abre Termux y navega al directorio del bot:
+    ```bash
+    cd Megumin-Bot-MD
+    ```
+
+2. Elimina la carpeta MiniSession:
+    ```bash
+    rm -rf MeguminSession
+    ```
+
+3. Inicia el bot nuevamente:
+    ```bash
+    npm start
+    ```
+
+---
+
+### **馃 Para activar 24/7 (termux)**
+
+> comando para obtener la bot 24/7 en termux
+
+```bash
+npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+```
 
  > NO SPAMEAR COMANDOS
 
