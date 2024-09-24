@@ -151,6 +151,9 @@ href="https://store.azuraultra-host.pro/home"><img src="https://qu.ax/tMAP.jpg" 
 
 ##### **`🔥 CORINPLUS-HOSTING`**
 
+<a
+href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125px"></a>
+
 <details>
  <summary><b> 🔥 servidor</b></summary>
 
