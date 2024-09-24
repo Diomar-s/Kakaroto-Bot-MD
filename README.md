@@ -25,19 +25,16 @@
 
 * https://wa.me/573142051545
 
+---
 
 ### **`🔥AZURA-ULTRA-HOSTING🔥`**
 
-<details>
-<summary><b> 🔱 Servidor</b></summary
-                            
-## Información del hosting 
 
-- Dash: [Dash Azura-ultra](https://store.azuraultra-host.pro/login)
-- Panel: [Panel Azura-ultra](https://store.azuraultra-host.pro/login)
-- Canal de WhatsApp: [【 🔰 Azura-ultra channel 🔰 】](https://whatsapp.com/channel/0029VamOVm08fewr5jix2Z3t)
-- Grupo de WhatsApp: [【 🔰 Azura-ultra grupo🔰 】](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
--
+
+<details>
+ <summary><b> 💥 servidor</b></summary>
+
+
 
 </details>
 
