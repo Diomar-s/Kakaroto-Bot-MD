@@ -113,6 +113,7 @@ Si despu茅s de instalar el bot en Termux y iniciar la session del bot (el numer
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
+---
 
  > NO SPAMEAR COMANDOS
 
