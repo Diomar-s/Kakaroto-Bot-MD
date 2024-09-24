@@ -212,22 +212,24 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 
 | APP | TIPO | ENLACE |
 |------|-------------|-------|
-| WhatsApp | Canal | [¡Click aquí!](https://whatsapp.com/channel/0029VacDy0R6hENqnTKnG820) |
-| WhatsApp | Canal Sunlight | [¡Click aquí!](https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z) |
-| WhatsApp | Gc Megumin | [¡Click aquí!](https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI) |
+| WhatsApp | Canal | [¡Click aquí!](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t) |
+| WhatsApp | Team Sunlight | [¡Click aquí!](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t) |
+| WhatsApp | Grupo Ofc | [¡Click aquí!](https://chat.whatsapp.com/Jjs2l4X3LdP7RHr06WsasW) |
 
 ---
 
-### **`🌴 COLABORADORES`**
-<img src="https://github.com/Diomar-s/Kakaroto-Bot-MD.git" /> 
+### **`🔱 COLABORADORES`**
+<a
+href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
+
 </a>
 
 ### **`👑 PROPIETARIO`**
 <a
-href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="David"/></a>
+href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
 
 ### **`🌹 CREDITOS`**
 <a
 href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="130" height="130" alt="BrunoSobrino"/></a>
 
-[© Powered By Sunlight Team ⚡︎](https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z)
+[© Powered By KAKAROTO Team ⚡︎](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)
