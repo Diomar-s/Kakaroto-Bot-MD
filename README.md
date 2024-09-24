@@ -31,7 +31,6 @@
 <details>
 <summary><b> 🔱 Servidor</b></summary
                             
- src="https://qu.ax/tMAP.jpg" height="125px"></a>
 ## Información del hosting 
 
 - Dash: [Dash Azura-ultra](https://store.azuraultra-host.pro/login)
