@@ -45,7 +45,7 @@ href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="htt
 
 #### **❣️ Instalación automatica por termux**
 
-> Copia los códigos uno por uno, no los pegues todos juntos a la vez.
+> El bot no sirve por la terminal térmux pronto estará listo.
 
 ```bash
 termux-setup-storage
