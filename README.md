@@ -169,16 +169,16 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FDiomar-s%2FKakaroto-Bot-MD)
 
 ------------------
-##### **`💻 PARA USUARIOS DE WINDOWS/VPS/RDP`**
+##### **`💌 AZURA-ULTRA-HOSTING`**
 
 <details>
- <summary><b> 🌹 Comandos</b></summary>
+ <summary><b> 🌹 servidor</b></summary>
 
-* Descargar e instala Git [`Aquí`](https://git-scm.com/downloads)
-* Descargar e instala NodeJS [`Aquí`](https://nodejs.org/en/download)
-* Descargar e instala FFmpeg [`Aquí`](https://ffmpeg.org/download.html) (**No olvide agregar FFmpeg a la variable de entorno PATH**)
-* Descargar e instala ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
-* Descargar e instala Yarn [`Aquí`](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+* Azura-ultra  [`Aquí`](https://store.azuraultra-host.pro/home)
+* Dash Azura[`Dash`](https://store.azuraultra-host.pro/login)
+* Panel Azura [`Panel`](https://store.azuraultra-host.pro/login)
+* Canal de WhatsApp  [`Canal azura`](https://whatsapp.com/channel/0029VamOVm08fewr5jix2Z3t)
+* Grupo azura [`Aquí`](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
 ```bash
 git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd Kakaroto-Bot-MD && npm install && npm update && node .
 ```
