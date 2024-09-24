@@ -174,7 +174,6 @@ href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125p
 #### **`☁️ ACTIVAR EN RENDER`**
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FDiomar-s%2FKakaroto-Bot-MD)
 
-------------------
 
 
 </details>
