@@ -141,7 +141,10 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * Canal de WhatsApp  [`Canal azura`](https://whatsapp.com/channel/0029VamOVm08fewr5jix2Z3t)
 * Grupo azura [`Aquí`](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
 ---
+
 </details>
+
+---
 
 ##### **`🔥 CORINPLUS-HOSTING`**
 
@@ -154,6 +157,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * Canal de WhatsApp  [`Canal Corin`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
 * Comunidad Corin [`Click`](https://chat.whatsapp.com/HR3OLhsuZPqCMImzuHcuON)
 
+---
 
 ----- 
 #### **`⏏️ ACTIVAR EN KOYEB`**
