@@ -20,6 +20,9 @@
 
 ### **`💭 Contáctanos`**
 
+<a
+href="https://wa.me/573142051545?text="><img src="https://qu.ax/ugHh.jpg" height="125px"></a>
+
 <details>
 <summary><b> 💣 Contáctos</b></summary>
 
