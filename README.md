@@ -26,11 +26,12 @@
 * https://wa.me/573142051545
 
 
- ### ✅ servidor: Azura-ultra-hosting unos de los buenos ✅ 
+### **`🔥AZURA-ULTRA-HOSTING🔥`**
 
 <details>
-
-href="https://store.azuraultra-host.pro/home"><img src="https://qu.ax/tMAP.jpg" height="125px"></a>
+<summary><b> 🔱 Servidor</b></summary
+                            
+ src="https://qu.ax/tMAP.jpg" height="125px"></a>
 ## Información del hosting 
 
 - Dash: [Dash Azura-ultra](https://store.azuraultra-host.pro/login)
