@@ -1,9 +1,9 @@
-<h1 align="center">Megumin Bot - MD 💥</h1>
- <p align="center">💣 WhatsApp Bot Node-Js.</p>
+<h1 align="center">KAKAROTO-BOT-MD 💨</h1>
+ <p align="center">💥 Bot sayayin de WhatsApp</p>
 </p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Megumin+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+David+Chian;💥+BOOM!!!;🔥)](https://git.io/typing-svg)
-![Megumin](https://telegra.ph/file/b8170842d84523340c674.jpg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+LEGENDARY;💨+GAMEGAAAAA!!!!;💨)](https://git.io/typing-svg)
+![Kakaroto](1https://qu.ax/mkNa.jpg)
 
 ---
 
@@ -23,20 +23,19 @@
 <details>
 <summary><b> 💣 Contáctos</b></summary>
 
-* themeguminbot@gmail.com
-* https://wa.me/5493876432076
-* https://wa.me/5351524614
+* https://wa.me/573142051545
+
 
 </details>
 
 ---
 
-#### **`🚀 Instalación por termux`**
+#### **`💨 Instalación por termux`**
 
 <details>
- <summary><b> 🌸 Comandos</b></summary>
+ <summary><b> 🔱 Comandos</b></summary>
 
-#### **✨️ Instalación automatica por termux**
+#### **💥 Instalación automatica por termux**
 
 > Copia los códigos uno por uno, no los pegues todos juntos a la vez.
 
@@ -48,7 +47,7 @@ termux-setup-storage
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/David-Chian/Megumin-Bot-MD/master/megu.sh | bash
 ```
 
-#### **🌺 Instalación manual por termux**
+#### **🪄 Instalación manual por termux**
 
 ```bash
 termux-setup-storage
