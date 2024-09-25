@@ -217,7 +217,3 @@ href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130"
 href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="130" height="130" alt="BrunoSobrino"/></a>
 
 [© Powered By KAKAROTO Team ⚡︎](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)
-
-
-<!-- Borde superior animado -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Bienvenido%20a%20mi%20perfil&fontSize=30&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
