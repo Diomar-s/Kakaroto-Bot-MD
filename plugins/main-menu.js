@@ -10,6 +10,7 @@ let tags = {
   'rollwaifu': '𝗥𝗢𝗟𝗟𝗪𝗔𝗜𝗙𝗨',
   'citaboom': '𝗖𝗜𝗧𝗔𝗕𝗢𝗢𝗠',  
   'jadibot': '𝗦𝗘𝗥𝗕𝗢𝗧 / 𝗖𝗢𝗗𝗘',
+  'free': 'frefire',
   'rpg': '×𝗥×𝗣×𝗚×',
   'rg': '𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗢',
   'xp': '×𝗘×𝗫×𝗣×',
