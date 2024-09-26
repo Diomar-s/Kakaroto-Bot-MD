@@ -583,7 +583,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 this.sendPresenceUpdate('recording', m.chat);
 
 if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|ai|Kakaroto|roto|a|s)/gi)) {
-let emot = pickRandom(["🚩", "🍟", "🔥","✨️", "🐲", "💥", "⭐️", "🌟", "🍂", "🫂", "🍁", "💖", "💞", "💕", "💋"])
+let emot = pickRandom(["🚩", "🍟", "🔥","✨️", "🐲", "💥", "⭐️", "🌟", "🍂", "🫂", "🍁", "💖", "⛏", "💕", "💋"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
