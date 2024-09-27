@@ -1,5 +1,5 @@
 <h1 align="center">KAKAROTO-BOT-MD 💨</h1>
- <p align="center">💥 sayayin de WhatsApp</p>
+ <p align="center">💥 déjanos tu super estrella</p>
 </p>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+legendary;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
