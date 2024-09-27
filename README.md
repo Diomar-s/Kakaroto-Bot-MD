@@ -56,7 +56,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 
 #### **🪄 Instalación manual por termux**
-
+> copie y peguen en termux uno por uno 
 ```bash
 termux-setup-storage
 ```
