@@ -22,6 +22,13 @@ global.owner = [
   ['15045475386']
 ];
 
+
+//• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
+global.mods = ['584248778828', '5218711426787', '', '', '']
+
+global.suittag = ['584248778828']
+global.prems = []
+
 //cambiar a true si el bot detecta sus propios comandos.
 global.isBaileysFail = false
 global.libreria = 'Baileys'
@@ -31,17 +38,6 @@ global.languaje = 'Español'
 global.nameqr = 'Drako-Bot - MD' 
 global.sessions = 'MeguminSession'
 global.jadi = 'GokuJadiBot'
-
-
-//• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
-global.mods = ['584248778828', '5218711426787', '', '', '']
-import ytmp44 from './lib/ytmp44.js'
-import ytmp33 from './lib/ytmp33.js'
-
-global.ytmp33 = ytmp33
-global.ytmp44 = ytmp44
-global.suittag = ['584248778828']
-global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
@@ -56,7 +52,6 @@ global.dev = '💨 Powered By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
 global.textbot = ' 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༆ : ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
 global.gt = '༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎';
 global.namechannel = 'ᑕᕼᗩᑎᑎᗴᒪ 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༆ : ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
-global.vs = '3.0.1'
 
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -219,7 +214,7 @@ global.rpg = {
     string = string.toLowerCase();
     const emot = {
       level: '🧬 Nivel',
-      estrellas: '🐉 Dragones ',
+      dragones: '🐉 Dragones ',
       exp: '⚡ Experiencia',
       bank: '🏦 Banco',
       diamond: '💎 Diamante',
@@ -312,7 +307,7 @@ global.rpgg = { // Solo emojis
     string = string.toLowerCase();
     const emott = {
       level: '🧬',
-      estrellas: '🌟',
+      dragones: '🐉',
       exp: '⚡',
       bank: '🏦',
       diamond: '💎+',
@@ -405,7 +400,7 @@ global.rpgshop = { // Tienda
     string = string.toLowerCase();
     const emottt = {
       exp: '⚡ Experiencia',
-      estrellas: '🌟 Estrella',
+      dragones: '🐉 Dragones',
       diamond: '💎 Diamante',
       joincount: '💰 Token',
       emerald: '💚 Esmeralda',
@@ -482,7 +477,7 @@ global.rpgshopp = { // Tienda
     string = string.toLowerCase();
     const emotttt = {
       exp: '⚡',
-      estrellas: '🌟',
+      dragones: '🐉',
       diamond: '💎+',
       joincount: '💰',
       emerald: '💚',
@@ -490,7 +485,7 @@ global.rpgshopp = { // Tienda
       kyubi: '🌀',
       gold: '👑',
       money: '❤️‍🔥',
-      tiketcoin: '🎫',
+      gokucoin: '🎫',
       stamina: '✨',
       potion: '🥤',
       aqua: '💧',
