@@ -150,13 +150,8 @@ href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125p
 * Panel Corin [`Panel`](https://panel.corinplus.com)
 * Canal de WhatsApp  [`Canal Corin`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
 * Comunidad Corin [`Click`](https://chat.whatsapp.com/HR3OLhsuZPqCMImzuHcuON)
----
-
-
-</details>
 
 ---
-
 
 
 </details>
