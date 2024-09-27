@@ -70,6 +70,10 @@ git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd Kakaroto-Bot-MD
 ```
 
 ```bash
+yarn install && npm install
+```
+
+```bash
 npm start
 ```
 
