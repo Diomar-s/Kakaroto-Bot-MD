@@ -35,6 +35,7 @@ href="https://wa.me/573142051545?text="><img src="https://qu.ax/ugHh.jpg" height
 
 ---
 
+### **`⬇️ Click en la imagen para obtener termux⬇️`**
 <a
 href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="https://qu.ax/finc.jpg" height="125px"></a>
 
