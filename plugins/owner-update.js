@@ -41,7 +41,7 @@ await conn.reply(m.chat, errorMessage2, m, rcanal,)
 
 }
 
-handler.help = ['update', 'actualizar']
+handler.help = ['update', 'up', 'actualizar']
 handler.tags = ['owner']
 handler.command = ['update', 'actualizar']
 handler.rowner = true
