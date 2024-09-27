@@ -219,7 +219,7 @@ global.rpg = {
     string = string.toLowerCase();
     const emot = {
       level: '🧬 Nivel',
-      estrellas: '🌟 Estrella',
+      estrellas: '🐉 Dragones ',
       exp: '⚡ Experiencia',
       bank: '🏦 Banco',
       diamond: '💎 Diamante',
