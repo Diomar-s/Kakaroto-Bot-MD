@@ -45,7 +45,7 @@ href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="htt
 
 #### **❣️ Instalación automatica por termux**
 
-> El bot no sirve por la terminal térmux pronto estará listo.
+> Solo sirve con instalación manual.
 
 ```bash
 termux-setup-storage
@@ -102,7 +102,7 @@ Si después de instalar el bot en Termux y iniciar la session del bot (el numero
 
 2. Elimina la carpeta MiniSession:
     ```bash
-    rm -rf KakarotoSession
+    rm -rf MeguminSession
     ```
 
 3. Inicia el bot nuevamente:
