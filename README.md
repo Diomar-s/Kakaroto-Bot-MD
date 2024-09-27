@@ -52,7 +52,7 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diomar-s/Kakaroto-Bot-MD/master/megu.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diomar-s/Kakaroto-Bot-MD/master/gata.sh | bash
 ```
 
 #### **🪄 Instalación manual por termux**
@@ -62,23 +62,11 @@ termux-setup-storage
 ```
 
 ```bash
-apt-get update -y && apt-get upgrade -y
-```
-
-```bash
-pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
 git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd Kakaroto-Bot-MD
-```
-
-```bash
-yarn install
-```
-
-```bash
-npm install
 ```
 
 ```bash
