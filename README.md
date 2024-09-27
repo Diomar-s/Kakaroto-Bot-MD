@@ -65,7 +65,7 @@ yarn install && npm install
 ```bash
 npm start
 ```
-
+> si despues de poner el nombre de WhatsApp, y sale letras en roja no se preocupe es normal 
 ---
 
 #### **🟢 Activar en caso de detenerse en termux**
