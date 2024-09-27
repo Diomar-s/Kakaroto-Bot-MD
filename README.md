@@ -45,7 +45,7 @@ href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="htt
 
 #### **❣️ Instalación automatica por termux**
 
-> Solo sirve con instalación manual.
+> Solo sirve con manual instalación.
 
 ```bash
 termux-setup-storage
