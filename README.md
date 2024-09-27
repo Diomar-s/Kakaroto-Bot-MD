@@ -42,7 +42,7 @@ href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="htt
 #### **`💨 Instalación por termux`**
 
 <details>
- <summary><b> 🔱 Comandos</b></summary>
+ <summary><b> 👉 Click para los comandos Comandos</b></summary>
 
 #### **🪄 Instalación manual por termux**
 > copie y peguen en termux uno por uno 
