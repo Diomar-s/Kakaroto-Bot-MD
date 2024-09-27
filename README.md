@@ -43,18 +43,6 @@ href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="htt
 <details>
  <summary><b> 🔱 Comandos</b></summary>
 
-#### **❣️ Instalación automatica por termux**
-
-> Solo sirve con manual instalación.
-
-```bash
-termux-setup-storage
-```
-
-```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diomar-s/Kakaroto-Bot-MD/master/gata.sh | bash
-```
-
 #### **🪄 Instalación manual por termux**
 > copie y peguen en termux uno por uno 
 ```bash
