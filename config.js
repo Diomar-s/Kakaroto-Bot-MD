@@ -22,6 +22,17 @@ global.owner = [
   ['15045475386']
 ];
 
+//cambiar a true si el bot detecta sus propios comandos.
+global.isBaileysFail = false
+global.libreria = 'Baileys'
+global.baileys = 'V 6.7.8'
+global.vs = '3.0.3'
+global.languaje = 'Español'
+global.nameqr = 'Drako-Bot - MD' 
+global.sessions = 'MeguminSession'
+global.jadi = 'GokuJadiBot'
+
+
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
 global.mods = ['584248778828', '5218711426787', '', '', '']
 import ytmp44 from './lib/ytmp44.js'
