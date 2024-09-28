@@ -6,9 +6,7 @@ let { name, size, lastUpdate, icon } = result;
 let URL = result.dllink
 let packe = result.package
 let texto = ` \`\`\`
-
 descargando aplicación...espere
-
    - ${wm} -          
 \`\`\`     
 `
