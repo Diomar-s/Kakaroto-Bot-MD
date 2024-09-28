@@ -30,7 +30,7 @@ await m.react(done)
 } catch {
 await m.react(error)
 }}
-handler.help = ['tourl']
+handler.help = ['tourl3']
 handler.tags = ['transformador']
 handler.register = true
 handler.command = ['tourl','upload']
