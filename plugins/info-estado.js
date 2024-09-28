@@ -1,4 +1,4 @@
-const handler = async (m, {conn}) => {
+/*const handler = async (m, {conn}) => {
   try {
     const pp = imagen10;
     const img = await(await fetch('https://images3.alphacoders.com/125/1251707.png')).buffer();
@@ -8,13 +8,13 @@ const handler = async (m, {conn}) => {
     await conn.sendMessage(m.chat, { react: { text: '🤠', key: m.key } })
     const str = `
 ┏✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧
-┃⍣ Kakaroto-Bot✨🐲
+┃⍣ Kakaroto-Bot 💨🔥
 ┃
 ┃⍣👋🏻𝘏𝘰𝘭𝘢: ${taguser}
 ┃
 ┃⍣ *ꨄ︎ ⏳️ 𝘈𝘤𝘵𝘪𝘷𝘰:* ${uptime}
 ┃⍣ *ꨄ︎ ✅ 𝘉𝘰𝘵 𝘜𝘴𝘰 𝘗𝘶𝘣𝘭𝘪𝘤𝘰*
-┃⍣ *ꨄ︎ 🦁 𝘖𝘸𝘯𝘦𝘳: David Chian*
+┃⍣ *ꨄ︎ 🦁 𝘖𝘸𝘯𝘦𝘳:  legendary
 ┃⍣ *ꨄ︎ 🔗 𝘊𝘶𝘦𝘯𝘵𝘢𝘴 𝘖𝘧𝘤:* https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t
 ╰✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧`.trim();
         const doc = [
@@ -23,12 +23,12 @@ const handler = async (m, {conn}) => {
     "vnd.openxmlformats-officedocument.presentationml.presentation",
     "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "vnd.openxmlformats-officedocument.wordprocessingml.document",
-  ];
+  ]; 
 const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t` },
+    document: { url: `https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI` },
     mimetype: `application/${document}`,
-    fileName: `「 Kakaroto-Bot 🐲 」`,
+    fileName: `「 Kakaroto-Bot 💨 」`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
@@ -67,4 +67,4 @@ function clockString(ms) {
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
   return [`\n│ *=> 💥 ` + d, ' Día(s)* ', `\n│ *=> 💫 ` + h, ' Hora(s)* ', `\n│ *=> 💠 ` + m, ' Minuto(s)* ', `\n│ *=> ♦ ` + s, ' Segundo(s)* '].map((v) => v.toString().padStart(2, 0)).join('');
-}
+}*/
