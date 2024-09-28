@@ -6,13 +6,15 @@ let { name, size, lastUpdate, icon } = result;
 let URL = result.dllink
 let packe = result.package
 let texto = ` \`\`\`
-   ❯───「 APK DOWNLOAD 」───❮
-    𝌡 Nombre : ⇢ ${name} 📛
-    𝌡 Tamaño : ⇢ ${size} ⚖️
-    𝌡 Package : ⇢ ${packe} 📦
-    𝌡 Actulizado : ⇢ ${lastUpdate} 🗓️
+┏───────────┓
+┊𝗗𝗲𝘀𝗰𝗮𝗿𝗴𝗮𝘀 𝗔𝗽𝗸 ┊     
+┗───────────┛
+👾 App : ⇢ ${name} 🔥
+🐉 Tamaño : ⇢ ${size} 💨
+💨 Package : ⇢ ${packe} 🌟
+🔱 Actulizado : ⇢ ${lastUpdate} 📢
     
-## Su aplicación se enviará en un momento . . .
+Descargando su aplicación...espere
 
    - ${wm} -          
 \`\`\`     
