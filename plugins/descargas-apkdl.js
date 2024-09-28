@@ -1,5 +1,6 @@
 let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
-if (!img) return conn.reply(m.chat, `⚠️ *_falla, falta el nombre de la apk ._*`, m, rcanal)    
+if (!args[0]) throw `\`\`\`[ 🌟 ] Ingresa el nombre de la aplicación que quieres descargar. Ejemplo:\n${usedPrefix + command} Clash Royale\`\`\``
+let res = await  
 let res = await fetch(`https://api.dorratz.com/v2/apk-dl?text=${args[0]}`);
 let result = await res.json();
 let { name, size, lastUpdate, icon } = result;
