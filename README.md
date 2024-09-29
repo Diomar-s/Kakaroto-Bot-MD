@@ -5,6 +5,13 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+legendary;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
 ![Kakaroto](https://qu.ax/RUnV.jpg)
 
+<div align="center">
+ 
+[![Support](https://img.shields.io/badge/mi_numero-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573142051545)
+[![Dueño](https://img.shields.io/badge/STAFF-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/C45GXBEFTPONE1)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Kakaroto-bot)
+</div>
+
 
 [![WhatsApp](https://img.shields.io/badge/mi_numero-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573142051545) <img src="https://raw.githubusercontent.com/Bots-WhatsApp-OFC/Bots-WhatsApp-OFC/master/accesos/iconos/whatsapp.gif" width="30">
 
@@ -183,13 +190,6 @@ href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125p
 #### **`☁️ ACTIVAR EN RENDER`**
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FDiomar-s%2FKakaroto-Bot-MD)
 
-
-<div align="center">
- 
-[![Support](https://img.shields.io/badge/mi_numero-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573142051545)
-[![Dueño](https://img.shields.io/badge/STAFF-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/C45GXBEFTPONE1)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Kakaroto-bot)
-</div>
 
 
 </details>
