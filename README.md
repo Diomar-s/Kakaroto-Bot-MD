@@ -186,7 +186,7 @@ href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125p
 
 <div align="center">
  
-[![Support](https://wa.me/573142051545?text=badge&logo=whatsapp&logoColor=white)
+[![Support](https://img.shields.io/badge/mi_numero-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573142051545)
 [![Dueño](https://img.shields.io/badge/STAFF-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/C45GXBEFTPONE1)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Kakaroto-bot)
 </div>
