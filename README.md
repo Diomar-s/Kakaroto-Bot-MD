@@ -43,7 +43,7 @@ href="https://wa.me/573142051545?text="><img src="https://qu.ax/ugHh.jpg" height
 ---
 <div align=>
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=tutorial&logoColor=white)](https://youtu.be/JICVzI0sOLk?si=1GJ3_vl_TNpfb9Iv)
+[![YouTube](https://img.shields.io/badge/YouTube-intalacion-FF0000?style=for-the-badge&logo=tutorial&logoColor=white)](https://youtu.be/JICVzI0sOLk?si=1GJ3_vl_TNpfb9Iv)
  
 ### **`⬇️ Click en la imagen para obtener termux⬇️`**
 <a
