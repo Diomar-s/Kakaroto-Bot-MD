@@ -41,7 +41,10 @@ href="https://wa.me/573142051545?text="><img src="https://qu.ax/ugHh.jpg" height
 </details>
 
 ---
+<div align="center">
 
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=tutorial&logoColor=white)](https://youtu.be/JICVzI0sOLk?si=1GJ3_vl_TNpfb9Iv)
+ 
 ### **`⬇️ Click en la imagen para obtener termux⬇️`**
 <a
 href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="https://qu.ax/finc.jpg" height="125px"></a>
