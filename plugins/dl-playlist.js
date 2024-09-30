@@ -30,11 +30,11 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         });
     }
 
-    await conn.sendListB(m.chat, '*MICKEY BOT*🔎', `\n 📀 Resultados de:\n *${text}*`, `OPCIONES`, ytres[0].image, listSections, m);
+    await conn.sendListB(m.chat, '*KAKAROTO BOT*🔎', `\n 📀 Resultados de:\n *${text}*`, `OPCIONES`, ytres[0].image, listSections, m);
 };
 
 handler.help = ['play2']
-handler.tags = ['dl']
+handler.tags = ['descargas']
 handler.command = ['play2', 'playvid2', 'playlist', 'playlista'] 
 handler.disabled = false
 
