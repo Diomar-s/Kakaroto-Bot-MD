@@ -16,7 +16,7 @@ try {
 }
 handler.help = ['snackvideo *<link>*']
 handler.corazones = 2
-handler.tags = ['dl'];
+handler.tags = ['descargas'];
 handler.command = /^(snackvideo)$/i;
 
 export default handler;
