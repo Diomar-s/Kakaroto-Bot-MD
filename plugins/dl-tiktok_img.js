@@ -95,7 +95,7 @@ let handler = async (m, { conn, text, args, command, usedPrefix }) => {
 }
 
 handler.help = ['tiktokimg <url>']
-handler.tags = ['dl']
+handler.tags = ['descargas']
 handler.command = /^(ttimg|tiktokimg)$/i
 
 export default handler
