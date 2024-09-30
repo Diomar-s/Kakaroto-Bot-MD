@@ -80,6 +80,7 @@ Error`;
 };
 handler.help = ['play']
 handler.tags = ['descargas'];
+handler.group = true;
 handler.command = /^play$/i;
 export default handler;
 
