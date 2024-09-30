@@ -95,7 +95,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   }    
 };
 handler.help = ['ytsearch <texto>'];
-handler.tags = ['search'];
+handler.tags = ['descargas'];
 handler.command = ['ytsearch','yts','searchyt','buscaryt','videosearch','audiosearch'];
 handler.register = true;
 handler.group = true;
