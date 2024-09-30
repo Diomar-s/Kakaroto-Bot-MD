@@ -79,7 +79,7 @@ Error`;
   }
 };
 handler.help = ['play']
-handler.tags = ['dl'];
+handler.tags = ['descargas'];
 handler.command = /^play$/i;
 export default handler;
 
