@@ -121,6 +121,7 @@ return conn.reply(m.chat, '⚠️ Error ⚠️ *intentelo de nuevo*', m, fake, )
 
 }
 handler.help = ['play', 'play2']
+handler.group = true;
 handler.tags = ['descargas']
 handler.command = /^play2?$/i
 
