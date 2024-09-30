@@ -58,7 +58,7 @@ console.error(error)
 }}}
 handler.help = ['ytmp3 <url yt>']
 handler.corazones = 2
-handler.tags = ['dl']
+handler.tags = ['descargas']
 handler.command = /^(fgmp3|dlmp3|audio|yt(a|mp3))$/i
 handler.star = 2
 handler.register = true 
