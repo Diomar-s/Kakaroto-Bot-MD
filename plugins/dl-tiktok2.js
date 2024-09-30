@@ -35,7 +35,7 @@ await m.react('✅')
 }
 handler.help = ['tiktok2 *<link>*']
 handler.corazones = 2
-handler.tags = ['dl']
+handler.tags = ['descargas']
 handler.command = /^(tiktok2)$/i;
 
 export default handler
