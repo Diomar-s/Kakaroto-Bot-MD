@@ -10,7 +10,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttributio
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
-sourceUrl: channel }}})
+sourceUrl: canal }}})
 const url = 'https://google.com/search?q=' + encodeURIComponent(text)
 google({'query': text}).then(res => {
 let teks = `🍟 *Resultado de* : ${text}\n\n`
@@ -23,6 +23,6 @@ conn.reply(m.chat, teks, m, rcanal)
 handler.help = ['google <búsqueda>']
 handler.tags = ['buscador']
 handler.command = ['google']
-handler.group = true;
 handler.register = true
 export default handler
+
