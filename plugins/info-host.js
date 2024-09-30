@@ -33,7 +33,7 @@ thumbnailUrl: 'https://qu.ax/waCu.jpg',
 sourceUrl: 'https://dash.corinplus.com'}}},
 { quoted: fkontak})
 }
-handler.tags =['main'] 
+handler.tags =['servidores'] 
 handler.help = ['host', 'hosting'] 
 handler.command = ['host', 'corin', 'corinplus', 'servidor']
 export default handler
