@@ -42,7 +42,7 @@ let handler = async (m, { conn }) => {
 }
 handler.tags = ['tools']
 handler.help = ['ibb']
-handler.command = /^(tourl2)$/i
+handler.command = /^(tourl3)$/i
 handler.register = true 
 export default handler
 //xd
