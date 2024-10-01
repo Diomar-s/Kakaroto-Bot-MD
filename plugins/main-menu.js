@@ -33,22 +33,20 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆⸱-Sayayin
-𔓕꯭  ꯭ 𓏲꯭֟፝੭ ꨄ ༒︎Kakaroto-Bot༒︎ ꨄ 𓏲꯭֟፝੭ ꯭  ꯭𔓕
-ՏIᘜᑌᗴᑎOՏ https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t
-▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭
-
-“ 𝚑𝚘𝚕𝚊 𝚌𝚘𝚖𝚘 𝚎𝚜𝚝𝚊𝚜 𝚎𝚕 𝚍𝚒𝚊 𝚍𝚎 𝚑𝚘𝚢 *%name* 𝚂𝚘𝚢 *𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎*, %greeting ”
-
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 
-┗━━━━━━━━━━━━━━━━
-┣┅⟣ׁ✰ *𝘾𝙍𝙀𝘼𝘿𝙊𝙍:* legendary
-┣┅⟣ׁ✰ׁ *𝙈𝙊𝘿𝙊:* Público
-┣┅⟣✰ *𝘽𝘼𝙔𝙇𝙀𝙔𝙎:* Multi Device
-┣┅⟣ׁ✰ *𝘼𝘾𝙏𝙄𝙑𝙊:* %muptime
-┣┅⟣̟✰ *𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎:* %totalreg
-┗━━━━━━━━━━━━━━━━━━┛
+  before: `
+*╭━━❍𝙆𝘼𝙆𝘼𝙍𝙊𝙏𝙊-𝘽𝙊𝙏❍━━╮* 
+*┣━━━▢ ❤𝐇𝐎𝐋𝐀, *%name* ❤*• 
+*┃╭━━━━━━━━━━━━━━━━╾•* 
+*┃┃  %greeting* 
+*┃┣━━━━━━━━━━━━━━━━╾•* 
+*┃┃ ⋄ *𝗢𝗪𝗡𝗘𝗥:* legendary
+*┃┃ ⋄ *𝗢𝗪𝗡𝗘𝗥2* brayan
+*┃┃ ⋄ׁ *𝙈𝙊𝘿𝙊:* Público
+*┃┃ ⋄ *𝘽𝘼𝙔𝙇𝙀𝙔𝙎:* Multi Device
+*┃┃ ⋄ *𝘼𝘾𝙏𝙄𝙑𝙊:* %muptime
+*┃┃ ⋄ *𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎:* %totalreg
+*┃╰━━━━━━━━━━━━━━━━╾•* 
+*╰━━━╼𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢-𝗕𝗢𝗧╾━━━╯* 
 
 %readmore
 ┏━━━━━━━━━━━━━━━━━━
@@ -66,9 +64,9 @@ const defaultMenu = {
 
 \t*𝗟𝗜𝗦𝗧𝗔𝗦 𝗗𝗘 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦᯾* 
 `.trimStart(),
-      header: '╔═════⩽*%category*⩾═════╗',
+      header: '╔▬ִ▭࣪▬ִ *%category* ▬ִ▭࣪▬',
   body: '✯ࣲ፝֟͜͡ʅ %cmd\n',
-  footer: '╚═════════⩽✰⩾════════\n',
+  footer: '╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝\n',
   after: `> ${dev}`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -168,7 +166,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.co/yVpchft/file.jpg')
 
   let category = "video"
   const db = './media/database/db.json'
@@ -184,7 +182,7 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
 
 // await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
 
-await m.react('🪄') 
+await m.react('📂') 
 
 //await conn.sendFile(m.chat, imagen1, 'yaemori.jpg', text.trim(), fkontak, null, rcanal)
 
@@ -264,3 +262,4 @@ switch(hour){
   case 23: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
 }
   var greeting = hour;
+
