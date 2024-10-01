@@ -7,9 +7,9 @@ sudo dnf clean all -y
 
 RUN git clone https://github.com/David-Chian/Megumin-Bot-MD
 
-WORKDIR /root/MeguminBot-MD
+WORKDIR /root/Kakaroto-Bot-MD
 
-COPY ./root/MeguminBot-MD
+COPY ./root/Kakaroto-Bot-MD
 
 RUN yarn install
 
