@@ -35,7 +35,7 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.8'
 global.vs = '3.0.3'
 global.languaje = 'Español'
-global.nameqr = 'Drako-Bot - MD' 
+global.nameqr = 'Kakaroto-Bot - MD' 
 global.sessions = 'MeguminSession'
 global.jadi = 'GokuJadiBot'
 
