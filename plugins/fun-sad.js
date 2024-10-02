@@ -1,5 +1,3 @@
-//Codígo creado por David Chian wa.me/5351524614
-
 import fs from 'fs';
 import path from 'path';
 

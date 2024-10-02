@@ -1,5 +1,3 @@
-//Codígo creado por DAVID CHIAN!! PERRAS wa.me/5351524614
-
 import fs from 'fs';
 import path from 'path';
 import uploadImage from '../lib/uploadImage.js'
@@ -15,7 +13,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let name = conn.getName(who);
     let name2 = conn.getName(m.sender);
    // m.react('⏳');
-    await conn.sendMessage(m.chat, { react: { text: '🔥', key: m.key } })
+    await conn.sendMessage(m.chat, { react: { text: '😝', key: m.key } })
     let str = `${name2} Nalgueo a ${name}`.trim();
     if (m.isGroup){
     
@@ -33,7 +31,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   //  m.react('🔥');
 }
 
-handler.help = ['violar @tag'];
+handler.help = ['nalguear @tag'];
 handler.tags = ['fun'];
 handler.command = ['nalguear'];
 handler.register = true;
