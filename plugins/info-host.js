@@ -34,6 +34,6 @@ sourceUrl: 'https://dash.corinplus.com'}}},
 { quoted: fkontak})
 }
 handler.tags =['main'] 
-handler.help = ['servidor', 'corinplus'] 
+handler.help = ['servidor', 'servidor'] 
 handler.command = ['host', 'corin', 'corinplus', 'servidor']
 export default handler
