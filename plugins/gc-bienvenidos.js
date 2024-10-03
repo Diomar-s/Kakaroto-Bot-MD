@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
         },
         message: {
             videoMessage: { 
-                title: 'Megumin', 
+                title: 'Kakatoto', 
                 h: `Hmm`,
                 seconds: '99999', 
                 gifPlayback: true, 
@@ -41,7 +41,7 @@ let handler = async (m, { conn }) => {
 handler.help = ['bienvenidos'];
 handler.group = true;
 handler.admin = true;
-handler.tags = ['bienvenidos'];
+handler.tags = ['group'];
 handler.command = ['bienvenidos','nuevos'];
 
 export default handler;
