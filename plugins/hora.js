@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import moment from "moment-timezone";
 import axios from "axios";
 
-const imgUrl = "https://qu.ax/npRA.jpg";
+const imgUrl = "https://qu.ax/ZLiY.jpg";
 
 let handler = async (m, { conn, args }) => {
   let clockString = "";
@@ -61,7 +61,7 @@ let handler = async (m, { conn, args }) => {
       m.chat,
       responseImg.data,
       "thumbnail.png",
-      clockString + "\n\n`𝐘𝐮𝐤𝐢_𝐒𝐮𝐨𝐮-𝐁𝐨𝐭 𝚋𝚢 ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜`",
+      clockString + "\n\n`Kakaroto-Bot`",
       m,
     );
 
@@ -72,8 +72,8 @@ let handler = async (m, { conn, args }) => {
   }
 };
 
-handler.help = ["main"];
-handler.tags = ["tools"];
+handler.help = ["hora"];
+handler.tags = ["main"];
 handler.command = /^(hora)$/i;
 handler.register = true;
 
