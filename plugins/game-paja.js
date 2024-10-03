@@ -13,6 +13,6 @@
 
 handler.help = ['pajeame'];
 handler.tags = ['fun'];
-handler.command = /^pajeame|paja$/i;
+handler.command = ['pajeame'];
 
 export default handler;*/
