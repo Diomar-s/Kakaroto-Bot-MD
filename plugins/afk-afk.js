@@ -12,7 +12,7 @@ Ahora estás enfadado hasta que envíes un mensaje
   `)
 }
 handler.help = ['afk <razon>']
-handler.tags = ['fun']
+handler.tags = ['main']
 handler.command = ['afk']
 handler.group = true
 
