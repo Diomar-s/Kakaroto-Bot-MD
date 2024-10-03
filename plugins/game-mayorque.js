@@ -40,7 +40,7 @@ let handler = async (m, {
   }
 }
 handler.help = handler.command = ['mayorque']
-handler.tags = ['game']
+handler.tags = ['fun']
 
 export default handler;
 
