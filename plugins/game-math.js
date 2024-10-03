@@ -30,7 +30,7 @@ _📌Ejemplo : ${usedPrefix+command} normal_
     ]
 }
 handler.help = ['mates']
-handler.tags = ['game']
+handler.tags = ['fun']
 handler.command = ['mates', 'mate', 'matemáticas', 'math'] 
 
 
