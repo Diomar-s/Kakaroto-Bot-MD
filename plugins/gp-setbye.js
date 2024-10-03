@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, isROwner, isOwner }) => {
   } else throw `✳️ introduce el mensaje\n@user (mención)`
 }
 handler.help = ['setbye <text>']
-handler.tags = ['group']
+handler.tags = ['grupo']
 handler.command = ['setbye'] 
 handler.admin = true
 handler.owner = false
