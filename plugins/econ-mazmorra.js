@@ -31,7 +31,7 @@ const result = explorarMazmorra(m.sender)
 await conn.reply(m.chat, result, m)
 }
 handler.help = ['mazmorra']
-handler.tags = ['econ']
+handler.tags = ['fun']
 handler.command = ['explorar', 'mazmorra']
 
 export default handler
