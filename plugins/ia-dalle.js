@@ -16,7 +16,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
         throw `Error...`;
     }
 }
-handler.tags = ['ia2']
+handler.tags = ['ia']
 handler.help = ['dalle']
 handler.command = ['dalle'];
 export default handler;
