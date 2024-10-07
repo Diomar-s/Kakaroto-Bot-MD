@@ -16,15 +16,15 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
         mimetype: 'audio/mp4',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "Destroy",
+        fileName: "legendary",
 
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "ESTOY VIVA Y COLEANDO :𝟹",
-          body: "𝐘𝐮𝐤𝐢_𝐒𝐮𝐨𝐮-𝐁𝐨𝐭",
+          title: "ESTOY VIVO Y COLEANDO :𝟹",
+          body: "Kakaroto-Bot ",
           thumbnailUrl: img,
-          sourceUrl: 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T',
+          sourceUrl: 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t',
           mediaType: 1,
           renderLargerThumbnail: true
           }}
