@@ -5,6 +5,7 @@ const handler = async (m, { conn }) => {
     global.db.data.users[m.sender].estrellas = Infinity;
   global.db.data.users[m.sender].level = Infinity;
  global.db.data.users[m.sender].exp = Infinity;
+global.db.data.users[m.sender].personaje = Infinity;    
 };
 handler.help = ['cheat'];
 handler.tags = ['owner'];
