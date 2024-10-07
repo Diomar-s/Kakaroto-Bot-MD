@@ -35,7 +35,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
 handler.help = ['play2']
 handler.tags = ['descargas']
-handler.command = ['play2', 'playvid2', 'playlist', 'playlista'] 
+handler.command = ['play5', 'playvid2', 'playlist', 'playlista'] 
 handler.disabled = false
 
 export default handler
