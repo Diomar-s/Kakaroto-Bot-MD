@@ -18,6 +18,7 @@ ${usedPrefix + command} audios
 ${usedPrefix + command} modoadmin
 ${usedPrefix + command} antifake
 ${usedPrefix + command} antibot
+${usedPrefix + command} antibot2 
 
 🍟 *OPCIONES PARA MI PROPIETARIO*
 
