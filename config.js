@@ -55,14 +55,14 @@ global.namechannel = 'ᑕᕼᗩᑎᑎᗴᒪ 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - �
 
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
-global.imagen1 = fs.readFileSync('./Menu2.jpg');
+global.imagen1 = fs.readFileSync('./Menu.jpg');
 global.imagen2 = fs.readFileSync('./src/anime.jpg');
-global.imagen3 = fs.readFileSync('./Menu3.jpg');
+global.imagen3 = fs.readFileSync('./Menu.jpg');
 global.imagen4 = fs.readFileSync('./Menu.jpg');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
-global.imagen6 = fs.readFileSync('./Menu3.jpg');
-global.imagen7 = fs.readFileSync('./Menu5.jpg');
-global.imagen8 = fs.readFileSync('./Menu4.jpg')
+global.imagen6 = fs.readFileSync('./Menu.jpg');
+global.imagen7 = fs.readFileSync('./Menu.jpg');
+global.imagen8 = fs.readFileSync('./Menu.jpg')
 global.imagen9 = fs.readFileSync('./src/menu_en.png')
 global.imagen10 = fs.readFileSync('./src/nuevobot.jpg')
 global.que = fs.readFileSync('./src/ke/que1.jpg')
@@ -167,7 +167,7 @@ global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c7
 global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())];
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5'];
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())];
-global.lolkeysapi = ['GataDiosV2']; // ['BrunoSobrino_2']
+global.lolkeysapi = ['kurumi']; // ['BrunoSobrino_2']
 global.itsrose = ['4b146102c4d500809da9d1ff'];
 
 global.APIs = {
