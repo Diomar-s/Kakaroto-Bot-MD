@@ -192,7 +192,7 @@ global.APIs = {
 },
 global.APIKeys = {
   'https://api.xteam.xyz': `${keysxteam}`,
-  'https://api.lolhuman.xyz': 'GataDios',
+  'https://api.lolhuman.xyz': 'kurumi',
   'https://api.neoxr.my.id': `${keysneoxr}`,
   'https://api.zahwazein.xyz': `${keysxxx}`,
   'https://api-fgmods.ddns.net': 'fg-dylux',
@@ -214,7 +214,7 @@ global.rpg = {
     string = string.toLowerCase();
     const emot = {
       level: '🧬 Nivel',
-      dragones: '🐉 Dragones ',
+      estrellas: '⭐ estrellas',
       exp: '⚡ Experiencia',
       bank: '🏦 Banco',
       diamond: '💎 Diamante',
@@ -307,7 +307,7 @@ global.rpgg = { // Solo emojis
     string = string.toLowerCase();
     const emott = {
       level: '🧬',
-      dragones: '🐉',
+      s: '🐉',
       exp: '⚡',
       bank: '🏦',
       diamond: '💎+',
