@@ -8,7 +8,6 @@ let tags = {
   'buscador': '𝗕𝗨𝗦𝗖𝗔𝗗𝗢𝗥𝗘𝗦',
   'fun': '𝗝𝗨𝗘𝗚𝗢𝗦',
   'rollwaifu': '𝗥𝗢𝗟𝗟𝗪𝗔𝗜𝗙𝗨',
-  'citaboom': '𝗖𝗜𝗧𝗔𝗕𝗢𝗢𝗠',  
   'jadibot': '𝗦𝗘𝗥𝗕𝗢𝗧 / 𝗖𝗢𝗗𝗘',
   'free': '𝗙𝗥𝗘𝗘 / 𝗙𝗜𝗥𝗘',
   'rpg': '×𝗥×𝗣×𝗚×',
@@ -53,7 +52,7 @@ const defaultMenu = {
 ┣┅⟣✰━━━━━━━━━━━━━━━
 ┣┅⟣ׁ✰ *𝘾𝙇𝙄𝙀𝙉𝙏𝙀:* %name
 ┣┅⟣ׁ✰ *𝙓𝙓𝙋:* %exp
-┣┅⟣ׁ✰ *𝙀𝙎𝙏𝙍𝙀𝙇𝙇𝘼𝙎:* %estrellas
+┣┅⟣ׁ✰ *Dragones:* %Dragones
 ┣┅⟣ׁ✰ *𝙉𝙄𝙑𝙀𝙇:* %level
 ┣┅⟣ׁ✰ *𝙍𝘼𝙉𝙂𝙊:* %role
 ┗━━━━━━━━━━━━━━━━━━┛
@@ -168,7 +167,7 @@ const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ?
 const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.co/yVpchft/file.jpg')
 
   let category = "video"
-  const db = './media/database/db.json'
+  const db = './src/database/db.json'
   const db_ = JSON.parse(fs.readFileSync(db))
   const random = Math.floor(Math.random() * db_.links[category].length)
   const rlink = db_.links[category][random]
