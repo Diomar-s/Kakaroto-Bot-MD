@@ -124,13 +124,13 @@ async function connectionUpdate(update) {
     if (connection == 'open') {
     conn.isInit = true
     global.conns.push(conn)
-    await parent.reply(m.chat, args[0] ? 'Conectado con exito' : 'Conectado exitosamente Sub Bot de (🐉孫ՏᴏɴᏀᴏᴋᴜ孫🐉) con WhatsApp\n\n*Nota:* Esto es temporal\nSi el Bot principal se reinicia o se desactiva, todos los sub bots tambien lo haran\n\nEl número del bot puede cambiar, guarda este enlace:\n*-* https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v', m, rcanal)
+    await parent.reply(m.chat, args[0] ? 'Conectado con exito' : 'Conectado exitosamente Sub Bot de (Kakaroto-Bot) con WhatsApp\n\n*Nota:* Esto es temporal\nSi el Bot principal se reinicia o se desactiva, todos los sub bots tambien lo haran\n\nEl número del bot puede cambiar, síguenos para que estés al tanto de los siguientes números:\n*-* https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', m, rcanal)
     await sleep(5000)
     if (args[0]) return
 
                 await parent.reply(conn.user.jid, `La siguiente vez que se conecte envía el siguiente mensaje para iniciar sesión sin utilizar otro código `, m, rcanal)
 
-                await parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./serbot/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
+                await parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./GokuJadiBot/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
           }
 
   }
@@ -183,7 +183,7 @@ serbot()
 }
 handler.help = ['code']
 handler.tags = ['Jadibot']
-handler.command = ['code', 'codebot']
+handler.command = ['code', 'serbot-code']
 handler.rowner = false
 
 export default handler
