@@ -128,7 +128,7 @@ async function connectionUpdate(update) {
     await sleep(5000)
     if (args[0]) return
 
-                await parent.reply(conn.user.jid, `La siguiente vez que se conecte envía el siguiente mensaje para iniciar sesión sin utilizar otro código `, m, rcanal)
+                await parent.reply(conn.user.jid, `La siguiente vez que se apague el bot o se desconecte envía el siguiente mensaje para iniciar sesión sin utilizar otro código `, m, rcanal)
 
                 await parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./GokuJadiBot/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
           }
