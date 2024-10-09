@@ -15,7 +15,7 @@ global.confirmCode = ''
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
   ['526748616996', 'Kakaroto- 𝑩𝑶𝑻', true],
-  ['573142051545', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
+  ['5491166401905', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
   ['584248778828'],
   ['573142051545'],
   ['5491166401905'],
@@ -24,9 +24,9 @@ global.owner = [
 
 
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
-global.mods = ['584248778828', '5218711426787', '', '', '']
+global.mods = ['5491166401905', '5218711426787', '', '', '']
 
-global.suittag = ['584248778828']
+global.suittag = ['5491166401905']
 global.prems = []
 
 //cambiar a true si el bot detecta sus propios comandos.
@@ -130,7 +130,7 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nKakaroto - Bot`;
-global.nomorown = '573142051545';
+global.nomorown = '5491166401905';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
