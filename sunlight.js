@@ -110,7 +110,7 @@ loadChatgptDB();
 /* ------------------------------------------------*/
 
 global.authFile = `MeguminSession`
-global.authFileJB = `MeguminJadiBot`
+global.authFileJB = `GokuJadiBot`
 
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { }
