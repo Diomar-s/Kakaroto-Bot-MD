@@ -109,7 +109,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `MeguminSession`
+global.authFile = `GokuSession`
 global.authFileJB = `GokuJadiBot`
 
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
@@ -301,7 +301,7 @@ console.log(chalk.bold.greenBright(`🍟 Todos los Sub-Bots se conectaron con é
 (async () => {
 global.conns = [];
 
-const mainBotAuthFile = 'MeguminSession';
+const mainBotAuthFile = 'GokuSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
