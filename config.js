@@ -36,7 +36,7 @@ global.baileys = 'V 6.7.8'
 global.vs = '3.0.3'
 global.languaje = 'Español'
 global.nameqr = 'Kakaroto-Bot - MD' 
-global.sessions = 'MeguminSession'
+global.sessions = 'GokuSession'
 global.jadi = 'GokuJadiBot'
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
@@ -214,7 +214,7 @@ global.rpg = {
     string = string.toLowerCase();
     const emot = {
       level: '🧬 Nivel',
-      dragones: '🐉 Dragones ',
+      dragons: '🐉 Dragones ',
       exp: '⚡ Experiencia',
       bank: '🏦 Banco',
       diamond: '💎 Diamante',
@@ -307,7 +307,7 @@ global.rpgg = { // Solo emojis
     string = string.toLowerCase();
     const emott = {
       level: '🧬',
-      dragones: '🐉',
+      dragons: '🐉',
       exp: '⚡',
       bank: '🏦',
       diamond: '💎+',
@@ -400,7 +400,7 @@ global.rpgshop = { // Tienda
     string = string.toLowerCase();
     const emottt = {
       exp: '⚡ Experiencia',
-      dragones: '🐉 Dragones',
+      dragons: '🐉 Dragones',
       diamond: '💎 Diamante',
       joincount: '💰 Token',
       emerald: '💚 Esmeralda',
@@ -477,7 +477,7 @@ global.rpgshopp = { // Tienda
     string = string.toLowerCase();
     const emotttt = {
       exp: '⚡',
-      dragones: '🐉',
+      dragons: '🐉',
       diamond: '💎+',
       joincount: '💰',
       emerald: '💚',
