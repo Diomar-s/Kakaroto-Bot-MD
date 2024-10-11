@@ -1,3 +1,5 @@
+//Codígo creado por Destroy wa.me/584120346669
+
 import fs from 'fs';
 import path from 'path';
 
@@ -27,9 +29,9 @@ let handler = async (m, { conn, usedPrefix }) => {
    
 }
 
-handler.help = ['grop @tag'];
+handler.help = ['grop/manosear @tag'];
 handler.tags = ['fun'];
-handler.command = ['grop', ' manosear'];
+handler.command = ['grop', 'manosear'];
 handler.group = true;
 
 export default handler;

@@ -17,27 +17,27 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     let name = conn.getName(who); // Nombre de la persona mencionada o del emisor
     let name2 = conn.getName(m.sender); // Nombre del usuario que envía el comando
-    m.react('💃');
+    m.react('🚬');
 
     // Construimos el mensaje dependiendo de si hay una mención o no
     let str;
     if (m.mentionedJid.length > 0) {
-        str = `${name2} esta bailando con ${name || who}.`; // Usamos nombre agendado o número si no está agendado
+        str = `${name2} está fumando con ${name || who}.`; // Usamos nombre agendado o número si no está agendado
     } else if (m.quoted) {
-        str = `${name2} esta bailando con ${name || who}.`; // Mensaje cuando se cita a otro usuario
+        str = `${name2} está fumando con ${name || who}.`; // Mensaje cuando se cita a otro usuario
     } else {
-        str = `${name2} esta soltando los pasos prohibidos.`.trim();
+        str = `${name2} está fumando.`.trim();
     }
     
     if (m.isGroup) {
-        let pp = 'https://qu.ax/uSfl.mp4'; 
-        let pp2 = 'https://qu.ax/nJngK.mp4'; 
-        let pp3 = 'https://qu.ax/iXuAh.mp4';
-        let pp4 = 'https://qu.ax/CoDLF.mp4';
-        let pp5 = 'https://qu.ax/tuDTg.mp4';
-        let pp6 = 'https://qu.ax/omASp.mp4';
-        let pp7 = 'https://qu.ax/HzdhK.mp4';
-        let pp8 = 'https://qu.ax/xszwF.mp4';
+        let pp = 'https://qu.ax/GRoUp.mp4'; 
+        let pp2 = 'https://qu.ax/ecCLK.mp4'; 
+        let pp3 = 'https://qu.ax/MJBNo.mp4';
+        let pp4 = 'https://qu.ax/HLTOu.mp4';
+        let pp5 = 'https://qu.ax/BzTUE.mp4';
+        let pp6 = 'https://qu.ax/UNRMc.mp4';
+        let pp7 = 'https://qu.ax/KraLy.mp4';
+        let pp8 = 'https://qu.ax/UKxHy.mp4';
         
         const videos = [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8];
         const video = videos[Math.floor(Math.random() * videos.length)];
@@ -48,9 +48,9 @@ let handler = async (m, { conn, usedPrefix }) => {
     }
 }
 
-handler.help = ['dance/bailar @tag'];
+handler.help = ['smoke/fumar @tag'];
 handler.tags = ['fun'];
-handler.command = ['dance', 'bailar'];
+handler.command = ['smoke', 'fumar'];
 handler.group = true;
 
 export default handler;
