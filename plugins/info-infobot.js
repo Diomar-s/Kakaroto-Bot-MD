@@ -55,8 +55,8 @@ setTimeout(resolve, 1000)
 }
 let timestamp = speed()
 let latensi = speed() - timestamp
-let CrowBot = `╭─⬣「 *Info De Kakaroto* 」⬣\n`
-GokuBot += `│ 👑 *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`\n`
+let GokuBot = `╭─⬣「 *Info De Kakaroto* 」⬣\n`
+GokuBot += `│ 👑 *Creador* : @${owner[1][0].split('@s.whatsapp.net')[0]}\n`\n`
 GokuBot += `│ 🍭 *Prefijo* : [  ${usedPrefix}  ]\n`
 GokuBot += `│ 🐉 *Total Plugins* : ${totalf}\n`
 GokuBot += `│ 💫 *Plataforma* : ${platform()}\n`
@@ -79,7 +79,7 @@ GokuBot += `│ 💭 *${chats.length}* Chats Totales\n`
 GokuBot += `╰─⬣\n\n`
 GokuBot += `╭─⬣「 *NodeJS Uso de memoria* 」⬣\n`
 GokuBot += `${'```' + Object.keys(used).map((key, _, arr) => `│ ${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}\n`
-CrowBot += `╰─⬣`
+GokuBot += `╰─⬣`
 
 await conn.reply(m.chat, CrowBot, fkontak, { contextInfo: { mentionedJid: [owner[0][0] + '@s.whatsapp.net'], externalAdReply: { mediaUrl: false, mediaType: 1, description: false, title: '↷✦╎Info - Bot╎🚩˖ ⸙',body: packname, previewType: 0, thumbnail: icons, sourceUrl: redes}}})
 // await conn.sendFile(m.chat, imagen1, 'Menu.jpg', Menu, fkontak, null, rcanal)
