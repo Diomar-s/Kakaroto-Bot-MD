@@ -56,7 +56,7 @@ setTimeout(resolve, 1000)
 let timestamp = speed()
 let latensi = speed() - timestamp
 let CrowBot = `╭─⬣「 *Info De Kakaroto* 」⬣\n`
-GokuBot += `│ 👑 *Creador* : Wa.me/5491166401905\n`
+GokuBot += `│ 👑 *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`\n`
 GokuBot += `│ 🍭 *Prefijo* : [  ${usedPrefix}  ]\n`
 GokuBot += `│ 🐉 *Total Plugins* : ${totalf}\n`
 GokuBot += `│ 💫 *Plataforma* : ${platform()}\n`
