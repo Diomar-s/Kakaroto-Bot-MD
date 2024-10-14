@@ -30,6 +30,16 @@ global.suittag = ['5491166401905']
 global.prems = []
 
 
+//cambiar a true si el bot detecta sus propios comandos.
+global.isBaileysFail = false
+global.libreria = 'Baileys'
+global.baileys = 'V 6.7.8'
+global.vs = '3.0.3'
+global.languaje = 'Español'
+global.nameqr = 'Kakaroto Bot - MD'
+global.sessions = 'GokuSession'
+global.jadi = 'GokuJadiBot'
+
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
 global.packname = ` ༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎`
