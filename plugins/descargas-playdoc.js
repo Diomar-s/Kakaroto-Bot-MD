@@ -26,25 +26,25 @@ additionalText = 'audio'
 additionalText = 'video'}
 
 let texto1 = `
-> 🐉 *Titulo*
+> ☁️ *Titulo*
 > • ${yt_play[0].title}
 > ────────────────────────────>
-> 🐉 *Publicado en:* 
+> ☁️ *Publicado en:* 
 > • ${yt_play[0].ago}
 > ────────────────────────────>
-> 🐉 *Enlace:*
+> ☁️ *Enlace:*
 > • ${yt_play[0].url}
 > ────────────────────────────>
-> 🐉 *Autor:*
+> ☁️ *Autor:*
 > • ${yt_play[0].author.name}
 > ────────────────────────────>
-> 🐉 *Canal:*
+> ☁️ *Canal:*
 > • ${yt_play[0].author.url}
 > ────────────────────────────>
-> 🐉 *Duracion:*:
+> ☁️ *Duracion:*:
 > • ${secondString(yt_play[0].duration.seconds)}
 
-> _*🐲 Enviando su ${additionalText}, aguarde un momento ☁...*_`.trim()
+> _*💨 Enviando su ${additionalText}, aguarde un momento ☁...*_`.trim()
 await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: dev, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: fkontak })
 
 if (command == 'play3' || command == 'playdoc') {
@@ -76,7 +76,7 @@ const infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId)
 const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'})
 conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4'}, {quoted: fkontak})
 } catch {
-await conn.reply(m.chat, '🌟 *Ocurrió un fallo*', m, rcanal, )
+await conn.reply(m.chat, '🐲 *Ocurrió un fallo*', m, rcanal, )
 }}}}
 
 if (command == 'play4' || command == 'playdoc2') {
@@ -109,14 +109,14 @@ const n4 = lolh.result.thumbnail
 await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', thumbnail: await fetch(n4)}, {quoted: fkontak})
 } catch {
 
-await conn.reply(m.chat, '🌟 *Ocurrió un fallo*', m, rcanal, )
+await conn.reply(m.chat, '🐲 *Ocurrió un fallo*', m, rcanal, )
 }}}}
 
 } catch {
-return conn.reply(m.chat, '💨 *Inténtelo de nuevo*', m, rcanal, )}
+return conn.reply(m.chat, '🐲 *Inténtelo de nuevo*', m, rcanal, )}
 
 }
-handler.help = ['play3', 'play4']
+handler.help = ['playdoc', 'playdoc2']
 handler.tags = ['descargas']
 handler.command = /^(playdoc|playdoc2|play3|play4)$/i
 
