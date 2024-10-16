@@ -3,7 +3,7 @@
 </p>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+legendary;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
-![Kakaroto](https://qu.ax/RUnV.jpg)
+![Kakaroto](https://i.ibb.co/4NWqF0m/file.jpg)
 
 <div align="center">
  
