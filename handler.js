@@ -737,7 +737,7 @@ rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> leg
 owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador.', 
 mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladores.**\n\n*_Siguenos ♥️🪄https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
 premium: '「👹」 *Esta función solo es para usuarios Premium.', 
-group: '「💨」 *Esta funcion solo puede ser ejecutada en grupos.**\n\n*_El grupo del bot*\n\n*UNETE* 👉https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7', 
+group: '「💨」 *Esta funcion solo puede ser ejecutada en grupos.**\n\n*_El nuevo grupo del bot*\n\n*UNETE* 👉https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7', 
 private: '「🍭」 *Esta función solo puede ser usada en chat privado.**\n\n*_Siguenos ♥️🪄https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
 admin: '「👑」 *Este comando solo puede ser usado por admins.**\n\n*_Siguenos ♥️🪄https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
 botAdmin: '「🔱」 *Para usar esta función debo ser admin.**\n\n*_Siguenos ♥️🪄https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
