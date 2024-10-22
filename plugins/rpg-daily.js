@@ -17,7 +17,7 @@ conn.reply(m.chat, `🎁 *Recompensa Diaria*
 Recursos:
 ✨ Xp : *+${isPrems ? exppremium : exp}*
 💎 Diamantes : *+${d}*
-❤️‍🔥 DragoCoins : *+${coin}*`, m, )
+🐉 DragoCoins : *+${coin}*`, m, )
 
 global.db.data.users[m.sender].lastclaim = new Date * 1
 
