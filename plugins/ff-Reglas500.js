@@ -1,5 +1,5 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.Infinito);
+  m.reply(global.text);
 };
 handler.command = /^(tenerunbot)$/i;
 handler.tags =['main'] 
