@@ -1,53 +1,21 @@
 const handler = async (m, {conn}) => {
   m.reply(global.Infinito);
 };
-handler.command = /^(Infinito)$/i;
-handler.tags =['free'] 
-handler.help = ['Infinito'] 
+handler.command = /^(tener un bot)$/i;
+handler.tags =['main'] 
+handler.help = ['tener un bot'] 
 export default handler;
-global.Infinito = ` 
-*Sala*
-•1Ra sala crea: Rival
-•2da sala crea: 
- (3ra sala crea perdedor de primera)
+global.text =`
+  
+*¿QUIERES UN BOT PARA TU GRUPOS?*🔥 
 
-*Configuración*
-•13 Rondas 
-•500 hp
-•1500 de moneda
-•Habilidad de personajes Si
-•Municiones *Ilimitadas*
-•Primera ronda Desert
-•Airdrops: No
+!! *Pues es fácil lo único que pedimos*!!🙂‍↔️
 
+Q haga  que 15 amigos o conocidos sigan el canal, una vez que lo hagan le dices que te mandé cap de que ya siguen el canal y me lo reenvías junto con el link de tus grupos a donde quieras el bot_ 🎁
 
-*Importante*
-•Vale encerrarse (pero no dejar fuera de zona)
-•Sola una m10 por equipo 
-•Si es clan, todos deben pertenecer al mismo.
-•2 cambios de jugadores por equipo
-•Solo 2 espectadores por equipo.
-•El versus debe ser cancelado 1 hora antes con anticipación o se tomará como versus ganado.
-Sala mal creada se crea de nuevo y solo 5 min de tolerancia.
-•Única altura válida: Cajas pequeñas, autos. 
-Clock, Mill y Observatorio no cuentan como altura 
-•Cuantas niveles +45
-•Como habilidades activas solo Alok y K
-•Como habilidades pasivas: Moco, Kelly, Maxim y Hayato 
-•Todo reclamo debe ser echo con fotos o videos claros y se dará sala ganada al afectado.
-•10 minutos de tolerancia una vez pasado el id de la sala
+*enviar los captures a este número* +595 991 644557.
 
+*Link de canal* 👇
 
-
-
-*Prohibido*
-
-•Habilidades de: Cr7, Wikong, Dimitri y Skyler.
-•Doble vector (así sea una sola, tampoco se vale) Mag 7
-•Cualquier tipo de Granada ( Exepcto La Pared Gloo )
-•No puños 
-•No bug o hacker
-•No AR o Francotiradores
-•No matar cuando el oponente está bugueado
-•Chips
+https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t
 `;
