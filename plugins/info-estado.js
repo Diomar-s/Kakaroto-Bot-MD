@@ -2,7 +2,7 @@ let handler = async (m, { conn, isRowner}) => {
 let _muptime
 let totalreg = Object.keys(global.db.data.users).length
 let totalchats = Object.keys(global.db.data.chats).length
-let pp = 'https://files.catbox.moe/guvo2k.jpg'
+let pp = 'https://files.catbox.moe/inanni.jpg'
 if (process.send) {
 process.send('uptime')
 _muptime = await new Promise(resolve => {
