@@ -7,16 +7,24 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     let f = `\n\n${String.fromCharCode(68,101,118,101,108,111,112,101,100,32,98,121,32,73,39,109,32,70,122,32,126)}`;
     let isVideo = /vid$/.test(command);
     let urls = search.all[0].url;
-    let body = `\`\`\`⊜─⌈ 📻 ◜YouTube Play◞ 📻 ⌋─⊜
-
-    ≡ Título : » ${search.all[0].title}
-    ≡ Views : » ${search.all[0].views}
-    ≡ Duration : » ${search.all[0].timestamp}
-    ≡ Uploaded : » ${search.all[0].ago}
-    ≡ URL : » ${urls}
-
-# 🌴 Su ${isVideo ? 'Video' : 'Audio'} se está enviando, espere un momento...\`\`\``;
-    
+    let texto1 = `╭────୨ৎ────────୨ৎ────✩°｡ ⋆⸜ 🎧✮
+ │ *∘ 🍭 descarga* 
+ ${yt_play[0].title} 
+  
+ │ *∘ 🕜 duracion*  
+ ${secondString(yt_play[0].duration.seconds)} 
+  
+  *∘ 👤 autor* 
+ ${yt_play[0].author.name} 
+  
+ │ *∘ ✨ Canal* 
+ ${yt_play[0].author.url} 
+  
+ │ *∘ ⛓ Link* 
+ ${yt_play[0].url} 
+ ╰────୨ৎ────────୨ৎ────✩°｡ ⋆⸜ 🎧✮`.trim()
+ 
+await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: dev, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
     conn.sendMessage(m.chat, { 
         image: { url: search.all[0].thumbnail }, 
         caption: body + f
