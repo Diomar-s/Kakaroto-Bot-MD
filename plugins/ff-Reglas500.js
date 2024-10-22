@@ -1,9 +1,9 @@
 const handler = async (m, {conn}) => {
   m.reply(global.Infinito);
 };
-handler.command = /^(tener un bot)$/i;
+handler.command = /^(tenerunbot)$/i;
 handler.tags =['main'] 
-handler.help = ['tener un bot'] 
+handler.help = ['tenerunbot'] 
 export default handler;
 global.text =`
   
