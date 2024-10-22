@@ -6,7 +6,7 @@ handler.tags =['main']
 handler.help = ['tenerunbot <el bot para tu grupo>'] 
 export default handler;
 global.text =`
-*¿QUIERES UN BOT PARA TU GRUPOS?*🔥 
+*¿QUIERES A KAKAROTO-BOT EN TU GRUPOS?*🔥 
 
 !! *Pues es fácil lo único que pedimos*!!🙂‍↔️
 
