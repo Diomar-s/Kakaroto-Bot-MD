@@ -15,7 +15,7 @@ Q haga  que 15 amigos o conocidos sigan el canal, una vez que lo hagan le dices 
 
 *enviar los captures a este número* +595 991 644557.
 
-*Link de canal* 👇
+*Link de canal que deben seguir* 👇
 
 https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t
 `;
