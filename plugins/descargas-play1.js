@@ -7,21 +7,21 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     let f = `\n\n${String.fromCharCode(68,101,118,101,108,111,112,101,100,32,98,121,32,73,39,109,32,70,122,32,126)}`;
     let isVideo = /vid$/.test(command);
     let urls = search.all[0].url;
-    let body `╭────୨ৎ────────୨ৎ────✩°｡ ⋆⸜ 🎧✮
+    let body =`\`\`\`╭────୨ৎ────────୨ৎ────✩°｡ ⋆⸜ 🎧✮
  │ *∘ 🍭 descarga* 
- ${yt_play[0].title} 
+  ${search.all[0].title
   
  │ *∘ 🕜 duracion*  
- ${secondString(yt_play[0].duration.seconds)} 
+  ${search.all[0].views}
   
   *∘ 👤 autor* 
- ${yt_play[0].author.name} 
+  ${search.all[0].timestamp}
   
  │ *∘ ✨ Canal* 
- ${yt_play[0].author.url} 
+ ${search.all[0].ago}
   
  │ *∘ ⛓ Link* 
- ${yt_play[0].url} 
+  ${urls}
  ╰────୨ৎ────────୨ৎ────✩°｡ ⋆⸜ 🎧✮`.trim()
  
 await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: dev, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
