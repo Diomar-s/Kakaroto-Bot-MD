@@ -7,7 +7,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     let f = `\n\n${String.fromCharCode(68,101,118,101,108,111,112,101,100,32,98,121,32,73,39,109,32,70,122,32,126)}`;
     let isVideo = /vid$/.test(command);
     let urls = search.all[0].url;
-    let texto1 = `╭────୨ৎ────────୨ৎ────✩°｡ ⋆⸜ 🎧✮
+    let body `╭────୨ৎ────────୨ৎ────✩°｡ ⋆⸜ 🎧✮
  │ *∘ 🍭 descarga* 
  ${yt_play[0].title} 
   
