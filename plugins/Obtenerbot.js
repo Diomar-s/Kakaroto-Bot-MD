@@ -5,8 +5,7 @@ handler.command = /^(tenerunbot)$/i;
 handler.tags =['main'] 
 handler.help = ['tenerunbot <el bot para tu grupo>'] 
 export default handler;
-global.text =`
-*¿QUIERES A KAKAROTO-BOT EN TU GRUPOS?*🔥 
+global.text =`*¿QUIERES A KAKAROTO-BOT EN TU GRUPOS?*🔥 
 
 !! *Pues es fácil lo único que pedimos*!!🙂‍↔️
 
