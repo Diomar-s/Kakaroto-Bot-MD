@@ -2,15 +2,13 @@ import yts from 'yt-search'
 const handler = async (m, { conn, text, usedPrefix, command }) => {
     if (!text) throw `\`\`\`[ 🌴 ] Por favor ingresa un texto. Ejemplo:\n${usedPrefix + command} Did i tell u that i miss you\`\`\``;
 
-try {
-
-const yt_play = await search(args.join(' '))
-let additionalText = 
-if (command === 'play') {
-additionalText = 'audio'
-} else if (command === 'play2') {
-additionalText = 'video'}
-
+const randomReduction = Math.floor(Math.random() * 5) + 1;
+    let search = await yts(text);
+    let f = `\n\n${String.fromCharCode(68,101,118,101,108,111,112,101,100,32,98,121,32,73,39,109,32,70,122,32,126)}`;
+    let isVideo = /vid$/.test(command);
+    let urls = search.all[0].url;
+    let body = `\`\`\`⊜─⌈ 📻 ◜YouTube Play◞ 📻 ⌋─⊜
+    
 let texto1 = `╭────୨ৎ────────୨ৎ────✩°｡ ⋆⸜ 🎧✮
  │ *∘ 🍭 descarga* 
  ${yt_play[0].title} 
