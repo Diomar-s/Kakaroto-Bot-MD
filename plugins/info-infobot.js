@@ -57,16 +57,16 @@ let timestamp = speed()
 let latensi = speed() - timestamp
 let goku = `╭─⬣「 *Info De Kakaroto* 」⬣\n`
 goku += `│ 👑 *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`
-goku += `│ 🍭 *Prefijo* : [  ${usedPrefix}  ]\n`
+goku += `│ 🐉 *Prefijo* : [  ${usedPrefix}  ]\n`
 goku += `│ 📦 *Total Plugins* : ${totalf}\n`
 goku += `│ 💫 *Plataforma* : ${platform()}\n`
 goku += `│ 🧿 *Servidor* : ${hostname()}\n`
 goku += `│ 🚀 *RAM* : ${format(totalmem() - freemem())} / ${format(totalmem())}\n`
-goku += `│ 🌟 *FreeRAM* : ${format(freemem())}\n`
+goku += `│ 🐲 *FreeRAM* : ${format(freemem())}\n`
 goku += `│ ✨️ *Speed* : ${latensi.toFixed(4)} ms\n`
 goku += `│ 🕗 *Uptime* : ${uptime}\n`
-goku += `│ 🍟 *Modo* : ${bot.public ? 'Privado' : 'Publico'}\n`
-goku += `│ 🚩 *Comandos Ejecutados* : ${toNum(totalStats)} ( *${totalStats}* )\n`
+goku += `│ ☁️ *Modo* : ${bot.public ? 'Privado' : 'Publico'}\n`
+goku += `│ 💨 *Comandos Ejecutados* : ${toNum(totalStats)} ( *${totalStats}* )\n`
 goku += `│ 🐢 *Grupos Registrados* : ${toNum(totalchats)} ( *${totalchats}* )\n`
 goku += `│ 🍧 *Registrados* : ${toNum(totalreg)} ( *${totalreg}* ) Usuarios\n`
 goku += `╰─⬣\n\n`
@@ -86,7 +86,7 @@ await conn.reply(m.chat, goku, fkontak, { contextInfo: { mentionedJid: [owner[0]
 }
 handler.help = ['infobot']
 handler.tags = ['info']
-handler.command = ['in', 'botinfo']
+handler.command = ['info', 'infobot']
 
 export default handler
 
@@ -101,3 +101,4 @@ return (number / 1000).toFixed(1) + 'k'
 return (number / 1000000).toFixed(1) + 'M'
 } else {
 return number.toString()
+}}

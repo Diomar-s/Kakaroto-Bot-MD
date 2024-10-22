@@ -6,7 +6,7 @@ const handler = async (m, { conn, text, args, usedPrefix, command }) => {
     case 'addowner':
       const nuevoNumero = who;
       global.owner.push([nuevoNumero]);
-      await conn.reply(m.chat, '*🦁 Listo Amo, El Usuario Ya Está En La Lista De Owner.*', m);
+      await conn.reply(m.chat, '*🐉 Listo Amo, El Usuario Ya Está En La Lista De Owner.*', m);
       break;
     case 'delowner':
       const numeroAEliminar = who;
