@@ -50,6 +50,7 @@ global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse()
 global.prefix = new RegExp('^[' + (opts['prefix'] || '/i!#$%+£¢€¥^°=¶∆×÷π√✓©®&.\\-.').replace(/[|\\{}()[\]^$+*.\-\^]/g, '\\$&') + ']');
 
 global.db = new Low(/https?:\/\//.test(opts['db'] || '') ? new cloudDBAdapter(opts['db']) : new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}database.json`));
+
 global.DATABASE = global.db; 
 global.loadDatabase = async function loadDatabase() {
 if (global.db.READ) {
@@ -78,7 +79,7 @@ loadDatabase();
 
 // Inicialización de conexiones globales
 if (global.conns instanceof Array) {
-console.log('🚩 Conexiones ya inicializadas...');
+console.log('🐉 Conexiones ya inicializadas...');
 } else {
 global.conns = [];
 }
@@ -168,7 +169,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['Kakaroto-Bot', 'Edge', '2.0.0'] : methodCodeQR ? ['Kakaroto-Bot', 'Edge', '2.0.0'] : ['Ubuntu', 'Edge', '110.0.1587.56'],
+browser: opcion == '1' ? ['Kakaroto-Bot-MD', 'Edge', '2.0.0'] : methodCodeQR ? ['Kakaroto-Bot-MD', 'Edge', '2.0.0'] : ['Ubuntu', 'Edge', '110.0.1587.56'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -276,9 +277,9 @@ process.on('uncaughtException', console.error)
 /* Echo por: https://github.com/elrebelde21 */
 
 async function connectSubBots() {
-const subBotDirectory = './GokuJadiBot';
+const subBotDirectory = './GokuiJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🚩 Kakaroto-Bot no tiene Sub-Bots vinculados.');
+console.log('🐉 Kakaroto-Bot-MD no tiene Sub-Bots vinculados.');
 return;
 }
 
@@ -295,21 +296,21 @@ return await connectionUpdate(authFile);
 
 const bots = await Promise.all(botPromises);
 global.conns = bots.filter(Boolean);
-console.log(chalk.bold.greenBright(`🍟 Todos los Sub-Bots se conectaron con éxito.`))
+console.log(chalk.bold.greenBright(`💨 Todos los Sub-Bots se conectaron con éxito.`))
 }
 
 (async () => {
 global.conns = [];
 
-const mainBotAuthFile = 'GokuSession';
+const mainBotAuthFile = 'YukiSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🚩 Ai Kakaroto conectado correctamente.`))
+console.log(chalk.bold.greenBright(`🐲 Ai Kakaroto conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`🍭 Error al iniciar Kakaroto-Bot: `, error))
+console.error(chalk.bold.cyanBright(`🐉 Error al iniciar Kakaroto-Bot-MD: `, error))
 }
 })();
 
