@@ -10,11 +10,11 @@ global.text = `
 
 *COMANDOS QUE DEBES UTILIZAR*
 
-*1ER Comando* .code código de 8 dígitos
-*2DO comando* .serbot Un código qr 
+*1ER Comando* code código de 8 dígitos
+*2DO comando* serbot Un código qr 
 
 Aviso
-El .code es para el número que lo solicito
-El .serbot es para escanear con otro teléfono 
+El code es para el número que lo solicito
+El serbot es para escanear con otro teléfono 
 
 
