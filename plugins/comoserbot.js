@@ -10,8 +10,8 @@ global.text = `
 
 *COMANDOS QUE DEBES UTILIZAR*
 
-*1ER Comando* .code_ código de 8 dígitos
-*2DO comando* .serbot_ Un código qr 
+*1ER Comando* .code código de 8 dígitos
+*2DO comando* .serbot Un código qr 
 
 Aviso
 El .code es para el número que lo solicito
