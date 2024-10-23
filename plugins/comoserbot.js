@@ -1,11 +1,11 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.text);
+  m.reply(global.text2);
 };
 handler.command = /^(comoserbot)$/i;
 handler.tags =['main'] 
 handler.help = ['comoserbot <covertirse en bot>'] 
 export default handler;
-global.text = ` 
+global.text2 = ` 
 *PARA SER UN BOT DEBES PONER LOS SIGUIENTES COMANDOS*
 
 *COMANDOS QUE DEBES UTILIZAR*
