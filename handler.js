@@ -739,7 +739,7 @@ mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladore
 premium: '「👹」 *Esta función solo es para usuarios Premium.', 
 group: '「💨」 *Este comando solo puede ser utilizada en grupos.*\n\n*El nuevo grupo del bot*\n\n*¿Nos apoyas siguiendo el canal?* 😥https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
 private: '「🍭」 *Esta función solo puede ser usada en chat privado.*\n\n*¿Nos apoyas siguiendo el canal? 😥https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
-admin: '「👑」 *Este comando solo puede ser usado por admins.*\n\n*¿Nos apoyas siguiendo el canal?* 😥 https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
+admin: '「👑」 *Este comando solo puede ser usado por admins.*\n\n*UTILIZA EL COMANDO* .grupos\n\n*¿Nos apoyas siguiendo el canal?* 😥 https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
 botAdmin: '「🔱」 *Para usar esta función debo ser admin.*\n\n*¿Nos apoyas siguiendo el canal? 😥https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
 unreg: '「💨」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*#reg nombre.edad*\n\n*_❕ Ejemplo_* \n\n*#reg legendary.18*\n\n*¿Nos apoyas siguiendo el canal?* 😥https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t',
 restrict: '「💫」 *Esta característica esta desactivada.*\n\n*¿Nos apoyas siguiendo el canal?* 😥https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
