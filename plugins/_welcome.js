@@ -21,7 +21,7 @@ await conn.sendMini(m.chat, packname, dev, bye, img2, img2, channel, fkontak)
   }
 
   if (chat.welcome && m.messageStubType == 32) {
-    let kick = ` ╒╾⟢ 𝐊𝐚𝐤𝐚𝐫𝐨𝐭𝐨-𝐁𝐨𝐭-𝐌𝐃 ☁️\n ┃『 𝐀𝐃𝐈Ó𝐒 😈‼️ 』\n └┬⟢ 『 @${m.messageStubParameters[0].split`@`[0]} 』\n   ┃🐲  𝐒𝐄 𝐅𝐔𝐄 𝐄𝐒𝐄 𝐏𝐔𝐓𝐎\n   ┃🐉 𝐍𝐮𝐧𝐜𝐚 𝐭𝐞 𝐪𝐮𝐢𝐬𝐢𝐦𝐨𝐬 𝐚𝐪𝐮í 𝐒𝐚𝐢𝐲𝐚𝐧 𝐝𝐞 𝐂𝐮𝐚𝐫𝐭𝐚\n   ┃💫 PUEDES SEGUIRNOS https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t   ┗━━───────────────────━━┛`
+    let kick = ` ╒╾⟢ 𝐊𝐚𝐤𝐚𝐫𝐨𝐭𝐨-𝐁𝐨𝐭-𝐌𝐃 ☁️\n ┃『 𝐀𝐃𝐈Ó𝐒 😈‼️ 』\n └┬⟢ 『 @${m.messageStubParameters[0].split`@`[0]} 』\n   ┃🐲  𝐒𝐄 𝐅𝐔𝐄 𝐄𝐒𝐄 𝐏𝐔𝐓𝐎\n   ┃🐉 𝐍𝐮𝐧𝐜𝐚 𝐭𝐞 𝐪𝐮𝐢𝐬𝐢𝐦𝐨𝐬 𝐚𝐪𝐮í 𝐒𝐚𝐢𝐲𝐚𝐧 𝐝𝐞 𝐂𝐮𝐚𝐫𝐭𝐚\n   ┃💫 PUEDES SEGUIRNOS https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t\n   ┗━━───────────────────━━┛`
 await conn.sendMini(m.chat, packname, dev, kick, img2, img2, channel, fkontak)
 }}
 
