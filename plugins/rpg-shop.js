@@ -5,7 +5,7 @@ const handler = async (m, {conn, command, args}) => {
   count = Math.max(1, count);
   if (global.db.data.users[m.sender].exp >= xpperdragones * count) {
     global.db.data.users[m.sender].exp -= xpperdragones * count;
-    global.db.data.users[m.sender].cookies += count;
+    global.db.data.users[m.sender].dragones += count;
     conn.reply(m.chat, `
 ╔═══════⩽✰⩾═══════╗
 ║    𝐍𝐨𝐭𝐚 𝐃𝐞 𝐏𝐚𝐠𝐨 
