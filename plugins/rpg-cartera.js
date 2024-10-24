@@ -7,6 +7,6 @@ await m.reply(`${who == m.sender ? `Tienes *${user.cookies} Dragones 🐉* en tu
 
 handler.help = ['dragones']
 handler.tags = ['rpg']
-handler.command = ['wallet', 'cartera', 'Dragones', 'bal', 'coins']
+handler.command = ['wallet', 'cartera', 'dragones', 'bal', 'coins']
 handler.register = true 
 export default handler
