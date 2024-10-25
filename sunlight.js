@@ -505,6 +505,4 @@ setInterval(async () => {
 }, 180000);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
-  await purgeSession();
-
-                                                                                                                           
+  await purgeSession();                                                                                                                     
