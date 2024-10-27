@@ -15,6 +15,8 @@ import { watchFile, unwatchFile } from 'fs'
 import syntaxerror from 'syntax-error'
 import { tmpdir } from 'os'
 import { format } from 'util'
+import pkg from 'google-libphonenumber'
+const { PhoneNumberUtil } = pkg
 import P from 'pino'
 import pino from 'pino'
 import Pino from 'pino'
@@ -25,6 +27,8 @@ import { mongoDB, mongoDBV2 } from './lib/mongoDB.js'
 import store from './lib/store.js'
 import readline from 'readline'
 import NodeCache from 'node-cache'
+import { PhoneNumberUtil } from 'google-libphonenumber'
+const phoneUtil = PhoneNumberUtil.getInstance()
 const { DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser, PHONENUMBER_MCC } = await import('@whiskeysockets/baileys')
 const { CONNECTING } = ws
 const { chain } = lodash
@@ -194,15 +198,11 @@ if (opcion === '2' || methodCode) {
 opcion = '2'
 if (!conn.authState.creds.registered) {
 let addNumber
-if (!!phoneNumber) {
-addNumber = phoneNumber.replace(/[^0-9]/g, '')
-} else {
 do {
-phoneNumber = await question(chalk.bgBlack(chalk.bold.greenBright(`🟣  Por favor, Ingrese el número de WhatsApp.\n${chalk.bold.yellowBright("CONSEJO: Copie el número de WhatsApp y péguelo en la consola.")}\n${chalk.bold.yellowBright("Ejemplo: +573138954963")}\n${chalk.bold.magentaBright('---> ')}`)))
-phoneNumber = phoneNumber.replace(/\D/g,'')
-} while (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v)))
-rl.close()
-addNumber = phoneNumber.replace(/\D/g, '')
+if (!phoneNumber.startsWith('+')) {
+phoneNumber = `+${phoneNumber}`
+}
+} while (!await isValidPhoneNumber(phoneNumber))
 
 setTimeout(async () => {
 let codeBot = await conn.requestPairingCode(addNumber)
@@ -370,6 +370,13 @@ global.plugins[filename] = module.default || module;
 } catch (e) {
 conn.logger.error(e);
 delete global.plugins[filename];
+  async function isValidPhoneNumber(number) {
+try {
+const parsedNumber = phoneUtil.parseAndKeepRawInput(number)
+return phoneUtil.isValidNumber(parsedNumber)
+} catch (error) {
+return false
+}}
 }}}
 filesInit().then((_) => Object.keys(global.plugins)).catch(console.error)
 
@@ -408,7 +415,7 @@ spawn('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-filter_complex', 'color
 spawn('convert'),
 spawn('magick'),
 spawn('gm'),
-spawn('find', ['--version']),
+spawn('find', ['--version: [2, 3000, 1015901307],']),
 ].map((p) => {
 return Promise.race([
 new Promise((resolve) => {
