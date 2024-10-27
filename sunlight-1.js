@@ -110,8 +110,8 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `YukiSession`
-global.authFileJB = `YukiJadiBot`
+global.authFile = `GokuSession`
+global.authFileJB = `GokuJadiBot`
 
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { }
@@ -169,7 +169,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['Yuki_Suou-Bot', 'Edge', '2.0.0'] : methodCodeQR ? ['Yuki_Suou-Bot', 'Edge', '2.0.0'] : ['Ubuntu', 'Edge', '110.0.1587.56'],
+browser: opcion == '1' ? ['Kakaroto-Bot', 'Edge', '2.0.0'] : methodCodeQR ? ['Kakaroto-Bot', 'Edge', '2.0.0'] : ['Ubuntu', 'Edge', '110.0.1587.56'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -272,7 +272,7 @@ process.on('uncaughtException', console.error)
 async function connectSubBots() {
 const subBotDirectory = './YukiJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🚩 Yuki_Suou-Bot no tiene Sub-Bots vinculados.');
+console.log('🚩 Kakaroto-Bot no tiene Sub-Bots vinculados.');
 return;
 }
 
@@ -295,11 +295,11 @@ console.log(chalk.bold.greenBright(`🍟 Todos los Sub-Bots se conectaron con é
 (async () => {
 global.conns = [];
 
-const mainBotAuthFile = 'YukiSession';
+const mainBotAuthFile = 'GokuSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🚩 Ai Yuki_Suou conectado correctamente.`))
+console.log(chalk.bold.greenBright(`🚩 Kakaroto conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
@@ -454,11 +454,11 @@ unlinkSync(`./${authFileJB}/${directorio}/${fileInDir}`)
 }})
 }})
 if (SBprekey.length === 0) {
-console.log(chalk.bold.green(`\n╭» 🟡 YukiJadiBot 🟡\n│→ NADA POR ELIMINAR \n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
+console.log(chalk.bold.green(`\n╭» 🟡 GokuJadiBot 🟡\n│→ NADA POR ELIMINAR \n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
 } else {
-console.log(chalk.bold.cyanBright(`\n╭» ⚪ YukiJadiBot ⚪\n│→ ARCHIVOS NO ESENCIALES ELIMINADOS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
+console.log(chalk.bold.cyanBright(`\n╭» ⚪ GokuJadiBot ⚪\n│→ ARCHIVOS NO ESENCIALES ELIMINADOS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
 }} catch (err) {
-console.log(chalk.bold.red(`\n╭» 🔴 YukiJadiBot 🔴\n│→ OCURRIÓ UN ERROR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️\n` + err))
+console.log(chalk.bold.red(`\n╭» 🔴 GokuJadiBot 🔴\n│→ OCURRIÓ UN ERROR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️\n` + err))
 }}
 
 function purgeOldFiles() {
