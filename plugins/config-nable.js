@@ -2,14 +2,14 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-const miniopcion = `🚩 *OPCIONES PARA GRUPOS*
+const miniopcion = `🐉 *OPCIONES PARA GRUPOS*
 
 ${usedPrefix + command} welcome
 ${usedPrefix + command} detect
 ${usedPrefix + command} antidelete
 ${usedPrefix + command} antilink
 ${usedPrefix + command} antilink2
-${usedPrefix + command} modohorny
+${usedPrefix + command} nsfw 
 ${usedPrefix + command} autolevelup
 ${usedPrefix + command} autosticker
 ${usedPrefix + command} reaction
@@ -20,7 +20,7 @@ ${usedPrefix + command} antifake
 ${usedPrefix + command} antibot
 ${usedPrefix + command} antibot2 
 
-🍟 *OPCIONES PARA MI PROPIETARIO*
+👑 *OPCIONES PARA MI PROPIETARIO*
 
 ${usedPrefix + command} public
 ${usedPrefix + command} status
@@ -213,13 +213,13 @@ throw false
 chat.antiTwitch = isEnable 
 break
 
-case 'modohorny': case 'modocaliente': case 'modehorny':
+case 'nsfw': case 'nsfwhot': case 'nsfwhorny':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
 }}
-chat.modohorny = isEnable          
+chat.nsfw = isEnable          
 break
 
 case 'autolevelup': case 'autonivel': case 'nivelautomatico':
