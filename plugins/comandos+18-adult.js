@@ -7,7 +7,7 @@ let handler = async (m, {usedPrefix, command, conn}) => {
 let frep = { contextInfo: { externalAdReply: {title: wm, body: lenguajeGB.smsCont18Porn2(), sourceUrl: redesMenu.getRandom(), thumbnail: await(await fetch(img16)).buffer() }}}
 let user = global.db.data.users[m.sender]
 
-if (!db.data.chats[m.chat].modohorny && m.isGroup) return conn.reply(m.chat, `${lenguajeGB['smsContAdult']()}`, m)
+if (!db.data.chats[m.chat].nsfw && m.isGroup) return conn.reply(m.chat, `${lenguajeGB['smsContAdult']()}`, m)
 try{  
 let contenido = `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`
 if (command == 'pornololi' || command == 'nsfwloli') {
