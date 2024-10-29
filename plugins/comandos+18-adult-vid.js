@@ -9,7 +9,7 @@ let enlace3 = await pornovidgay[Math.floor(Math.random() * pornovidgay.length)]
 let enlace4 = await pornovidbisexual[Math.floor(Math.random() * pornovidbisexual.length)] 
 let enlace5 = await pornovidrandom[Math.floor(Math.random() * pornovidrandom.length)] 
 
-if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `${lenguajeGB['smsContAdult']()}`
+if (!db.data.chats[m.chat].nsfw && m.isGroup) throw `${lenguajeGB['smsContAdult']()}`
 try{ 
 switch (command) {  
 case "pornovid": case "nsfwvid":    
