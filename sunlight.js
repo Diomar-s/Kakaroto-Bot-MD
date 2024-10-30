@@ -193,12 +193,12 @@ if (!fs.existsSync(`./${authFile}/creds.json`)) {
 if (opcion === '2' || methodCode) {
 opcion = '2'
 if (!conn.authState.creds.registered) {
-  const phoneNumber = await question(chalk.blue(' Ingresa el número de WhatsApp en el cual estará la Bot\n'))
+  const phoneNumber = await question(chalk.blue(' 🟣  Por favor, Ingrese el número de WhatsApp.\n "CONSEJO: Copie el número de WhatsApp y péguelo en la consola."\n "Ejemplo: 573138954963"\n'))
   
   if (conn.requestPairingCode) {
     let code = await conn.requestPairingCode(phoneNumber);
     code = code?.match(/.{1,4}/g)?.join("-") || code;
-    console.log(chalk.magenta(`Su código es:`, code))
+    console.log(chalk.magenta(`👑 CÓDIGO DE VINCULACIÓN 👑:`, code))
   } else {
   }
 }
