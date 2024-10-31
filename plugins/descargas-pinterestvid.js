@@ -24,8 +24,20 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         throw m.reply('La respuesta no es un JSON válido.');
     }
 
-    await conn.sendFile(m.chat, gyh.data.result, `pinvideobykeni.mp4`, `*✧ Url:* ${gyh.data.url}`, m);
-    await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+    // Verifica la estructura de gyh antes de intentar enviar el video
+    if (!gyh.data || !gyh.data.result) {
+        console.error('No se encontró el video en la respuesta:', gyh);
+        throw m.reply('No se pudo encontrar el video. Por favor, verifica el enlace.');
+    }
+
+    // Intentar enviar el video
+    try {
+        await conn.sendFile(m.chat, gyh.data.result, `pinvideobykeni.mp4`, `*✧ Url:* ${gyh.data.url}`, m);
+        await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+    } catch (sendError) {
+        console.error('Error al enviar el video:', sendError);
+        throw m.reply('Hubo un problema al enviar el video. Por favor, intenta de nuevo más tarde.');
+    }
 }
 
 handler.help = ['pinvid'];
