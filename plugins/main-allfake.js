@@ -67,7 +67,7 @@ var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 var git = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' 
 var youtube = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' 
 var github = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' 
-let correo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUe
+let correo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUe'
 
 global.redes = [canal, grupo, git, youtube, github, correo].getRandom()
 
