@@ -4,10 +4,10 @@ const handler = async (m, {conn, text, command, usedPrefix, args}) => {
 
   // 60000 = 1 minuto // 30000 = 30 segundos // 15000 = 15 segundos // 10000 = 10 segundos
   const time = global.db.data.users[m.sender].wait + 10000;
-  if (new Date - global.db.data.users[m.sender].wait < 10000) throw `᥀·࣭࣪̇˖⏳◗ 𝙑𝙪𝙚𝙡𝙫𝙖 𝙚𝙣 ${Math.floor((time - new Date()) / 1000)} 𝙥𝙖𝙧𝙖 𝙫𝙤𝙡𝙫𝙚𝙧 𝙖 𝙟𝙪𝙜𝙖𝙧.`;
+  if (new Date - global.db.data.users[m.sender].wait < 10000) throw `*🕓 Tendrás que esperar ${Math.floor((time - new Date()) / 1000)} segundos antes de poder volver a jugar*`;
 
-  if (!args[0]) return conn.reply(m.chat, `• ❕ 𝙋𝙑𝙋 / 𝘽𝙊𝙏 ❕ •\n\n• 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎:\n*${usedPrefix + command} piedra*\n*${usedPrefix + command} papel*\n*${usedPrefix + command} tijera*`, m);
-
+//  conn.reply(m.chat, `*𝐏𝐢𝐞𝐝𝐫𝐚 🗿, 𝐏𝐚𝐩𝐞𝐥 📄 𝐨 𝐓𝐢𝐣𝐞𝐫𝐚 ✂️*\n\n*—◉ 𝚙𝚞𝚎𝚍𝚎𝚜 𝚞𝚜𝚊𝚛 𝚎𝚜𝚝𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜:*\n*◉ ${usedPrefix + command} piedra*\n*◉ ${usedPrefix + command} papel*\n*◉ ${usedPrefix + command} tijera*`, m);
+ if (!args[0]) return conn.sendButton(m.chat, `*𝐏𝐢𝐞𝐝𝐫𝐚 🗿, 𝐏𝐚𝐩𝐞𝐥 📄 𝐨 𝐓𝐢𝐣𝐞𝐫𝐚 ✂️*\n\n*—◉  𝙿𝚎𝚍𝚎𝚜 𝚞𝚜𝚊𝚛 𝚕𝚘𝚜 𝚋𝚘𝚝𝚘𝚗𝚎𝚜 𝚙𝚊𝚛𝚊 𝚓𝚞𝚐𝚊𝚛 𝚘 𝚝𝚊𝚖𝚋𝚒𝚎𝚗 𝚙𝚞𝚎𝚍𝚎𝚜 𝚞𝚜𝚊𝚛 𝚎𝚜𝚝𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜:*\n*◉ ${usedPrefix + command} piedra*\n*◉ ${usedPrefix + command} papel*\n*◉ ${usedPrefix + command} tijera*`, wm, pp, [['Piedra 🗿', `${usedPrefix + command} piedra`], ['Papel 📄', `${usedPrefix + command} papel`], ['Tijera ✂️', `${usedPrefix + command} tijera`]], m)
   let astro = Math.random();
   if (astro < 0.34) {
     astro = 'piedra';
@@ -18,47 +18,47 @@ const handler = async (m, {conn, text, command, usedPrefix, args}) => {
   }
   const textm = text.toLowerCase();
   if (textm == astro) {
-    global.db.data.users[m.sender].exp += 500;
-    m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃  👤 𝗘𝗠𝗣𝗔𝗧𝗔𝗗𝗢𝗦 👤\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Ganas +500 XP*`);
+    global.db.data.users[m.sender].cookies += 10;
+    m.reply(`*🔰 Empate!*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +10 Cookies*`);
   } else if (text == 'papel') {
     if (astro == 'piedra') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃    🎊 𝗧𝗨 𝗚𝗔𝗡𝗔𝗦 🎊\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Ganas +1000 XP*`);
+      global.db.data.users[m.sender].cookies += 50;
+      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +50 Cookies*`);
     } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃  💀 𝗧𝗨 𝗣𝗜𝗘𝗥𝗗𝗘𝗦 💀\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Te quitan -300 XP*`);
+      global.db.data.users[m.sender].Cookies -= 30;
+      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -30 Cookies*`);
     }
   } else if (text == 'tijera') {
     if (astro == 'papel') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃    🎊 𝗧𝗨 𝗚𝗔𝗡𝗔𝗦 🎊\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Ganas +1000 XP*`);
+      global.db.data.users[m.sender].cookies += 50;
+      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +50 Cookies*`);
     } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃  💀 𝗧𝗨 𝗣𝗜𝗘𝗥𝗗𝗘𝗦 💀\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Te quitan -300 XP*`);
+      global.db.data.users[m.sender].Cookies -= 30;
+      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -30 Cookies*`);
     }
   } else if (textm == 'tijera') {
     if (astro == 'papel') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃    🎊 𝗧𝗨 𝗚𝗔𝗡𝗔𝗦 🎊\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Ganas +1000 XP*`);
+      global.db.data.users[m.sender].cookies += 50;
+      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +50 Cookies*`);
     } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃  💀 𝗧𝗨 𝗣𝗜𝗘𝗥𝗗𝗘𝗦 💀\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Te quitan -300 XP*`);
+      global.db.data.users[m.sender].cookies -= 30;
+      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -30 Cookies*`);
     }
   } else if (textm == 'papel') {
     if (astro == 'piedra') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃    🎊 𝗧𝗨 𝗚𝗔𝗡𝗔𝗦 🎊\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Ganas +1000 XP*`);
+      global.db.data.users[m.sender].cookies += 50;
+      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +50 Cookies*`);
     } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃  💀 𝗧𝗨 𝗣𝗜𝗘𝗥𝗗𝗘𝗦 💀\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Te quitan -300 XP*`);
+      global.db.data.users[m.sender].cookies -= 30;
+      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -30 Cookies*`);
     }
   } else if (textm == 'piedra') {
     if (astro == 'tijera') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃    🎊 𝗧𝗨 𝗚𝗔𝗡𝗔𝗦 🎊\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Ganas +1000 XP*`);
+      global.db.data.users[m.sender].cookies += 50;
+      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +50 Cookies*`);
     } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`┌• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┐\n┃  💀 𝗧𝗨 𝗣𝗜𝗘𝗥𝗗𝗘𝗦 💀\n└• •┈┈┈┈┈┈┈┈┈┈┈┈┈• •┘\n\n*• Tu: ${textm}*\n*• El Bot: ${astro}*\n\n*Te quitan -300 XP*`);
+      global.db.data.users[m.sender].cookies -= 30;
+      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -30 Cookies*`);
     }
   }
   global.db.data.users[m.sender].wait = new Date * 1;
@@ -66,4 +66,6 @@ const handler = async (m, {conn, text, command, usedPrefix, args}) => {
 handler.help = ['ppt'];
 handler.tags = ['fun'];
 handler.command = /^(ppt)$/i;
+handler.group = true;
+handler.register = true;
 export default handler;

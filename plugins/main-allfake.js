@@ -27,8 +27,9 @@ return res.data
 console.log(`Error : ${e}`)
 }}
 
+let pp = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-global.fotoperfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
+//let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
 global.creador = 'Wa.me/5491166401905'
@@ -41,7 +42,7 @@ global.namecomu = '𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢
 global.namecomu2 = '𝗖𝗛𝗔𝗡𝗘𝗟𝗟 𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢'
 global.colab1 = 'Jostin'
 global.colab2 = 'Maicol'
-global.colab3 = 'destroy'
+global.colab3 = 'Dino'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
@@ -56,10 +57,10 @@ global.emoji4 = '🍭'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, SOY UN SAYAYIN, NO UN INSECTO...*';
-global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, SOY UN SAYAYIN, NO UN INSECTO ...*';
-global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, SOY UN SAYAYIN, NO UN INSECTO ...*';
-global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, SOY UN SAYAYIN, NO UN INSECTO ...*';
+global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗦𝗮𝘆𝗮𝘆𝗶𝗻...*';
+global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗦𝗮𝘆𝗮𝘆𝗶𝗻 ...*';
+global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗦𝗮𝘆𝗮𝘆𝗶𝗻 ...*';
+global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗦𝗮𝘆𝗮𝘆𝗶𝗻 ...*';
 
 //Enlaces
 var grupo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
@@ -67,13 +68,13 @@ var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 var git = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' 
 var youtube = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' 
 var github = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' 
-let correo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUe'
+let correo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 
 global.redes = [canal, grupo, git, youtube, github, correo].getRandom()
 
 //Imagen
 let category = "imagen"
-const db = './src/database/db.json'
+const db = './media/database/db.json'
 const db_ = JSON.parse(fs.readFileSync(db))
 const random = Math.floor(Math.random() * db_.links[category].length)
 const randomlink = db_.links[category][random]
@@ -108,6 +109,6 @@ global.icono = [
 'https://qu.ax/wqN.jpg'
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363323286489957@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '💥 EL SUPER SAYAYIN', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363323286489957@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '💨 ꜞᴱˡ ᵇᵒᵗ ᵐᵃˢ ᵉˣᵖˡᵒˢⁱᵛᵒꜝ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler

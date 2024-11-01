@@ -5,24 +5,24 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 
 👑 *Propietario:*
 
-• legendary
-🍟 *Rol:* Propietario
-🚩 *Número:* wa.me/573142051545
-✨️ *GitHub:* https://github.com/Diomar-s
+• Legend
+🫂 *Rol:* Propietario
+🚩 *Número:* wa.me/584148256527
+✨️ *GitHub:* https://github.com/Diomar-s 
 
-🌸  *Colaboradores:*
+👺  *Colaboradores:*
 
-• Miguelon
-🍟 *Rol:* Developer
-🚩 *Número:* Wa.me/528711426787
+• Destroy
+🫂 *Rol:* Editor
+🚩 *Número:* Wa.me/584120346669
 
-• Steven
-🍟 *Rol:* Contribuidor
+• niño piña
+🫂 *Rol:* editor 
 🚩 *Número:* Wa.me/593984964830
 
 • Dino
-🍟 *Rol:* Editor
-🚩 *Número:* Wa.me/573142051545
+🫂 *Rol:* Editor
+🚩 *Número:* Wa.me/527774603921
 `
 await conn.sendFile(m.chat, icons, 'yaemori.jpg', staff.trim(), fkontak, true, {
 contextInfo: {

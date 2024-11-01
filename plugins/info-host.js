@@ -1,76 +1,39 @@
-let handler = async (m, { conn, usedPrefix, command, text }) => {
-    let txt = `☁️ *S K Y - U L T R A - P L U S* ☁️
+let handler = async (m, { conn, command, usedPrefix }) => {
+let txt = `🚩 *O L Y M P U S - H O S T* 
 
-¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7? 📱⏳
+*¿Quieres un Host de calidad y con bajos precios?*
+Pues te presento a *OlympusHost*, un hosting de calidad con servidores dedicados y precios por debajo de 1USD, estos servidores están destinados a ofrecerte un Uptime 24/7 para que puedas alojar tus proyectos y qué estos funcionen de manera eficaz.
 
-¡Tenemos la solución perfecta para ti! 🎉 Mantén tu bot funcionando sin interrupciones con nuestros servidores, Ofrecemos servidores gratuitos y de pago a precios súper accesibles, al alcance de todos. 💸 
+🟢 \`\`\`Información del Host\`\`\`
 
-🖥️ *Totalmente compatible con Kakaroto-Bot-MD:* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia fluida y de alta calidad. El staff de Kakaroto-Bot-MD y Sky Ultra Plus Host se encarga de que disfrutes de todas sus funciones al máximo. ✨
+🔮 *Dashboard:* 
+• https://dash.olympus-host.xyz
 
-🔮 \`\`\`Información del Host\`\`\`
+🧃 *Panel:*
+• https://panel.olympus-host.xyz
 
-💻 *Página:*
+💥 *Canal:*
+• https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J
 
-https://dash.skyultraplus.com
+⚜️ *Contacto (Mateo)*
+https://wa.me/593979133620
 
-*🟢 Dashboard:*
-
-https://dash.skyultraplus.com
-
-⚙️ *Panel*
-
-https://panel.skyultraplus.com
-
-🌟 *Comunidad de WhatsApp:*
-
-https://chat.whatsapp.com/KGPhTIfgOzZCMNqoc3R7OW
-
-*🔵 Discord:*
-
-https://discord.gg/zvKgtc2RBc
-
-💚 *Canal de WhatsApp:*
-
-https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
-
-🗣📲 *Contacto:*
-
-• wa.me/5214531287294
-
-• wa.me/15167096032
-
-• wa.me/573147616444
-
-No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! ✨🚀`;
-
-    // Define redeshost o reemplaza con la URL necesaria
-    let redeshost = 'https://tu-url-aqui.com'; // Reemplaza con la URL correcta
-
-    await conn.sendMessage(m.chat, { 
-        text: txt,
-        contextInfo: {
-            forwardedNewsletterMessageInfo: { 
-                newsletterJid: '120363301598733462@newsletter', 
-                serverMessageId: '', 
-                newsletterName: 'Sky-Ultra-Plus ☁️' 
-            }, 
-            forwardingScore: 9999999,
-            isForwarded: true, 
-            "externalAdReply": {
-                "showAdAttribution": true,
-                "containsAutoReply": true,
-                title: `☁️ 𝐒𝐊𝐘𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 ☁️`,
-                body: `¡El plus que necesitas!`,
-                "previewType": "PHOTO",
-                thumbnailUrl: 'https://qu.ax/wXciz.jpg', 
-                sourceUrl: redeshost
-            }
-        }
-    }, { quoted: fkontak });
+> *Únete a está comunidad y disfruta de un servicio de calidad :D*` 
+await conn.sendMessage(m.chat, { text: txt,
+contextInfo:{
+forwardingScore: 9999999,
+isForwarded: false, 
+"externalAdReply": {
+"showAdAttribution": true,
+"containsAutoReply": true,
+title: `🔵 O L Y M P U S - H O S T 🔵`,
+body: `⚜️ Super Hosting 24/7 ⚜️`,
+"previewType": "PHOTO",
+thumbnailUrl: 'https://qu.ax/waCu.jpg', 
+sourceUrl: 'https://dash.olympus-host.xyz'}}},
+{ quoted: fkontak})
 }
-
-handler.help = ['skyplus'];
-handler.tags = ['info'];
-handler.command = ['skyplus', 'skyultra', 'skyultraplus', 'sky', 'hosting', 'host'];
-
-export default handler;
+handler.tags =['main'] 
+handler.help = ['host', 'hosting'] 
+handler.command = ['host', 'olympus', 'olympushost', 'hosting']
+export default handler
