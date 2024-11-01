@@ -8,15 +8,15 @@ let senderName = conn.getName(senderId)
 let tiempo = 5 * 60
 if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempo * 1000) {
 let tiempo2 = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempo * 1000 - Date.now()) / 1000))
-m.reply(`🍟 Ya has cometido un Crimen recientemente, espera ⏱️ *${tiempo2}* para cometer tu próximo Crimen y evitar ser atrapado.`)
+m.reply(`🍟 Ya Te Has Postituido Recientemente, Espera ⏱️ *${tiempo2}* Para Volver A Las Calles Y Evitar Destruir Tu culo.`)
 return
 }
 cooldowns[m.sender] = Date.now()
-let senderCookies = users[senderId].cookies || 0
+let senderCoo = users[senderId].cookies || 0
 let randomUserId = Object.keys(users)[Math.floor(Math.random() * Object.keys(users).length)]
 while (randomUserId === senderId) {
 randomUserId = Object.keys(users)[Math.floor(Math.random() * Object.keys(users).length)]}
-let randomUserCookies = users[randomUserId].cookies || 0
+let randomUserCoo = users[randomUserId].cookies || 0
 let minAmount = 15
 let maxAmount = 50
 let amountTaken = Math.floor(Math.random() * (maxAmount - minAmount + 1)) + minAmount
@@ -26,22 +26,22 @@ case 0:
 users[senderId].cookies += amountTaken
 users[randomUserId].cookies -= amountTaken
 conn.sendMessage(m.chat, {
-text: `🚩¡Lograste cometer tu crimen con exito!, acabas de robar *${amountTaken} Cookies 🍪* a @${randomUserId.split("@")[0]}\n\nSe suman *+${amountTaken} Cookies 🍪* a ${senderName}.`,
+text: `🚩¡Te Postituiste Y Ganaste *${amountTaken} Cookies 🍪* Dejaste Casi Seco A @${randomUserId.split("@")[0]}\n\nSe suman *+${amountTaken} Cookies 🍪* a ${senderName}.`,
 contextInfo: { 
 mentionedJid: [randomUserId],
 }}, { quoted: m })
 break
 case 1:
-let amountSubtracted = Math.min(Math.floor(Math.random() * (senderCookies - minAmount + 1)) + minAmount, maxAmount)
+let amountSubtracted = Math.min(Math.floor(Math.random() * (senderCoo - minAmount + 1)) + minAmount, maxAmount)
 users[senderId].cookies -= amountSubtracted
-conn.reply(m.chat, `🚩 No fuiste cuidadoso y te atraparon mientras cometias tu cirme, se restaron *-${amountSubtracted} Cookies 🍪* a ${senderName}.`, m, rcanal)
+conn.reply(m.chat, `🚩 Le Rompiste La Verga A Tu Cliente Te Cobro Y Se Te Quitan *-${amountSubtracted} Cookies 🍪* a ${senderName}.`, m, rcanal)
 break
 case 2:
-let smallAmountTaken = Math.min(Math.floor(Math.random() * (randomUserCookies / 2 - minAmount + 1)) + minAmount, maxAmount)
+let smallAmountTaken = Math.min(Math.floor(Math.random() * (randomUserDolares / 2 - minAmount + 1)) + minAmount, maxAmount)
 users[senderId].cookies += smallAmountTaken
 users[randomUserId].cookies -= smallAmountTaken
 conn.sendMessage(m.chat, {
-text: `🚩 Lograste cometer tu crimen con exito, pero te descubrieron y solo lograste tomar *${smallAmountTaken} Cookies 🍪* de @${randomUserId.split("@")[0]}\n\nSe suman *+${smallAmountTaken} Cookies 🍪* a ${senderName}.`,
+text: `🚩 Vuelves A Las Calles Y Te Vas A Un Motel Te Paga ${smallAmountTaken} Cookies 🍪* de @${randomUserId.split("@")[0]}\n\nSe suman *+${smallAmountTaken} Cookies 🍪* a ${senderName}.`,
 contextInfo: { 
 mentionedJid: [randomUserId],
 }}, { quoted: m })
@@ -50,8 +50,8 @@ break
 global.db.write()}
 
 handler.tags = ['rpg']
-handler.help = ['crimen']
-handler.command = ['crimen', 'crime']
+handler.help = ['slut']
+handler.command = ['slut', 'prostituirse']
 handler.register = true
 handler.group = true
 

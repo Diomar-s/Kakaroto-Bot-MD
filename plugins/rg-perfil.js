@@ -12,7 +12,7 @@ let noprem = `
 🌀 *Registrado:* ${registered ? '✅': '❌'}
 
 👑 *RECURSOS*
-🐉 *Dragones:* ${cookies}
+🍪 *Cookies:* ${cookies}
 💥 *Nivel:* ${level}
 💫 *Experiencia:* ${exp}
 ✨️ *Rango:* ${role}
@@ -22,15 +22,15 @@ let noprem = `
 let prem = `╭──⪩ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ⪨
 │⧼👤⧽ *ᴜsᴜᴀʀɪᴏ:* 「${username}」
 │⧼💌⧽ *ʀᴇɢɪsᴛʀᴀᴅᴏ:* ${registered ? '✅': '❌'}
-│⧼🔱⧽ *ʀᴏʟ:* Hijo de legendary👑
+│⧼🔱⧽ *ʀᴏʟ:* Vip 👑
 ╰───⪨
 
 ╭────⪩ 𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒 ⪨
-│⧼🐉⧽ *dragones:* ${cookies}
+│⧼🍪⧽ *ᴄᴏᴏᴋɪᴇs:* ${cookies}
 │⧼🔰⧽ *ɴɪᴠᴇʟ:* ${level}
 │⧼💫⧽ *ᴇxᴘᴇʀɪᴇɴᴄɪᴀ:* ${exp}
 │⧼⚜️⧽ *ʀᴀɴɢᴏ:* ${role}
-╰───⪨ *Hijo de legendary💫* ⪩`.trim()
+╰───⪨ *𝓤𝓼𝓾𝓪𝓻𝓲𝓸 𝓓𝓮𝓼𝓽𝓪𝓬𝓪𝓭𝓸* ⪩`.trim()
 conn.sendFile(m.chat, pp, 'perfil.jpg', `${premium ? prem.trim() : noprem.trim()}`, m, rcanal, { mentions: [who] })
 }
 handler.help = ['profile']

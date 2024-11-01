@@ -11,11 +11,11 @@ const handler = async (m, {conn, command, args}) => {
 ║    𝐍𝐨𝐭𝐚 𝐃𝐞 𝐏𝐚𝐠𝐨 
 ╠═══════⩽✰⩾═══════╝
 ║╭──────────────┄
-║│ *Compra Nominal* : + ${count} 🐉
+║│ *Compra Nominal* : + ${count} 🍪
 ║│ *Gastado* : -${xppercookies * count} XP
 ║╰──────────────┄
 ╚═══════⩽✰⩾═══════╝`, m, rcanal);
-  } else conn.reply(m.chat, `😔 Lo siento, no tienes suficiente *XP* para comprar *${count}* Dragones 🐉`, m, rcanal);
+  } else conn.reply(m.chat, `😔 Lo siento, no tienes suficiente *XP* para comprar *${count}* Cookies 🍪`, m, rcanal);
 };
 handler.help = ['Buy', 'Buyall'];
 handler.tags = ['xp'];
