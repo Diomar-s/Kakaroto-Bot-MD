@@ -1,48 +1,51 @@
-import fs from 'fs'
-import FormData from 'form-data'
-import axios from 'axios'
+import uploadFile from '../lib/uploadFile.js'
+import uploadImage from '../lib/uploadImage.js'
 import fetch from 'node-fetch'
 
-let handler = async (m, { conn }) => {
-
+let handler = async (m) => {
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''
-  
-  if (!mime.startsWith('image/')) {
-    return m.reply('🚩 Responde a una *Imagen.*')
-  }
-  await m.react('🕓')
-
+  if (!mime) return conn.reply(m.chat, '💥 Responde a una *Imagen* o *Vídeo.*', m, rcanal)
+  await m.react(rwait)
+  try {
+ /* conn.reply(m.chat, global.wait, m, {
+  contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+  title: packname,
+  body: wm,
+  previewType: 0, thumbnail: icons,
+  sourceUrl: channel }}})*/
   let media = await q.download()
-  let formData = new FormData()
-  formData.append('image', media, { filename: 'file' })
+  let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
+  let link = await (isTele ? uploadImage : uploadFile)(media)
+  let img = await (await fetch(`${link}`)).buffer()
+  let txt = `乂  *L I N K - E N L A C E*  乂\n\n`
+      txt += `*» Enlace* : ${link}\n`
+      txt += `*» Acortado* : ${await shortUrl(link)}\n`
+      txt += `*» Tamaño* : ${formatBytes(media.length)}\n`
+      txt += `*» Expiración* : ${isTele ? 'No expira' : 'Desconocido'}\n\n`
+      txt += `> *${dev}*`
 
-  let api = await axios.post('https://api.imgbb.com/1/upload?key=10604ee79e478b08aba6de5005e6c798', formData, {
-    headers: {
-      ...formData.getHeaders()
-    }
-  })
-
-  if (api.data.data) {
-    let txt = `*乂  I B B  -  U P L O A D E R*\n\n`
-        txt += `  *» Titulo* : ${q.filename || 'x'}\n`
-        txt += `  *» Id* : ${api.data.data.id}\n`
-        txt += `  *» Enlace* : ${api.data.data.url}\n`
-        txt += `  *» Directo* : ${api.data.data.url_viewer}\n`
-        txt += `  *» Mime* : ${mime}\n`
-        txt += `  *» File* : ${q.filename || 'x.jpg'}\n`
-        txt += `  *» Extension* : ${api.data.data.image.extension}\n`
-        txt += `  *» Delete* : ${api.data.data.delete_url}\n\n`
-        txt += `🚩 *${textbot}*`
-    await conn.sendFile(m.chat, api.data.data.url, 'ibb.jpg', txt, m, null, rcanal)
-    await m.react('✅')
-  } else {
-    await m.react('✖️')
-  }
-}
+await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, fkontak, rcanal)
+await m.react(done)
+} catch {
+await m.react(error)
+}}
+handler.help = ['tourl']
 handler.tags = ['transformador']
-handler.help = ['ibb']
-handler.command = /^(tourl3)$/i
-handler.register = true 
+handler.register = true
+handler.command = ['tourl','upload']
 export default handler
-//xd
+
+function formatBytes(bytes) {
+  if (bytes === 0) {
+    return '0 B';
+  }
+  const sizes = ['B', 'KB', 'MB', 'GB', 'TB']
+  const i = Math.floor(Math.log(bytes) / Math.log(1024))
+  return `${(bytes / 1024 ** i).toFixed(2)} ${sizes[i]}`;
+}
+
+async function shortUrl(url) {
+        let res = await fetch(`https://tinyurl.com/api-create.php?url=${url}`)
+        return await res.text()
+}

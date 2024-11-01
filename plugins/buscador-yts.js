@@ -28,10 +28,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
 
   var messa = await prepareWAMessageMedia({ image: {url: randomVideo.thumbnail}}, { upload: conn.waUploadToServer })
   const interactiveMessage = {
-    body: { text: `*╭┈─────⸌̗⸃》̗̀✨《⸍̖⸂─────┈╮*\n*│≣ ✨ ʀᴇsᴜʟᴛᴀᴅᴏs ᴏʙᴛᴇɴɪᴅᴏs:* ${results.videos.length}\n*│≡ 🎲 Video aleatorio:*\n*│≠ 🌹-› Title:* ${randomVideo.title}\n*│≜ 👤-› Author:* ${randomVideo.author.name}\n*│≚ 💫-› Views:* ${randomVideo.views}\n*│≋ 🌱-› Link :* ${randomVideo.url}\n*│≍ 🏞-› Imagen:* ${randomVideo.thumbnail}\n*╰┈─────⸌̗⸃》̗̀🔥̖́《⸍̖⸂─────┈╯*`.trim() },
+    body: { text: `*╭┈─────⸌̗⸃》̗̀💥̖́《⸍̖⸂─────┈╮*\n*│≣ 🔥 ʀᴇsᴜʟᴛᴀᴅᴏs ᴏʙᴛᴇɴɪᴅᴏs:* ${results.videos.length}\n*│≡ 🎲 Video aleatorio:*\n*│≠ 🌹-› Title:* ${randomVideo.title}\n*│≜ 👤-› Author:* ${randomVideo.author.name}\n*│≚ 💫-› Views:* ${randomVideo.views}\n*│≋ 🌱-› Link :* ${randomVideo.url}\n*│≍ 🏞-› Imagen:* ${randomVideo.thumbnail}\n*╰┈─────⸌̗⸃》̗̀🔥̖́《⸍̖⸂─────┈╯*`.trim() },
     footer: { text: `${global.wm}`.trim() },  
       header: {
-          title: `*🐲 Kakaroto-Searsh 🐲*\n`,
+          title: `*❤️‍🔥 Mᴇɢᴜᴍɪɴ Sᴇᴀʀᴄʜ ❤️‍🔥*\n`,
           hasMediaAttachment: true,
           imageMessage: messa.imageMessage,
       },
@@ -48,13 +48,13 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                   header: video.title,
                   title: video.author.name,
                   description: 'Descargar MP3',
-                  id: `${prefijo}play.1 ${video.url}`
+                  id: `${prefijo}musica ${video.url}`
                 },
                 {
                   header: video.title,
                   title: video.author.name,
                   description: 'Descargar MP4',
-                  id: `${prefijo}play.2 ${video.url}`
+                  id: `${prefijo}video ${video.url}`
                 }
               ]
             }))
@@ -85,17 +85,17 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     switch (v.type) {
       case 'video': return `
 ° *_${v.title}_*
-↳ 🫐 *_𝐄𝐍𝐋𝐀𝐂𝐄 :_* ${v.url}
-↳ 🕒 *_𝐃𝐔𝐑𝐀𝐂𝐈𝐎𝐍 :_* ${v.timestamp}
-↳ 📥 *_𝐏𝐔𝐁𝐋𝐈𝐂𝐀𝐃𝐎 :_* ${v.ago}
-↳ 👁 *_𝐕𝐈𝐒𝐈𝐓𝐀𝐒 :_* ${v.views}`;
+↳ 🫐 *_Link :_* ${v.url}
+↳ 🕒 *_DuraciÃ³n :_* ${v.timestamp}
+↳ 📥 *_Subido :_* ${v.ago}
+↳ 👁 *_Vistas :_* ${v.views}`;
     }
   }).filter((v) => v).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
   conn.sendFile(m.chat, tes[0].thumbnail, 'error.jpg', teks.trim(), m);      
   }    
 };
 handler.help = ['ytsearch <texto>'];
-handler.tags = ['descargas'];
+handler.tags = ['search'];
 handler.command = ['ytsearch','yts','searchyt','buscaryt','videosearch','audiosearch'];
 handler.register = true;
 handler.group = true;

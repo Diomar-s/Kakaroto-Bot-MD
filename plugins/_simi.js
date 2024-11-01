@@ -14,7 +14,7 @@ handler.before = async (m) => {
      // await m.conn.sendMessage(m.chat, { text: ressimi.resultado.simsimi }, { quoted: m });
         await conn.reply(m.chat, ressimi.resultado.simsimi, m, rcanal)
     } catch {
-      throw '❌ *Ocurrió un error*';
+      throw '🍟 *Ocurrió un error*';
     }
     return !0;
   }

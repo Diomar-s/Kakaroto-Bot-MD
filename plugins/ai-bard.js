@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 var handler = async (m, { text,  usedPrefix, command }) => {
-if (!text) return conn.reply(m.chat, `🍟 *Ingresé una petición*\n\nEjemplo, ${usedPrefix + command} Conoces a Kakaroto-Bot?`, m, rcanal)
+if (!text) return conn.reply(m.chat, `🍟 *Ingresé una petición*\n\nEjemplo, ${usedPrefix + command} Conoces a Megumin-Bot?`, m, rcanal)
 try {
 await m.react('🕒')
 conn.sendPresenceUpdate('composing', m.chat)
