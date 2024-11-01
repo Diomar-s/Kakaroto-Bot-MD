@@ -14,20 +14,19 @@ global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-  ['573138954963', '💥 𝗠𝗲𝗴𝘂𝗺𝗶𝗻-𝗕𝗼𝘁 (^_^♪)', true],
-  ['5351524614', '🔥 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 (◣_◢)凸', true],
-  ['5493876432076'],
-  ['573012482597'],
-  ['593984964830'],
-  ['5218711426787'],
-  ['5217774603921'],
-  ['50492280729']
+   ['584148256527', 'Legen-Soporte', true],
+  ['525659131070', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 Saiyan', true],
+  ['50587043137'],
+  ['522284078400'],
+  ['584148256527'],
+  ['584120346669']
 ];
 
-//• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
-global.mods = ['5351524614', '5218711426787', '', '', '']
 
-global.suittag = ['5351524614']
+//• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
+global.mods = ['584148256527', '5218711426787', '', '', '']
+
+global.suittag = ['584148256527']
 global.prems = []
 
 //cambiar a true si el bot detecta sus propios comandos.
@@ -36,23 +35,23 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.8'
 global.vs = '3.0.3'
 global.languaje = 'Español'
-global.nameqr = 'Megumin Bot - MD'
-global.sessions = 'MeguminSession'
-global.jadi = 'MeguminJadiBot'
+global.nameqr = 'Kakaroto-Bot'
+global.sessions = 'GokuSession'
+global.jadi = 'GokuJadiBot'
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
-global.packname = `🔥⭑𝗠𝗲𝗴𝘂𝗺𝗶𝗻-𝗕𝗼𝘁⭑(^_^♪)`
-global.author = `♾━━━━━━━━\n⇝͟͞ ۵̤͟𝚳̶̤𝚵̅𝔾̈͟𝖀𝐌̶̤𝚰̅𝚴̈͟♡̵̑ ͟͞   ᷨᜳ ͦ ̵ͭ⋆\n⇝ ۵-̱̅𝐃𝖆𝒗𝖏𝖉𐝃𐋃ᶜʱⁱᵃᶯ-͞ˍ\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢𝑴𝒆̤𝒈𝒖̣֟፝֯𝒎̤𝒊̣𝒏🔥̤ʙⷪᴏ͓ᷫᴛⷭ𓆪͟͞ `;
-global.wm = 'ৎ୭࠭͢𝑴𝒆̤𝒈𝒖̣֟፝֯𝒎̤𝒊̣𝒏🔥̤ʙⷪᴏ͓ᷫᴛⷭ𓆪͟͞ ';
-global.titulowm = '͟͞ ৎ୭࠭͢💥͟𝑬̶𝒙͞𝒑͟𝒍𝒐̶𝒔̅𝒊͟𝒐́𝒏̶🔥̤𓆪 ͟͞';
-global.titulowm2 = `͟͞ ৎ୭࠭͢💥͟𝑬̶𝒙͞𝒑͟𝒍𝒐̶𝒔̅𝒊͟𝒐́𝒏̶🔥̤𓆪 ͟͞`
-global.igfg = 'ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸'
-global.botname = '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ sᥙᥒᥣіgһ𝗍 𝗍ᥱᥲm ❀'
-global.textbot = '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐ : ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸'
-global.gt = '͟͞ ৎ୭࠭͢💥͟𝑬̶𝒙͞𝒑͟𝒍𝒐̶𝒔̅𝒊͟𝒐́𝒏̶🔥̤𓆪 ͟͞';
-global.namechannel = '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐/ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸'
+global.packname = ` ༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎`
+global.author = `♾━━━━━━━━\n⇝͟͞ ۵༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎⋰∴⋱𝕺𝖋𝖎𝖈𝖎𝖆𝖑\n⇝ ۵✎𝕱𝖚𝖊𝖓𝖙𝖊⋰⋰𝕺𝖜𝖓𝖊𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆❄︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢KᗩKᗩᖇOTO-ᗷOT❁༯`;
+global.wm = '༆𝙺𝚊𝚔𝚊𝚛𝚘𝚝𝚘 𝙱𝚘𝚝༆';
+global.titulowm = '༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎';
+global.titulowm2 = `𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻 𝑶𝑭𝑪`
+global.igfg = '༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎'
+global.botname = '𝑩𝑶𝑻 𝑶𝑭𝑪 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎᯾'
+global.dev = '💨 Powered By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
+global.textbot = ' 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༆ : ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
+global.gt = '༒︎𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༒︎';
+global.namechannel = 'ᑕᕼᗩᑎᑎᗴᒪ 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝑩𝑶𝑻༆ : ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
 
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -94,26 +93,26 @@ global.sickerque = [que, que2, que3, que4, que5, que6]
 global.photoSity = [imagen8, imagen1, imagen4, imagen6]
 
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᴋᴀʟᴀʀᴏᴛᴏ-Bot࿐', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Megumin', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕✨', jpegThumbnail: logo5 }}};
+global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Kakaroto', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕⚔️', jpegThumbnail: logo5 }}};
 
-global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Megumin', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐓𝐨𝐧𝐭𝐨 (￣へ ￣ ) 🔥', jpegThumbnail: logo3 }}};
+global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Kakaroto', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄DRAKO (￣へ ￣ ) 🔥', jpegThumbnail: logo3 }}};
 
-global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Megumin', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 💥', jpegThumbnail: logo5 }}};
+global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Kakaroto', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄Kᴀᴋᴀʀᴏᴛᴏ (^_^♪) ⚔️', jpegThumbnail: logo5 }}};
 
-global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`͟͞ 𓆩ꪶꪾ𝘿᪶𝙞ᷨ𝙖ᷞ𝙢ͣ𝙤᪶ͨ𝙣ᷜ𝙙ꫂৎ୭࠱࠭ ͟͞`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐\n  ͟͞ 𓆩ꪶꪾ𝘿᪶𝙞ᷨ𝙖ᷞ𝙢ͣ𝙤᪶ͨ𝙣ᷜ𝙙ꫂৎ୭࠱࠭ ͟͞`, 'jpegThumbnail': logo4 }}}
-
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Kakaroto༆', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+ 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp4 = 'https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI' //Grupo Oficial De Megumin
-global.gp1 = 'https://chat.whatsapp.com/J9gyFJLbhVIJXaUZlpo8Xt' //Grupo 
-global.gp2 = 'https://chat.whatsapp.com/LJKcR8QBJgu37bVFWuhRVn'//
-global.comunidad1 = 'https://chat.whatsapp.com/GPEtINYPyIB6a6S55ZJcAO' //Comunidad Megumin
-global.channel = 'https://whatsapp.com/channel/0029VacDy0R6hENqnTKnG820' //Canal Oficial
-global.yt = 'https://youtube.com/@davidchian4957' //Canal De Youtube
-global.md = 'https://github.com/David-Chian/Megumin-Bot-MD' //Github Oficial
-global.correo = 'noisebot@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VacDy0R6hENqnTKnG820';
+global.gp4 = 'https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7' //Grupo Oficial De Drako
+global.gp1 = 'https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7' //Grupo 
+global.gp2 = 'https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7'//
+global.comunidad1 = 'https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7' //Comunidad Drako
+global.channel = 'https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7' //Canal Oficial
+global.yt = 'https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7' //Canal De Youtube
+global.md = 'https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7' //Github Oficial
+global.correo = 'https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7'
+global.cn ='https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7';
 
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
 global.saludo = '🍭' + hour;
@@ -128,8 +127,8 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nMegumin - Bot`;
-global.nomorown = '5351524614';
+global.wm2 = `${dia} ${fecha}\nKakaroto - Bot`;
+global.nomorown = '584148256527';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
