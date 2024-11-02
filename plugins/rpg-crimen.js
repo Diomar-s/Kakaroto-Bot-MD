@@ -26,7 +26,7 @@ case 0:
 users[senderId].cookies += amountTaken
 users[randomUserId].cookies -= amountTaken
 conn.sendMessage(m.chat, {
-text: `🚩¡Lograste cometer tu crimen con exito!, acabas de robar *${amountTaken} Cookies 🍪* a @${randomUserId.split("@")[0]}\n\nSe suman *+${amountTaken} Cookies 🍪* a ${senderName}.`,
+text: `🚩¡Lograste cometer tu crimen con exito!, acabas de robar *${amountTaken} Dragones 🐉* a @${randomUserId.split("@")[0]}\n\nSe suman *+${amountTaken} Dragones 🐉* a ${senderName}.`,
 contextInfo: { 
 mentionedJid: [randomUserId],
 }}, { quoted: m })
@@ -34,14 +34,14 @@ break
 case 1:
 let amountSubtracted = Math.min(Math.floor(Math.random() * (senderCookies - minAmount + 1)) + minAmount, maxAmount)
 users[senderId].cookies -= amountSubtracted
-conn.reply(m.chat, `🚩 No fuiste cuidadoso y te atraparon mientras cometias tu cirme, se restaron *-${amountSubtracted} Cookies 🍪* a ${senderName}.`, m, rcanal)
+conn.reply(m.chat, `🚩 No fuiste cuidadoso y te atraparon mientras cometias tu cirme, se restaron *-${amountSubtracted} Dragones 🐉* a ${senderName}.`, m, rcanal)
 break
 case 2:
 let smallAmountTaken = Math.min(Math.floor(Math.random() * (randomUserCookies / 2 - minAmount + 1)) + minAmount, maxAmount)
 users[senderId].cookies += smallAmountTaken
 users[randomUserId].cookies -= smallAmountTaken
 conn.sendMessage(m.chat, {
-text: `🚩 Lograste cometer tu crimen con exito, pero te descubrieron y solo lograste tomar *${smallAmountTaken} Cookies 🍪* de @${randomUserId.split("@")[0]}\n\nSe suman *+${smallAmountTaken} Cookies 🍪* a ${senderName}.`,
+text: `🚩 Lograste cometer tu crimen con exito, pero te descubrieron y solo lograste tomar *${smallAmountTaken} Dragones 🐉* de @${randomUserId.split("@")[0]}\n\nSe suman *+${smallAmountTaken} Dragones 🐉* a ${senderName}.`,
 contextInfo: { 
 mentionedJid: [randomUserId],
 }}, { quoted: m })
