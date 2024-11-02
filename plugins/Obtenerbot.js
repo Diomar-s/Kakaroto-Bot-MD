@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
   m.reply(global.text);
 };
-handler.command = /^(tenerunbot)$/i;
+handler.command = /^(tenerunbot|quierounbot|)$/i;
 handler.tags =['main'] 
 handler.help = ['tenerunbot <el bot para tu grupo>'] 
 export default handler;
