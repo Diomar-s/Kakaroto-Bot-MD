@@ -5,7 +5,7 @@ handler.all = async function(m) {
 
 const chat = global.db.data.chats[m.chat];
 if (chat.isBaneed) return
-if (/^bro$/i.test(m.text)) {
+if (/^bot$/i.test(m.text)) {
 conn.reply(m.chat, `👻 ¡Hola! Soy Kakatoto-Bot, en que puedo ayudarte hoy?\n\n✰ Usa *!menu* para ver mis comandos.`, m, rcanal, )
 }
  if (/^grupo|aceptar|tenerunbot|como puedo tener el bot en mi grupo/i.test(m.text)) {
