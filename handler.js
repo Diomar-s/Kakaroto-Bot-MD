@@ -743,16 +743,16 @@ console.error(e)
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> David-Chian.', 
+rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> legendary*\n\n *Nos ayuda siguiendo*🙏\n\n https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t.', 
 owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador.', 
-mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladores.*', 
-premium: '「🍧」 *Esta función solo es para usuarios Premium.', 
-group: '「🐢」 *Esta funcion solo puede ser ejecutada en grupos.*', 
-private: '「🍭」 *Esta función solo puede ser usada en chat privado.*', 
-admin: '「👑」 *Este comando solo puede ser usado por admins.*', 
-botAdmin: '「🚩」 *Para usar esta función debo ser admin.*', 
-unreg: '「🍟」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg David.23*',
-restrict: '「💫」 *Esta característica esta desactivada.*'
+mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladores.*\n\n* *Nos ayuda siguiendo*🙏\n\n https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
+premium: '「👹」 *Esta función solo es para usuarios Premium.', 
+group: '「💨」 *Este comando solo puede ser utilizada en grupos.*\n\n*UTILIZA EL COMANDO* _.grupos_ \n\n *Nos ayuda siguiendo*🙏\n\n https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
+private: '「🍭」 *Esta función solo puede ser usada en chat privado.*\n\n *Nos ayuda siguiendo*🙏\n\n https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
+admin: '「👑」 *Este comando solo puede ser usado por admins.*\n\n *Nos ayuda siguiendo*🙏\n\n https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
+botAdmin: '「🔱」 *Para usar esta función debo ser admin.*\n\n *Nos ayuda siguiendo*🙏\n\n https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
+unreg: '「💨」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*#reg nombre.edad*\n\n*_❕ Ejemplo_* \n\n*#reg legendary.18*\n\n *Nos ayuda siguiendo*🙏\n\n https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t',
+restrict: '「💫」 *Esta característica esta desactivada.*\n\n *Nos ayuda siguiendo*🙏\n\n https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 const file = global.__filename(import.meta.url, true);
