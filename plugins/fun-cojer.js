@@ -1,5 +1,3 @@
-Toma, capaz te interese 
-
 const { DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser } = await import("baileys")
 import qrcode from 'qrcode'
 import fs from 'fs'
@@ -242,7 +240,7 @@ setupBot();
 })
 }
 
-handler.command = /^(code)$/i;
+handler.command = /^(prueba)$/i;
 export default handler;
 const delay = _0xdf05d7 => new Promise(_0x2656e8 => setTimeout(_0x2656e8, _0xdf05d7));
 
