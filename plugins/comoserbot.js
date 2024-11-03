@@ -10,11 +10,11 @@ global.serbot = `
 
 *COMANDOS QUE DEBES UTILIZAR*
 
-*1ER Comando* _.code_ código de 8 dígitos
-*2DO comando* .serbot_ Un código qr 
+*1ER Comando* _.serbot --code_ código de 8 dígitos
+*2DO comando* _.serbot_ Un código qr 
 
 Aviso
-El .code es para el número que lo solicito
+El .serbot --code es para el número que lo solicito
 El .serbot es para escanear con otro teléfono 
 `;
 
