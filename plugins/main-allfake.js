@@ -33,13 +33,13 @@ global.fotoperfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https
 //creador y otros
 global.creador = 'Wa.me/584148256527'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/584148256527'
-global.namechannel = '⏤͟͞ू𝗞𝗮𝗸𝗮𝗿𝗼𝘁𝗼࿐/☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
-global.namechannel2 = '𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎 - 𝗧𝗲𝗮𝗺'
-global.namegrupo = '⁝̵̓ᝒ𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢'
+global.asistencia = 'Wa.me/5351524614'
+global.namechannel = ' ⏤͟͞ू𝗞𝗮𝗸𝗮𝗿𝗼𝘁𝗼࿐/☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
+global.namechannel2 = '𝗖𝗛𝗔𝗡𝗘𝗟𝗟 𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢'
+global.namegrupo = '⁝̵̓ᝒ̷̸͙𝗖𝗛𝗔𝗡𝗘𝗟𝗟 𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢'
 global.namecomu = '𝗖𝗛𝗔𝗡𝗘𝗟𝗟 𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢'
 global.namecomu2 = '𝗖𝗛𝗔𝗡𝗘𝗟𝗟 𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢'
-global.colab1 = 'Destroy'
+global.colab1 = 'Miguelon'
 global.colab2 = 'Steven'
 global.colab3 = 'Dino'
 
@@ -59,7 +59,7 @@ global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
 global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
 global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
-global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁9 ...*';
+global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
 
 //Enlaces
 var grupo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
@@ -67,7 +67,7 @@ var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 var git =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 var youtube =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 var github = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-let correo =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t''
+let correo =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 
 global.redes = [canal, grupo, git, youtube, github, correo].getRandom()
 
@@ -96,7 +96,7 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 // global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363323286489957@newsletter', newsletterName: "⏤͟͞ू⃪ ፝͜⁞Kakaroto⃔࿐", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363323286489957@newsletter', newsletterName: "Kakaroto", serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
@@ -108,6 +108,6 @@ global.icono = [
 'https://qu.ax/wqN.jpg'
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363323286489957@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: ' ᵉˡ ˢᵃʸᵃʸⁱⁿ ᵐᵃˢ ᶠᵘᵉʳᵗᵉ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363323286489957@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '🐉 ꜞᵉˡ ᵇᵒᵗ ᵐᵃˢ ᶠᵘᵉʳᵗᵉꜝ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
