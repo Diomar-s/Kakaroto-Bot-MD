@@ -18,7 +18,7 @@ await m.react(error)
 }}}
 handler.tags = ['jadibot']
 handler.help = ['delsession']
-handler.command = ['deletesession','eliminarsesion','borrarsesion','delsession','cerrarsesion','delserbot','logout']
+handler.command = ['deletesesion','eliminarsesion','borrarsesion','delsession','cerrarsesion','delserbot','logout']
 //handler.private = true
 handler.fail = null
 
