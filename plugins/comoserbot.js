@@ -10,8 +10,8 @@ global.serbot = `
 
 *COMANDOS QUE DEBES UTILIZAR*
 
-*1ER Comando* _.serbot --code_ código de 8 dígitos
-*2DO comando* _.serbot_ Un código qr 
+_1ER Comando_ *.serbot --code* (código de 8 dígitos)
+_2DO comando_ *.serbot* (Un código qr) 
 
 Aviso
 El .serbot --code es para el número que lo solicito
