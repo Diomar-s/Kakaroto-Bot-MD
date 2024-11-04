@@ -36,7 +36,7 @@ let handler = async (message, { conn, text, usedPrefix, command }) => {
           mediaType: 1, 
           showAdAttribution: true,
           title: '♡  ͜ ۬︵࣪᷼⏜݊᷼𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙨⏜࣪᷼︵۬ ͜ ',
-          body: '<(✿◠‿◠)> 𝙈𝙚𝙜𝙪𝙢𝙞𝙣🔥',
+          body: '<(✿◠‿◠)> kakaroto🔥',
           previewType: 0, 
           thumbnail: logo5,
           sourceUrl: cn 
@@ -75,7 +75,7 @@ let handler = async (message, { conn, text, usedPrefix, command }) => {
               text: "✨️ RESULTADO DE: " + text
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸"
+              text: "☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               hasMediaAttachment: false
