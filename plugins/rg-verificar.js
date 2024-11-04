@@ -15,7 +15,7 @@ if (age < 5) throw '*『🍼』Ven aquí, te adoptare!!*'
 user.name = name.trim()
 user.age = age
 user.regTime = + new Date
-user.registered = true
+user.registered = false
 global.db.data.users[m.sender].money += 600
 global.db.data.users[m.sender].cookies += 10
 global.db.data.users[m.sender].exp += 245
