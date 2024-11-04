@@ -71,7 +71,6 @@ if (!('registered' in user)) user.registered = false
 if (!user.registered) {
 if (!('name' in user)) user.name = m.name
 if (!('age' in user)) user.age = 0
-if (!('nationality' in user)) user.nationality= m.nationality
 if (!isNumber(user.regTime)) user.regTime = -1
 }
 
