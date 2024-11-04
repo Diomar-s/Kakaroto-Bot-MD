@@ -66,7 +66,7 @@ if (!('muto' in user)) user.muto = false
 if (!isNumber(user.joincount)) user.joincount = 1
 if (!isNumber(user.money)) user.money = 150
 if (!isNumber(user.cookies)) user.cookies = 20
-if (!('registered' in user)) user.registered = true
+
 
 if (!user.registered) {
 if (!('name' in user)) user.name = m.name
