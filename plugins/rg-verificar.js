@@ -15,7 +15,7 @@ if (age < 5) throw '*『🍼』Ven aquí, te adoptare!!*'
 user.name = name.trim()
 user.age = age
 user.regTime = + new Date
-user.registered = false
+user.registered = true
   
 global.db.data.users[m.sender].money += 600
 global.db.data.users[m.sender].cookies += 10
@@ -27,7 +27,7 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「💭」𝗡𝗼𝗺𝗯𝗿𝗲: ${name}
 「✨️」𝗘𝗱𝗮𝗱: ${age} años
- País : ${userNationality}\n`;
+「🥷」País : ${userNationality}
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
 • 15 DragoCoins 🐉
