@@ -38,10 +38,10 @@ let handler = async (m, { conn }) => {
     }
 };
 
-handler.help = ['grupo'];
+handler.help = ['bienvenido'];
 handler.group = true;
 handler.admin = true;
-handler.tags = ['bienvenidos'];
+handler.tags = ['grupo'];
 handler.command = ['bienvenidos','nuevos'];
 
 export default handler;
