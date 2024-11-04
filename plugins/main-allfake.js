@@ -31,9 +31,9 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.fotoperfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/584148256527'
+global.creador = 'Wa.me/5491166401905'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/5351524614'
+global.asistencia = 'Wa.me/5491166401905'
 global.namechannel = ' ⏤͟͞ू𝗞𝗮𝗸𝗮𝗿𝗼𝘁𝗼࿐/☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆'
 global.namechannel2 = '𝗖𝗛𝗔𝗡𝗘𝗟𝗟 𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢'
 global.namegrupo = '⁝̵̓ᝒ̷̸͙𝗖𝗛𝗔𝗡𝗘𝗟𝗟 𝗞𝗔𝗞𝗔𝗥𝗢𝗧𝗢'
