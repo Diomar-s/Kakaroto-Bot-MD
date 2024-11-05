@@ -131,13 +131,18 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ---
 
-##### **`🔥 CORINPLUS-HOSTING`**
+##### **`🌟 SKY ULTRA PLUS`**
 
 <a
 href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
 
+<div align=>
+
+[![YouTube](https://img.shields.io/badge/SkyUltraPlus-Host-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/fZbcCLpSH6Y?si=1sDen7Bzmb7jVpAI)
+ 
+
 <details>
- <summary><b> 🔥 servidor Sky ultra</b></summary>
+ <summary><b> ❤️ servidor Sky ultra</b></summary>
 
 * Estado Sky [`Status`](https://estado.skyultraplus.com)
 * Dash Sky[`Dash`](https://dash.skyultraplus.com)
