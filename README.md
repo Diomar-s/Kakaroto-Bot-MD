@@ -125,28 +125,6 @@ Si después de instalar el bot en Termux y iniciar la session del bot (el numero
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 
-</details>
-
----
-
-##### **`💌 AZURA-ULTRA-HOSTING`**
-<a
-### â˜ï¸ SKY ULTRA PLUS 
-[![YouTube](https://img.shields.io/badge/SkyUltraPlus-Host-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/fZbcCLpSH6Y?si=1sDen7Bzmb7jVpAI)
-
-<a href="https://dash.corinplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
-
-### InformaciÃ³n sobre Sky
-- **Dashboard:** [`AquÃ­`](https://dash.skyultraplus.com)
-- **Panel:** [`AquÃ­`](https://panel.skyultraplus.com)
-- **Estado de servicios:** [`AquÃ­`](https://estado.skyultraplus.com)
-- **Canal de WhatsApp:** [`AquÃ­`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
-- **Comunidad:** [`AquÃ­`](https://chat.whatsapp.com/JPwcXvPEUwlEOyjI3BpYys)
-- **Contacto(s):** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
-- **Discord:** [`SkyUltraPlus`](https://discord.gg/Ph4eWsZ8)
-----
----
-
 ---
 
 </details>
