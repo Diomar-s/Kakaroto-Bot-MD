@@ -142,8 +142,8 @@ href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="
 * Estado Sky [`Status`](https://estado.skyultraplus.com)
 * Dash Sky[`Dash`](https://dash.skyultraplus.com)
 * Panel Sky [`Panel`](https://panel.skyultraplus.com)
-* Canal de WhatsApp  [`Canal Sky`](1https://chat.whatsapp.com/KGPhTIfgOzZCMNqoc3R7OW)
-* Comunidad Corin [`Click`](https://chat.whatsapp.com/KGPhTIfgOzZCMNqoc3R7OW)
+* Canal de WhatsApp [`Canal Sky`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
+* Comunidad Sky [`Click`](https://chat.whatsapp.com/KGPhTIfgOzZCMNqoc3R7OW)
 
 ---
 
