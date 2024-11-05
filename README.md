@@ -144,23 +144,6 @@ href="https://store.azuraultra-host.pro/home"><img src="https://qu.ax/tMAP.jpg" 
 * Grupo azura [`Aquí`](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
 ---
 
-</details>
-
----
-
-##### **`TK-HOSTING👾`**
-
-<a
-href="https://dash.tk-joanhost.com"><img src="https://i.ibb.co/pr8TnWJ/SAVE-20240915-183758.jpg" height="125px"></a>
-
-<details>
- <summary><b> 👉 Servidor TK</b></summary>
-
-* TK HOST  [`Aquí`](https://panel.tk-joanhost.com)
-* Dash TK[`Dash`](https://dash.tk-joanhost.com)
-* Panel TK [`Panel`](https://panel.tk-joanhost.com)
-* Canal de WhatsApp  [`Canal azura`](https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27)
-
 ---
 
 </details>
