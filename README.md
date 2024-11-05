@@ -130,18 +130,21 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ---
 
 ##### **`💌 AZURA-ULTRA-HOSTING`**
-
 <a
-href="https://store.azuraultra-host.pro/home"><img src="https://qu.ax/tMAP.jpg" height="125px"></a>
+### â˜ï¸ SKY ULTRA PLUS 
+[![YouTube](https://img.shields.io/badge/SkyUltraPlus-Host-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/fZbcCLpSH6Y?si=1sDen7Bzmb7jVpAI)
 
-<details>
- <summary><b> 🌹 servidor Azura</b></summary>
+<a href="https://dash.corinplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
 
-* Azura-ultra  [`Aquí`](https://store.azuraultra-host.pro/home)
-* Dash Azura[`Dash`](https://store.azuraultra-host.pro/login)
-* Panel Azura [`Panel`](https://store.azuraultra-host.pro/login)
-* Canal de WhatsApp  [`Canal azura`](https://whatsapp.com/channel/0029VamOVm08fewr5jix2Z3t)
-* Grupo azura [`Aquí`](https://chat.whatsapp.com/KhcwE17XcalGuMwS4Tc2L0)
+### InformaciÃ³n sobre Sky
+- **Dashboard:** [`AquÃ­`](https://dash.skyultraplus.com)
+- **Panel:** [`AquÃ­`](https://panel.skyultraplus.com)
+- **Estado de servicios:** [`AquÃ­`](https://estado.skyultraplus.com)
+- **Canal de WhatsApp:** [`AquÃ­`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
+- **Comunidad:** [`AquÃ­`](https://chat.whatsapp.com/JPwcXvPEUwlEOyjI3BpYys)
+- **Contacto(s):** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
+- **Discord:** [`SkyUltraPlus`](https://discord.gg/Ph4eWsZ8)
+----
 ---
 
 ---
