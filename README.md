@@ -156,16 +156,16 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ##### **`🔥 CORINPLUS-HOSTING`**
 
 <a
-href="https://dash.corinplus.com"><img src="https://qu.ax/ZycD.png" height="125px"></a>
+href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
 
 <details>
- <summary><b> 🔥 servidor Corin</b></summary>
+ <summary><b> 🔥 servidor Sky ultra</b></summary>
 
-* Estado Corin [`Status`](https://status.corinplus.com)
-* Dash Corin[`Dash`](https://dash.corinplus.com)
-* Panel Corin [`Panel`](https://panel.corinplus.com)
-* Canal de WhatsApp  [`Canal Corin`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
-* Comunidad Corin [`Click`](https://chat.whatsapp.com/HR3OLhsuZPqCMImzuHcuON)
+* Estado Sky [`Status`](https://estado.skyultraplus.com)
+* Dash Sky[`Dash`](https://dash.skyultraplus.com)
+* Panel Sky [`Panel`](https://panel.skyultraplus.com)
+* Canal de WhatsApp  [`Canal Sky`](1https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
+* Comunidad Corin [`Click`](https://chat.whatsapp.com/KGPhTIfgOzZCMNqoc3R7OW)
 
 ---
 
