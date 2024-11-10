@@ -1,4 +1,4 @@
-// adartado por mario
+/*// adartado por mario
 
 import axios from 'axios';
 let previousCommitSHA = '';
@@ -32,4 +32,4 @@ m.reply(e)
 };
 handler.command = ['actualizacion','autoupdate','autoactualizar'];
 handler.rowner = true;
-export default handler;
+export default handler;*/
