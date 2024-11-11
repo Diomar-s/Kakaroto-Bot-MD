@@ -128,7 +128,7 @@ m.reply(`_✧ Enviando ${name} (${artist}/${duration})_\n\n> ${url}`);
     
 }
 handler.help = ['applemusic'];
-handler.tags = ['downloader'];
+handler.tags = ['descargas'];
 handler.command = /^(applemusic)$/i;
 
 export default handler;
