@@ -23,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['redBright']
 });
-say(`Developed By • Legend`, {
+say(`Developed By Legend`, {
 font: 'console',
 align: 'center',
 colors: ['magentaBright']
