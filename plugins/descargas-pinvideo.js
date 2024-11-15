@@ -44,6 +44,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ['pinvid'];
 handler.tags = ['descargas'];
+handler.estrellas = 1;
 handler.command = /^(pinvid|pinvideo)$/i;
 handler.premium = false;
 handler.register = true;
