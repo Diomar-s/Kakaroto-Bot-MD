@@ -1,7 +1,9 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, command, usedPrefix}) => {
-  if (!db.data.chats[m.chat].nsfw && m.isGroup) throw '🚩 *¡Estos comandos están desactivados!*';
-conn.reply(m.chat, `🚩 Enviando el *${command}*`, m, {
+if (!db.data.chats[m.chat].nsfw && m.isGroup) {
+    return m.reply('[❗] 𝐋𝐨𝐬 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬 +𝟏𝟖 𝐞𝐬𝐭𝐚́𝐧 𝐝𝐞𝐬𝐚𝐜𝐭𝐢𝐯𝐚𝐝𝐨𝐬 𝐞𝐧 𝐞𝐬𝐭𝐞 𝐠𝐫𝐮𝐩𝐨.\n> 𝐬𝐢 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐲 𝐝𝐞𝐬𝐞𝐚 𝐚𝐜𝐭𝐢𝐯𝐚𝐫𝐥𝐨𝐬 𝐮𝐬𝐞 .enable nsfw');
+    }
+conn.reply(m.chat, `📤 Enviando el *${command}*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
@@ -31,7 +33,7 @@ sourceUrl: channel }}})
   }
 };
 handler.command = ['pack','pack2','pack3','videoxxx','vídeoxxx','videoxxxlesbi','videolesbixxx','pornolesbivid','pornolesbianavid','pornolesbiv','pornolesbianav','pornolesv'];
-handler.group = true;
+handler.group = false;
 handler.register = true
 export default handler;
 
