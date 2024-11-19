@@ -11,8 +11,8 @@ let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
 let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
-     [`${nomorown}`, `👑 Propietario`, `💨 ꧁༒ĹєǤ𝒆𝐧𝐃༒꧂`, dev, 'darel0954@gmail.com', `🇻🇪 Venezuela`, `${global.yt}`, bio],
-[`${conn.user.jid.split('@')[0]}`, `Es Un Bot 🐉`, `${packname}`, `📵 No Hacer Spam`, 'https://youtube.com/@kakaroto-bot?si=dRYFi-dAw8H_mgGI', `Planeta Vegeta 🌍`, `https://github.com/Diomar-s/Kakaroto-Bot-MD`, biobot]
+     [`${nomorown}`, `👑 Propietario`, `💨 ꧁༒Ĺєgenda༒꧂`, dev, 'arieldelarosas74@gmail.com', `🇩🇴 RD`, `${global.yt}`, bio],
+[`${conn.user.jid.split('@')[0]}`, `Es Un Bot 🐉`, `${packname}`, `📵 No Hacer Spam`, 'https://youtube.com/@kakaroto-bot?si=dRYFi-dAw8H_mgGI', `Planeta Vegeta 🌍`, `https://github.com/Antonigaming/Kakarotoo-Bot-MD`, biobot]
 ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creador, no hagas spam!!`)
   } 
