@@ -11,7 +11,7 @@ termux-setup-storage
 
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 
-git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd Kakaroto-Bot-MD
+git clone https://github.com/Antonigaming/Kakarotoo-Bot-MD && cd Kakarotoo-Bot-MD
 
 yarn install && npm install
 
