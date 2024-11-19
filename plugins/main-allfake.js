@@ -34,13 +34,13 @@ global.fotoperfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https
 global.creador = 'Wa.me/5491166401905'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/5491166401905'
-global.namechannel = ' 💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.namechannel2 = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.namegrupo = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.namecomu = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.namecomu2 = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.colab1 = 'Miguelon'
-global.colab2 = 'Steven'
+global.namechannel = ' 💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.namechannel2 = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.namegrupo = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.namecomu = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.namecomu2 = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.colab1 = 'Nicol'
+global.colab2 = 'Anthony'
 global.colab3 = 'Dino'
 
 //Reacciones De Comandos.!
@@ -62,12 +62,12 @@ global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
 
 //Enlaces
-var grupo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var git =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var youtube =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var github = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-let correo =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
+var grupo = ''
+var canal = ''
+var git =  ''
+var youtube =  ''
+var github = ''
+let correo =  ''
 
 global.redes = [canal, grupo, git, youtube, github, correo].getRandom()
 
