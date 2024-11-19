@@ -15,7 +15,7 @@ const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isCha
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) 
 const used = process.memoryUsage()
 let goku = `╭─⬣「 *Estado De Kakaroto* 」⬣\n`
-goku += `│ 👑 *Creador ∙* ꧁༒ĹєǤ𝒆𝐧𝐃༒꧂\n`
+goku += `│ 👑 *Creador ∙* ꧁༒Ĺєgendaf༒꧂\n`
 goku += `│ 📚 *Grupos Unidos ∙* ${groupsIn.length}\n`
 goku += `│ 👤 *Chats Privados ∙* ${chats.length - groupsIn.length}\n`
 goku += `│ 💬 *Total De Chats ∙* ${chats.length}\n`
