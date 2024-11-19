@@ -31,9 +31,9 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.fotoperfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/5491166401905'
+global.creador = 'Wa.me/18098781279'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/5491166401905'
+global.asistencia = 'Wa.me/18292588251'
 global.namechannel = ' 💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
 global.namechannel2 = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
 global.namegrupo = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
@@ -96,7 +96,7 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 // global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363323286489957@newsletter', newsletterName: "Kakaroto", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '', newsletterName: "Kakaroto", serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
@@ -108,6 +108,6 @@ global.icono = [
 'https://qu.ax/wqN.jpg'
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363323286489957@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '🐉 ꜞᵉˡ ᵇᵒᵗ ᵐᵃˢ ᶠᵘᵉʳᵗᵉꜝ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '🐉 ꜞᵉˡ ᵇᵒᵗ ᵐᵃˢ ᶠᵘᵉʳᵗᵉꜝ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
