@@ -31,15 +31,15 @@ https://discord.gg/zvKgtc2RBc
 
 💚 *Canal de WhatsApp:*
 
-https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
+https://whatsapp.com/channel/0029VawDxVnLSmbbtn80cI2F
 
 🗣📲 *Contacto:*
 
-• wa.me/5214531287294
+• wa.me/18098781279
 
-• wa.me/15167096032
+• wa.me/18292588251
 
-• wa.me/573147616444
+• wa.me/8092805813
 
 No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! ✨🚀`;
 
