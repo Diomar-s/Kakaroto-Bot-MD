@@ -183,7 +183,7 @@ await conn.sendMessage(
     mentionedJid: [m.sender],
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363350628883149@newsletter',
+      newsletterJid: '',
       newsletterName: 'CANAL 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎/☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆',
       serverMessageId: -1,
     },
