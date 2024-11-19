@@ -16,7 +16,7 @@ global.confirmCode = ''
 global.owner = [
   ['18098781279', 'Legen-Soporte', true],
   ['18098781279', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
-  ['18098781279', 'ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜', true],
+  ['18292588251', 'ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜', true],
   ['18098781279'],
   ['18098781279'],
   ['18098781279']
@@ -40,17 +40,17 @@ global.jadi = 'GokuJadiBot'
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
-global.packname = ` 💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫`
-global.author = `♾━━━━━━━━\n⇝͟͞ 💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫⋰∴⋱𝕺𝖋𝖎𝖈𝖎𝖆𝖑\n⇝ ۵✎𝕱𝖚𝖊𝖓𝖙𝖊⋰⋰𝕺𝖜𝖓𝖊𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆❄︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫༯`;
-global.wm = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫';
-global.titulowm = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫';
-global.titulowm2 = `💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫`
-global.igfg = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.botname = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.dev = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.textbot = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.gt = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫';
-global.namechannel = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
+global.packname = ` 💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃 💫`
+global.author = `♾━━━━━━━━\n⇝͟͞ 💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃 💫⋰∴⋱𝕺𝖋𝖎𝖈𝖎𝖆𝖑\n⇝ ۵✎𝕱𝖚𝖊𝖓𝖙𝖊⋰⋰𝕺𝖜𝖓𝖊𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆❄︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫༯`;
+global.wm = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫';
+global.titulowm = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫';
+global.titulowm2 = `💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫`
+global.igfg = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.botname = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.dev = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.textbot = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.gt = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫';
+global.namechannel = '💫𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
 
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -103,15 +103,15 @@ global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remote
 global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`ꪾꪾ͟͞ĹєǤ𝒆𝐧𝐃`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `⚘݄Kᴀᴋᴀʀᴏᴛᴏ (^_^♪)\n ꪾĹєǤ𝒆𝐧𝐃`, 'jpegThumbnail': logo4 }}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp4 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Grupo Oficial De Kakaroto 
-global.gp1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Grupo 
-global.gp2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'//
-global.comunidad1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Comunidad Kakaroto 
-global.channel = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Canal Oficial
-global.yt = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Canal De Youtube
-global.md = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Github Oficial
-global.correo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.cn ='https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t';
+global.gp4 = '' //Grupo Oficial De Kakaroto 
+global.gp1 = '' //Grupo 
+global.gp2 = ''//
+global.comunidad1 = '' //Comunidad Kakaroto 
+global.channel = '' //Canal Oficial
+global.yt = '' //Canal De Youtube
+global.md = '' //Github Oficial
+global.correo = ''
+global.cn ='';
 
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
 global.saludo = '🍭' + hour;
