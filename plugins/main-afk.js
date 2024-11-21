@@ -1,4 +1,4 @@
-/*const handler = async (m, {text}) => {
+const handler = async (m, {text}) => {
 const user = global.db.data.users[m.sender];
 user.afk = + new Date;
 user.afkReason = text;
@@ -8,4 +8,4 @@ conn.reply(m.chat, `🚩 *El Usuario ${conn.getName(m.sender)} Estará Inactivo*
 handler.help = ['afk [alasan]'];
 handler.tags = ['main'];
 handler.command = /^afk$/i;
-export default handler;*/
+export default handler;
