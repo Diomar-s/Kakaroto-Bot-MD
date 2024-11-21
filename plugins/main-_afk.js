@@ -5,7 +5,7 @@ conn.reply(m.chat, `🚩 Dejastes De Estar Inactivo\n${user.afkReason ? 'Motivo 
 user.afk = -1;
 user.afkReason = '';
 }
-/*const jids = [...new Set([...(m.mentionedJid || []), ...(m.quoted ? [m.quoted.sender] : [])])];
+const jids = [...new Set([...(m.mentionedJid || []), ...(m.quoted ? [m.quoted.sender] : [])])];
 for (const jid of jids) {
 const user = global.db.data.users[jid];
 if (!user) {
@@ -18,5 +18,5 @@ continue;
 const reason = user.afkReason || '';
 conn.reply(m.chat, `🚩 *El Usuario Esta Inactivo No Lo Etiquetes*`, m, rcanal)
 }
-return true;*/
+return true;
 }
