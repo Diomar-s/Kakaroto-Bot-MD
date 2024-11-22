@@ -40,7 +40,7 @@ if (!stiker) stiker = e
 } finally {
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: `☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆`, mediaType: 2, sourceUrl: redes, thumbnail: icons}}}, { quoted: m })
 
-else return conn.reply(m.chat, '🖐️ > _El comando o solicitud salio con error, envia una imagen/video y responda el comando._*', m, rcanal)
+else return conn.reply(m.chat, '> 🖐️ _El comando o solicitud salio con error, envia una imagen/video y responda el comando._*', m, rcanal)
 
 
 }}
