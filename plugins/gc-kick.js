@@ -1,6 +1,6 @@
 var handler = async (m, { conn, participants, usedPrefix, command }) => {
     if (!m.mentionedJid[0] && !m.quoted) {
-        return conn.reply(m.chat, '🚩 *Etiqueta o responde al mensaje de la persona que quieres eliminar*', m, rcanal );
+        return conn.reply(m.chat, '> _Responde un mensaje o etiqueta a las persona que quieres que expulse del grupo._*', m, rcanal );
     }
 
     let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
