@@ -62,12 +62,12 @@ global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
 
 //Enlaces
-var grupo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var git =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var youtube =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var github = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-let correo =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
+var grupo = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v'
+var canal = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v'
+var git =  'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v'
+var youtube =  'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v'
+var github = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v'
+let correo =  'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v'
 
 global.redes = [canal, grupo, git, youtube, github, correo].getRandom()
 
