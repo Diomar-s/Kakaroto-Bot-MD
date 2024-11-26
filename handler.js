@@ -47,7 +47,7 @@ m = smsg(this, m) || m
 if (!m)
 return
 m.exp = 0
-m.cookies = false
+m.dragones = false
 m.money = false
 try {
 // TODO: use loop to insert data instead of this
@@ -117,7 +117,7 @@ lastduel: 0,
 lastpago: 0,
 lastrob: 0,
 level: 0,
-cookies: 20,
+dragones: 20,
 money: 100,
 muto: false,
 premium: false,
@@ -468,8 +468,8 @@ continue
 }
 
 m.exp += xp
-if (!isPrems && plugin.cookies && global.db.data.users[m.sender].cookies < plugin.cookies * 1) {
-conn.reply(m.chat, `❮🌟❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗖𝗼𝗼𝗸𝗶𝗲𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝗖𝗼𝗼𝗸𝗶𝗲𝘀, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`, m, rcanal) 
+if (!isPrems && plugin.dragones && global.db.data.users[m.sender].dragones < plugin.dragones * 1) {
+conn.reply(m.chat, `❮🐉❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝘿𝙧𝙖𝙜𝙤𝙣𝙚𝙨 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝗖𝗼𝗼𝗸𝗶𝗲𝘀, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`, m, rcanal) 
 continue
 }
 
@@ -504,7 +504,7 @@ __filename
 try {
 await plugin.call(this, m, extra)
 if (!isPrems)
-m.cookies = m.cookies || plugin.cookies || false
+m.dragones = m.dragones || plugin.dragones || false
 m.money = m.money || plugin.money || false
 } catch (e) {
 // Error occured
@@ -529,8 +529,8 @@ await plugin.after.call(this, m, extra)
 } catch (e) {
 console.error(e)
 }}
-if (m.cookies)
-conn.reply(m.chat, `Utilizaste *${+m.cookies}* 🐉`, m, fake)
+if (m.dragones)
+conn.reply(m.chat, `Utilizaste *${+m.dragones}* 🐉`, m, fake)
 }
 if (m.money)
 conn.reply(m.chat, `Utilizaste *${+m.money}* 💰`, m, fake)
@@ -553,7 +553,7 @@ await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id:
 }
 if (m.sender && (user = global.db.data.users[m.sender])) {
 user.exp += m.exp
-user.cookies -= m.cookies * 1
+user.dragones -= m.dragones * 1
 user.money -= m.money * 1
 }
 
