@@ -25,5 +25,6 @@ console.error(error)
 }}
 
 handler.command = /^(spotifydl)$/i
+handler.dragones = 3
 
 export default handler
