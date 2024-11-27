@@ -36,6 +36,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 handler.help = ['whatmusic *<audio/video>*']
 handler.tags = ['tools']
 handler.command = ['whatmusic', 'shazam']
+handler.dragones = 1
 //handler.limit = 1
 handler.register = true 
 export default handler
