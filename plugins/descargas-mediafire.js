@@ -14,5 +14,6 @@ handler.help = ['mediafire']
 handler.tags = ['descargas']
 handler.command = /^(mediafire|mf)$/i
 handler.premium = false
+handler.dragones = 1
 handler.register = true
 export default handler
