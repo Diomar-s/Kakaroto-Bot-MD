@@ -18,5 +18,6 @@ console.error(error)
 }}
 
 handler.command = /^(tiktok3|tt3)$/i
+handler.dragones = 2
 
 export default handler
