@@ -10,7 +10,7 @@ if (!name) throw '*『✦』No puedes registrarte sin nombre, el nombre es oblig
 if (!age) throw '*『✦』No puedes registrarte sin la edad, la edad es opcional. Inténtelo de nuevo.*'
 if (name.length >= 30) throw '*『✦』El nombre no debe de tener mas de 30 caracteres.*' 
 age = parseInt(age)
-if (age > 999) throw '*『😏』Viejo/a Sabroso/a*'
+if (age > 1000) throw '*『😏』Viejo/a Sabroso/a*'
 if (age < 5) throw '*『🍼』Ven aquí, te adoptare!!*'
 user.name = name.trim()
 user.age = age
@@ -18,7 +18,7 @@ user.regTime = + new Date
 user.registered = true
   
 global.db.data.users[m.sender].money += 600
-global.db.data.users[m.sender].cookies += 10
+global.db.data.users[m.sender].dragones += 10
 global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 5
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
@@ -29,7 +29,7 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 「✨️」𝗘𝗱𝗮𝗱: ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-• 15 DragoCoins 🐉
+• 15 Dragones 🐉
 • 5 gokuCoins 💨
 • 245 Experiencia 💸
 • 12 Tokens 💰
