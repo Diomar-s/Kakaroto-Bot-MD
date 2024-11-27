@@ -63,4 +63,5 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 };
 
 handler.command = ['ytmp3', 'yta'];
+handler.dragones = 2
 export default handler;
