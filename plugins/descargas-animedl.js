@@ -45,5 +45,6 @@ handler.help = ['animedl'];
 handler.tags = ['descargas'];
 handler.command = ['animedl', 'animedoc', 'anidl'];
 handler.register = true
+handler.dragones = 2
 handler.premium = true
 export default handler;
