@@ -63,4 +63,5 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 };
 
 handler.command = ['ytv', 'ytmp4'];
+handler.dragones = 2
 export default handler;
