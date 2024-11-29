@@ -33,14 +33,14 @@ global.fotoperfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https
 //creador y otros
 global.creador = 'Wa.me/18098781279'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/18292588251'
+global.asistencia = 'Wa.me/5491166401905'
 global.namechannel = ' 💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
 global.namechannel2 = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
-global.namegrupo = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
+global.namegrupo = '💫💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
 global.namecomu = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
 global.namecomu2 = '💫𝐓𝐄𝐀𝐌 𝐈𝐍𝐒𝐀𝐍𝐈𝐃𝐀𝐃💫'
 global.colab1 = 'Nicol'
-global.colab2 = 'Anthony'
+global.colab2 = 'Anthoni'
 global.colab3 = 'Dino'
 
 //Reacciones De Comandos.!
@@ -111,3 +111,4 @@ global.icono = [
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '🐉 ꜞᵉˡ ᵇᵒᵗ ᵐᵃˢ ᶠᵘᵉʳᵗᵉꜝ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
+  
