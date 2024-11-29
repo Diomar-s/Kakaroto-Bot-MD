@@ -58,4 +58,4 @@ async function dl_vid(url) {
 
     const data = await response.json();
     return data;
-          }
+}
