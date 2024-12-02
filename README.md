@@ -188,6 +188,6 @@ href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130"
 
 ### **`🌹 CREDITOS`**
 <a
-href="https://github.com/The-King-Destroy"><img src="https://github.com/BrunoSobrino.png" width="130" height="130" alt="Destroy"/></a>
+href="https://github.com/The-King-Destroy"><img src="https://github.com/The-King-Destroy.png" width="140" height="140" alt="Destroy"/></a>
 
 [© Powered By Team STARCORE ⚡︎](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)
