@@ -174,7 +174,7 @@ href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="
 | APP | TIPO | ENLACE |
 |------|-------------|-------|
 | WhatsApp | Canal | [¡Click aquí!](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t) |
-| WhatsApp | Team Kakaroto | [¡Click aquí!](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t) |
+| WhatsApp | Team STARCORE | [¡Click aquí!](https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v/3155) |
 | WhatsApp | Grupo Ofc | [¡Click aquí!](https://chat.whatsapp.com/Jjs2l4X3LdP7RHr06WsasW) |
  
 
@@ -188,6 +188,6 @@ href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130"
 
 ### **`🌹 CREDITOS`**
 <a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="130" height="130" alt="BrunoSobrino"/></a>
+href="https://github.com/The-King-Destroy"><img src="https://github.com/BrunoSobrino.png" width="130" height="130" alt="Destroy"/></a>
 
-[© Powered By KAKAROTO Team ⚡︎](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)
+[© Powered By Team STARCORE ⚡︎](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)
