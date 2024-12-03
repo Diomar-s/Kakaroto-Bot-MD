@@ -299,9 +299,9 @@ continue
 if (plugin.disabled)
 continue
 const __filename = join(___dirname, name)
-/*if (m.sender === this.user.jid) {
+if (m.sender === this.user.jid) {
 continue
-}*/
+}
 if (typeof plugin.all === 'function') {
 try {
 await plugin.all.call(this, m, {
@@ -391,7 +391,7 @@ if (name != 'owner-unbanchat.js' && name != 'owner-exec.js' && name != 'owner-ex
 if (m.text && user.banned && !isROwner) {
 if (user.antispam > 2) return
 m.reply(`🚫 Está baneado(a), no puede usar los comandos de este bot!\n\n${user.bannedReason ? `\n📝 *Motivo:* 
-${user.bannedReason}` : '📄 *Motivo:* Sin Especificar'}\n\n⚠️ *Si este bot es cuenta oficial y tiene evidencia que respalde que este mensaje es un error, puede exponer su caso en:*\n\n☁️ ${asistencia}`)
+${user.bannedReason}` : '📃 *Motivo:* Sin Especificar'}\n\n⚠️ *Si este bot es cuenta oficial y tiene evidencia que respalde que este mensaje es un error, puede exponer su caso en:*\n\n☁️ ${asistencia}`)
 user.antispam++        
 return
 }
@@ -584,7 +584,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 //this.sendPresenceUpdate('recording', m.chat);
 
 if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|ai|megumin|megu|a|s)/gi)) {
-let emot = pickRandom(["🌹", "🍟", "🔥","✨️", "🌸", "💥", "⭐️", "🌟", "🍂", "🫂", "🍁", "💖", "💞", "💕", "💋"])
+let emot = pickRandom(["🚩", "🍟", "🔥","✨️", "🌸", "💥", "⭐️", "🌟", "🍂", "🫂", "🍁", "💖", "💞", "💕", "💋"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
@@ -618,7 +618,7 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@date', global.botdate).replace('@time', global.bottime).replace('@readMore', global.readMore).replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*Ai-Yaemori*\n𝗦𝗶𝗻 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻') :
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@date', global.botdate).replace('@time', global.bottime).replace('@readMore', global.readMore).replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*Yuki-Ai*\n𝗦𝗶𝗻 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0]).replace('@date', global.botdate).replace('@time', global.bottime)
 
 if (chat.antifake && isBotAdminNn && action === 'add') {
