@@ -53,7 +53,10 @@ if (!isNumber(user.joincount)) user.joincount = 1
 if (!isNumber(user.money)) user.money = 150
 if (!isNumber(user.yenes)) user.yenes = 20
 if (!('registered' in user)) user.registered = false
-
+if (!('genre' in user)) user.genre = false
+if (!('birth' in user)) user.birth = false
+if (!('description' in user)) user.description = false
+    
 if (!user.registered) {
 if (!('name' in user)) user.name = m.name
 if (!('age' in user)) user.age = 0
@@ -109,6 +112,9 @@ muto: false,
 premium: false,
 premiumTime: 0,
 registered: false,
+genre: '',
+birth: '',
+description: '',
 regTime: -1,
 rendang: 0, 
 }
@@ -179,6 +185,7 @@ if (!('modoadmin' in chat)) chat.modoadmin = false
 if (!('antitoxic' in chat)) chat.antitoxic = false
 if (!('simi' in chat)) chat.simi = false
 if (!('antiTraba' in chat)) chat.antiTraba = false
+if (!('antiArab' in chat)) chat.antiArab = false
 if (!('autolevelup' in chat))  chat.autolevelup = true
 if (!isNumber(chat.expired)) chat.expired = 0
 } else
@@ -220,6 +227,7 @@ modoadmin: false,
 antitoxic: false, 
 simi: false,
 antiTraba: false,
+antiArab: false,
 autolevelup: true,
 expired: 0,
 }
@@ -299,9 +307,9 @@ continue
 if (plugin.disabled)
 continue
 const __filename = join(___dirname, name)
-if (m.sender === this.user.jid) {
+/*if (m.sender === this.user.jid) {
 continue
-}
+}*/
 if (typeof plugin.all === 'function') {
 try {
 await plugin.all.call(this, m, {
