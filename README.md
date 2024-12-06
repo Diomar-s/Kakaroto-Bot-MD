@@ -5,7 +5,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+legendary;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
 ![Kakaroto](https://i.ibb.co/4NWqF0m/file.jpg)
 
-> Bot en Mantenimiento 
+> ⚜️ Versión 3.0.0
 
 <div align="center">
  
