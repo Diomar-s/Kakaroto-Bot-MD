@@ -25,7 +25,7 @@ let handler = async (m, { conn }) => {
         'Reino de Elenaria'
     ];
     let randomKingdom = pickRandom(kingdoms);
-    let dragones = pickRandom([20, 5, 7, 8, 88, 40, 50, 70, 90, 999, 300]);
+    let yenes = pickRandom([20, 5, 7, 8, 88, 40, 50, 70, 90, 999, 300]);
     let emerald = pickRandom([1, 5, 7, 8]);
     let iron = pickRandom([5, 6, 7, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80]);
     let gold = pickRandom([20, 5, 7, 8, 88, 40, 50]);
