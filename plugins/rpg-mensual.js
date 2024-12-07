@@ -20,7 +20,7 @@ var handler = async (m, { conn }) => {
     let diamondReward = pickRandom([1, 2, 3]);
 
     user.coin = (user.coin || 0) + coinReward;
-    user.yenes = (user.yenes || 0) + yenesReward;
+    user.dragones = (user.dragones || 0) + yenesReward;
     user.exp = (user.exp || 0) + expReward;
     user.diamonds = (user.diamonds || 0) + diamondReward;
 
@@ -28,7 +28,7 @@ var handler = async (m, { conn }) => {
 \`\`\`🎁 ¡Ha pasado un mes! ¡Disfruta de tu regalo mensual! 🐉\`\`\`
 
 🪙 *Coins* : +${coinReward.toLocaleString()}
-💴 *Yenes* : +${yenesReward}
+🐉 *dragones* : +${yenesReward}
 ✨ *Experiencia* : +${expReward}
 💎 *Diamantes* : +${diamondReward}`);
 
