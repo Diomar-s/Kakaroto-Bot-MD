@@ -109,10 +109,10 @@ ch3: '120363314192605628@newsletter',
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.gp4 = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v' //Channel Team StarCore 
-global.gp1 = 'https://whatsapp.com/channel/0029VakfOZfHFxP7rNrUQk2d' //Grupo 
+global.gp1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Grupo 
 global.gp2 = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v'//
-global.comunidad1 = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T' //Comunidad Kakaroto 
-global.channel = 'https://whatsapp.com/channel/0029VakfOZfHFxP7rNrUQk2d' //Canal Oficial
+global.comunidad1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Comunidad Kakaroto 
+global.channel = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Canal Oficial
 global.channel2 = 'https://whatsapp.com/channel/0029VaylAM84SpkIzQJak42c' //Canal test
 global.yt = 'https://youtube.com/@kakaroto-bot?si=dRYFi-dAw8H_mgGI' //Canal De Youtube
 global.md = 'https://github.com/Diomar-s/Kakaroto-Bot-MD' //Github Oficial
