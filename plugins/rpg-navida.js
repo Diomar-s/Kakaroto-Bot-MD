@@ -29,7 +29,7 @@ var handler = async (m, { conn }) => {
     let giftReward = pickRandom([2, 3, 4, 5]); // Regalos navideños
 
     user.coin = (user.coin || 0) + coinReward;
-    user.yenes = (user.yenes || 0) + yenesReward;
+    user.dragones = (user.dragones || 0) + yenesReward;
     user.exp = (user.exp || 0) + expReward;
     user.gifts = (user.gifts || 0) + giftReward; // Añadir regalos navideños
 
@@ -37,7 +37,7 @@ var handler = async (m, { conn }) => {
 \`\`\`🎄 ¡Feliz Navidad! ¡Disfruta de tu regalo navideño! 🎁\`\`\`
 
 🪙 *Coins* : +${coinReward.toLocaleString()}
-💴 *Yenes* : +${yenesReward}
+🐉 *dragones* : +${yenesReward}
 ✨ *Experiencia* : +${expReward}
 🎁 *Regalos Navideños* : +${giftReward}`);
 
