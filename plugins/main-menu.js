@@ -30,12 +30,11 @@ let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.a
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 const vid = ['https://files.catbox.moe/r1qjn7.mp4', 'https://files.catbox.moe/r1qjn7.mp4', 'https://files.catbox.moe/r1qjn7.mp4']
 
-let menu = `𔓕✦  ꯭ ꯭ 𓏲꯭֟፝੭ 𝓚𝓪𝓴𝓪𝓻𝓸𝓽𝓸-𝓑𝓸𝓽-𝓜𝓓 𓏲꯭֟፝੭ ꯭  ꯭ ꯭𔓕✦
-
+let menu = `𔓕꯭  ꯭ ꯭ 𓏲꯭֟፝੭ ꯭⌑𝓚𝓪𝓴𝓪𝓻𝓸𝓽𝓸-𝓑𝓸𝓽-𝓜𝓓⌑꯭ 𓏲꯭֟፝੭ ꯭  ꯭ ꯭𔓕
 🐲 ¡𝐇𝐨𝐥𝐚! 𝐂𝐨𝐦𝐨 𝐄𝐬𝐭𝐚𝐬 𝐄𝐥 𝐃𝐢𝐚 𝐃𝐞 𝐇𝐨𝐲 *${taguser}* 𝐒𝐨𝐲 𝐤𝐚𝐤𝐚𝐫𝐨𝐭𝐨𝐁𝐨𝐭 ${saludo}. 
 
 ┏━━⪩「 𝐈𝐍𝐅𝐎 𝐂𝐑𝐄𝐀𝐃𝐎𝐑ᚐ 」⪨
-┃❂ ⧼👑⧽ *Creador:* ꧁༒ĹєǤ𝒆𝐧𝐃༒꧂
+┃❂ ⧼👑⧽ *Creador:* ĹєǤ𝒆𝐧𝐃
 ┃❂ ⧼🔱⧽ *Modo:* Publico
 ┃❂ ⧼🌠⧽ *Baileys:* Multi Device
 ┃❂ ⧼🤖⧽ *Bot:* ${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'Sub-Bot')}
