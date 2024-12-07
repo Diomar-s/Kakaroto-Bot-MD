@@ -39,7 +39,7 @@ m = smsg(this, m) || m
 if (!m)
 return
 m.exp = 0
-m.yenes = false
+m.dragones = false
 try {
 let user = global.db.data.users[m.sender]
 //if (typeof user !== 'object')
@@ -51,7 +51,7 @@ if (!('premium' in user)) user.premium = false
 if (!('muto' in user)) user.muto = false
 if (!isNumber(user.joincount)) user.joincount = 1
 if (!isNumber(user.money)) user.money = 150
-if (!isNumber(user.yenes)) user.yenes = 20
+if (!isNumber(user.dragones)) user.dragones = 20
 if (!('registered' in user)) user.registered = false
 if (!('genre' in user)) user.genre = false
 if (!('birth' in user)) user.birth = false
@@ -106,7 +106,7 @@ lastduel: 0,
 lastpago: 0,
 lastrob: 0,
 level: 0,
-yenes: 20,
+dragones: 20,
 money: 100,
 muto: false,
 premium: false,
@@ -463,8 +463,8 @@ continue
 }
 
 m.exp += xp
-if (!isPrems && plugin.yenes && global.db.data.users[m.sender].yenes < plugin.yenes * 1) {
-conn.reply(m.chat, `❮💴❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝙔𝙚𝙣𝙚𝙨 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝙔𝙚𝙣𝙚𝙨, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`, m, rcanal) 
+if (!isPrems && plugin.dragones && global.db.data.users[m.sender].dragones < plugin.dragones * 1) {
+conn.reply(m.chat, `❮🐉❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝘿𝙧𝙖𝙜𝙤𝙣𝙚𝙨 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝘿𝙧𝙖𝙜𝙤𝙣𝙚𝙨, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`, m, rcanal) 
 continue
 }
 
@@ -499,7 +499,7 @@ __filename
 try {
 await plugin.call(this, m, extra)
 if (!isPrems)
-m.yenes = m.yenes || plugin.yenes || false
+m.dragones = m.dragones || plugin.dragones || false
 m.money = m.money || plugin.money || false
 } catch (e) {
 // Error occured
@@ -524,8 +524,8 @@ await plugin.after.call(this, m, extra)
 } catch (e) {
 console.error(e)
 }}
-if (m.yenes)
-conn.reply(m.chat, `Utilizaste *${+m.yenes}* 💴`, m, fake)
+if (m.dragones)
+conn.reply(m.chat, `Utilizaste *${+m.dragones}* 💴`, m, fake)
 }
 if (m.money)
 conn.reply(m.chat, `Utilizaste *${+m.money}* 💰`, m, fake)
@@ -548,7 +548,7 @@ await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id:
 }
 if (m.sender && (user = global.db.data.users[m.sender])) {
 user.exp += m.exp
-user.yenes -= m.yenes * 1
+user.dragones -= m.dragones * 1
 user.money -= m.money * 1
 }
 
