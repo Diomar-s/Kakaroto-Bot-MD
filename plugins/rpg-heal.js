@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
         return conn.reply(m.chat, '👤 El usuario no se encuentra en la base de Datos.', m);
     }
     if (user.dragones < 20) {
-        return conn.reply(m.chat, '💔 No tienes suficientes yenes para curarte. Necesitas al menos 50 dragones.', m);
+        return conn.reply(m.chat, '💔 No tienes suficientes dragones para curarte. Necesitas al menos 50 dragones.', m);
     }
     let healAmount = 40; 
     user.health += healAmount;
