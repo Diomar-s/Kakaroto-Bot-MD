@@ -19,7 +19,7 @@ const handler = async (m, { isPrems, conn }) => {
   const ai = Math.floor(Math.random() * 4000);
   const expp = Math.floor(Math.random() * 5000);
 
-  global.db.data.users[m.sender].yenes += dia;
+  global.db.data.users[m.sender].dragones += dia;
   global.db.data.users[m.sender].money += ai;
   global.db.data.users[m.sender].joincount += tok;
   global.db.data.users[m.sender].exp += expp;
@@ -32,7 +32,7 @@ const handler = async (m, { isPrems, conn }) => {
 ╰━━━━━━━━━━━━⬣
 
 ╭━〔 ${global.botname} 〕⬣
-┃ *${dia} Yenes* 💴
+┃ *${dia} dragones* 🐉
 ┃ *${tok} Tokens* ⚜️
 ┃ *${ai} Coins* 🪙
 ┃ *${expp} Exp* ✨
