@@ -590,7 +590,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 //this.sendPresenceUpdate('recording', m.chat);
 
 if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|ai|megumin|megu|a|s)/gi)) {
-let emot = pickRandom(["🚩", "🍟", "🔥","✨️", "🌸", "💥", "⭐️", "🌟", "🍂", "🫂", "🍁", "💖", "💞", "💕", "💋"])
+let emot = pickRandom(["🐲", "🐉", "☁️","💨", "👊", "💪", "🌻", "🏵️", "🥀", "💮", "🍁", "💖", "💞", "💕", "💋"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
@@ -624,7 +624,7 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@date', global.botdate).replace('@time', global.bottime).replace('@readMore', global.readMore).replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*Yuki-Ai*\n𝗦𝗶𝗻 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻') :
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@date', global.botdate).replace('@time', global.bottime).replace('@readMore', global.readMore).replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*Goku-Ai*\n𝗦𝗶𝗻 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0]).replace('@date', global.botdate).replace('@time', global.bottime)
 
 if (chat.antifake && isBotAdminNn && action === 'add') {
@@ -740,15 +740,15 @@ console.error(e)
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> Legendary.', 
+rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> Legend.', 
 owner: '「⚜️」 *Esta función solo puede ser usada por mi desarrollador.*', 
 mods: '「⚜️」 *Esta función solo puede ser usada por mis desarrolladores.*', 
 premium: '「☁️」 *Esta función solo es para usuarios Premium.*', 
-group: '「🐲」 *Esta funcion solo puede ser ejecutada en grupos.*', 
-private: '「🐲」 *Esta función solo puede ser usada en chat privado.*', 
-admin: '「🐉」 *Este comando solo puede ser usado por admins.*', 
-botAdmin: '「🐉」 *Para usar esta función debo ser admin.*', 
-unreg: '「💨」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_☁️ Ejemplo_* : */reg Legend.1000*',
+group: '「🐉」 *Esta funcion solo puede ser ejecutada en grupos.*', 
+private: '「🐉」 *Esta función solo puede ser usada en chat privado.*', 
+admin: '「💨」 *Este comando solo puede ser usado por admins.*', 
+botAdmin: '「💨」 *Para usar esta función debo ser admin.*', 
+unreg: '「🐉」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_‼️ Ejemplo_* : */reg Legend.1000*',
 restrict: '「🐉」 *Esta característica esta desactivada.*'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
