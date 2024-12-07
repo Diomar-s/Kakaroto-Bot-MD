@@ -13,18 +13,18 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     if (fuerzaUsuario > fuerzaMonstruo) {
       // El usuario mata al monstruo y recibe un bono extra
       const bonoExtra = randomNumber(20, 30);
-      global.db.data.users[m.sender].yenes += bonoExtra + yenesEncontradas;
-      return `\`\`\`[ 🏆  ¡Encontraste un monstruo! Lo derrotaste y encontraste ${yenesEncontradas} Yenes 💴 más ➔ ${bonoExtra} como bono extra. ]\`\`\``;
+      global.db.data.users[m.sender].dragones += bonoExtra + yenesEncontradas;
+      return `\`\`\`[ 🏆  ¡Encontraste un monstruo! Lo derrotaste y encontraste ${yenesEncontradas} dragones 🐉 más ➔ ${bonoExtra} como bono extra. ]\`\`\``;
     } else {
       // El monstruo mata al usuario y pierde la recompensa
-      global.db.data.users[m.sender].yenes -= yenesEncontradas;
-      return `\`\`\`[ ⚠️  ¡Encontraste un monstruo! El monstruo te derrotó y perdiste ➔ ${yenesEncontradas} Yenes 💴. ]\`\`\``;
+      global.db.data.users[m.sender].dragones -= yenesEncontradas;
+      return `\`\`\`[ ⚠️  ¡Encontraste un monstruo! El monstruo te derrotó y perdiste ➔ ${yenesEncontradas} dragones 🐉. ]\`\`\``;
     
     }
   } else {
     // No se encuentra ningún monstruo
-    return `\`\`\`[ 🎆 ¡Exploraste la mazmorra y encontraste ${yenesEncontradas} Yenes 💴]\`\`\``;
-    global.db.data.users[m.sender].yenes += yenesEncontradas; 
+    return `\`\`\`[ 🎆 ¡Exploraste la mazmorra y encontraste ${yenesEncontradas} dragones 🐉]\`\`\``;
+    global.db.data.users[m.sender].dragones += yenesEncontradas; 
   }
 }
 const result = explorarMazmorra(m.sender)
