@@ -15,14 +15,14 @@ let handler = async (m, { conn }) => {
     let expReward = pickRandom([100, 200, 300]);
 
     user.coin = (user.coin || 0) + we;
-    user.dragones = (user.dragones || 0) + yenesReward;
+    user.dragones = (user.dragones || 0) + dragonesReward;
     user.exp = (user.exp || 0) + expReward;
 
     m.reply(`
 🎁 ¡Ha pasado una semana! ¡Disfruta de tu regalo semanal! 🐉
 
 🪙 *Coins* : +${we.toLocaleString()}
-🐉 *dragones* : +${yenesReward}
+🐉 *dragones* : +${dragonesReward}
 ✨ *Experiencia* : +${expReward}`);
 
     user.weekly = new Date * 1; // Actualizar la fecha de reclamación
