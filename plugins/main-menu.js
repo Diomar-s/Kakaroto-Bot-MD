@@ -7,7 +7,7 @@ import { join } from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, command }) => {
 try {        
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
-let { exp, dragones, level, role } = global.db.data.users[m.sender]
+let { exp, yenes, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
 let name = await conn.getName(m.sender)
 let _uptime = process.uptime() * 1000
@@ -28,7 +28,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-const vid = ['https://files.catbox.moe/1dtvv7.mp4', 'https://files.catbox.moe/yxpqgu.mp4', 'https://files.catbox.moe/0iw0dc.mp4']
+const vid = ['https://files.catbox.moe/r1qjn7.mp4', 'https://files.catbox.moe/r1qjn7.mp4', 'https://files.catbox.moe/r1qjn7.mp4']
 
 let menu = `𔓕✦  ꯭ ꯭ 𓏲꯭֟፝੭𝐊𝐚𝐤𝐚𝐫𝐨𝐭𝐨 - ⁣☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆੭ ꯭  ꯭ ꯭𔓕✦
 
@@ -47,7 +47,7 @@ let menu = `𔓕✦  ꯭ ꯭ 𓏲꯭֟፝੭𝐊𝐚𝐤𝐚𝐫𝐨𝐭
 ┃❂ ⧼👤⧽ *Cliente:* ${nombre}
 ┃❂ ⧼🌐⧽ *País:* ${global.userNationality}
 ┃❂ ⧼✨⧽ *Exp:* ${exp}
-┃❂ ⧼🐉⧽ *Dragones:* ${dragones}
+┃❂ ⧼💴⧽ *Yenes:* ${yenes}
 ┃❂ ⧼🌟⧽ *Nivel:* ${level}
 ┃❂ ⧼⚜️⧽ *Rango:* ${role}
 ┗━━━━━━━━━━━━━━━━━⪩
