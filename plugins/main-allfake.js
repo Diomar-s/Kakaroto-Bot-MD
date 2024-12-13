@@ -51,8 +51,8 @@ global.colab3 = 'Dv daniel'
 
 //Ids channel
 global.idchannel = '120363354007483445@newsletter'
-global.canalIdM = ["120363323286489957@newsletter", "120363354007483445@newsletter", "120363314192605628@newsletter"]
-global.canalNombreM = ["𝙏𝙀𝘼𝙈 | 𝙈𝙐𝙉𝘿𝙊 𝘼𝙉𝙄𝙈𝙀҉ᚐ", "✧┊┋◟𝙆𝙖𝙠𝙖𝙧𝙤𝙩𝙤 𝐓𝐞𝐬𝐭 ┊┋✧", "✫𝚃𝙴𝙰𝙼  乂 𝚂𝚃𝙰𝚁𝙲𝙾𝚁𝙴✫"]
+global.canalIdM = ["120363323286489957@newsletter", "120363323286489957@newsletter", "120363323286489957@newsletter"]
+global.canalNombreM = ["𝙏𝙀𝘼𝙈 | 𝙈𝙐𝙉𝘿𝙊 𝘼𝙉𝙄𝙈𝙀҉ᚐ", "✧┊┋◟𝙆𝙖𝙠𝙖𝙧𝙤𝙩𝙤 𝐓𝐞𝐬𝐭 ┊┋✧", "𝙏𝙀𝘼𝙈 | 𝙈𝙐𝙉𝘿𝙊 𝘼𝙉𝙄𝙈𝙀҉"]
 global.channelRD = await getRandomChannel()
 
 //Reacciones De Comandos.!
@@ -75,7 +75,7 @@ global.waitttt = '🕒 *𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝙊𝙍𝙁�
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'  
-let canal2 = 'https://whatsapp.com/channel/0029VaylAM84SpkIzQJak42c'
+let canal2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 var git = 'https://github.com/Diomar-s' 
 var youtube = 'https://youtube.com/@kakaroto-bot?si=QMJZfniTLCm9q1Iu' 
 var github = 'https://github.com/Diomar-s/Kakaroto-Bot-MD.git' 
