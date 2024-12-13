@@ -13,8 +13,8 @@ let userName = m.pushName || 'Anónimo'
 
 let user = global.db.data.users[m.sender]
 let chat = global.db.data.chats[m.chat]
-if (!chat.autolevelup)
-return !0
+//if (!chat.autolevelup)
+//return !0
 
 let level = user.level
 let before = user.level * 1
@@ -27,7 +27,7 @@ let nextRole = Object.entries(roles).sort((a, b) => a[1] - b[1]) .find(([, minLe
 //if (user.role != currentRole && level >= 1) {
 if (level >= 1) {
 user.role = currentRole
-let text22 = `🐉 ¡𝙵𝚎𝚕𝚒𝚌𝚒𝚍𝚊𝚍𝚎𝚜 *${userName}*, 𝚙𝚘𝚛 𝚝𝚞 𝚗𝚞𝚎𝚟𝚘 𝚛𝚊𝚗𝚐𝚘!\n\n\`𝙽𝚞𝚎𝚟𝚘 𝚁𝚊𝚗𝚐𝚘:\`\n${currentRole}`
+let text22 = `🍂 ¡𝙵𝚎𝚕𝚒𝚌𝚒𝚍𝚊𝚍𝚎𝚜 *${userName}*, 𝚙𝚘𝚛 𝚝𝚞 𝚗𝚞𝚎𝚟𝚘 𝚛𝚊𝚗𝚐𝚘!\n\n\`𝙽𝚞𝚎𝚟𝚘 𝚁𝚊𝚗𝚐𝚘:\`\n${currentRole}`
 if (nextRole) {
 text22 += `\n\n> 𝙿𝚛𝚘́𝚡𝚒𝚖𝚘 𝚛𝚊𝚗𝚐𝚘 ${nextRole}, 𝚎𝚗 𝚎𝚕 *𝚗𝚒𝚟𝚎𝚕 ${roles[nextRole]}*. ¡𝚂𝚒𝚐𝚞𝚎 𝚊𝚜𝚒!`
 }
@@ -46,7 +46,7 @@ renderLargerThumbnail: false
 
 m.reply(`*🎉 ¡ F E L I C I D A D E S ! 🎉*\n\n⭐ Nivel Actual » *${user.level}*\n⚜️ Rango » ${user.role}\n📆 Fecha » *${moment.tz('America/Bogota').format('DD/MM/YY')}*\n\n> *\`¡Has alcanzado un Nuevo Nivel!\`*`)
 
-let especial = 'yenes'
+let especial = 'dragones'
 let especial2 = 'exp'
 let especial3 = 'money'
 let especial4 = 'joincount'
@@ -67,7 +67,7 @@ let normalCant3 = [1, 3, 3, 3, 4, 4, 2, 2, 4, 4, 4, 4, 1].getRandom()
 if (level >= 1) {
 let chtxt = `👤 *𝚄𝚜𝚞𝚊𝚛𝚒𝚘:* ${userName}\n⭐ *𝙽𝚒𝚟𝚎𝚕 𝚊𝚗𝚝𝚎𝚛𝚒𝚘𝚛:* ${before}\n🌟 *𝙽𝚒𝚟𝚎𝚕 𝚊𝚌𝚝𝚞𝚊𝚕:* ${level + 1}\n⚜️ *𝚁𝚊𝚗𝚐𝚘:* ${user.role}${(level + 1) % 5 === 0 ? `\n\n💰 *𝚁𝚎𝚌𝚘𝚖𝚙𝚎𝚗𝚜𝚊 𝚙𝚘𝚛 𝚊𝚕𝚊𝚌𝚊𝚗𝚣𝚊𝚛 𝚎𝚕 𝚗𝚒𝚟𝚎𝚕 ${level + 1}:*
 🎁 *Bono:* \`X${Math.floor(((level + 1) - 5) / 10) + 1}\`
-- *${especialCant * (Math.floor(((level + 1) - 5) / 10) + 1)} 💴 ${especial}*
+- *${especialCant * (Math.floor(((level + 1) - 5) / 10) + 1)} 🐉 ${especial}*
 - *${especialCant2 * (Math.floor(((level + 1) - 5) / 10) + 1)} ✨️ ${especial2}*
 - *${especialCant3 * (Math.floor(((level + 1) - 5) / 10) + 1)} 💸 ${especial3}*
 - *${especialCant4 * (Math.floor(((level + 1) - 5) / 10) + 1)} 🪙 ${especial4}*
@@ -244,7 +244,7 @@ conn.reply(m.chat, `*🥳 RECOMPENSA POR SU NUEVO NIVEL 75!!* 🏆
 ᰔᩚ *${especialCant * 8} ${especial}*
 ᰔᩚ *${especialCant2 * 8} ${especial2}*
 ᰔᩚ *${especialCant3 * 8} ${especial3}*
-ᰔᩚ *${especialCant4 * 8} ${especial4}*`, m) 
+ᰔᩚ *${especialCant4 * 8} ${especial4}*`, m)
 user[especial] += especialCant * 8
 user[especial2] += especialCant2 * 8
 user[especial3] += especialCant3 * 8
@@ -309,7 +309,7 @@ user[especial4] += especialCant4 * 10
 
 }
 
-}}                
+}}    
 export default handler
 
 global.roles = {
