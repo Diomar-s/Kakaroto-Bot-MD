@@ -104,20 +104,20 @@ global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid:
 global.ch = {
 ch1: '120363354007483445@newsletter',
 ch2: '120363323286489957@newsletter',
-ch3: '120363314192605628@newsletter',
+ch3: '120363323286489957@newsletter',
 }
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp4 = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v' //Channel Team StarCore 
+global.gp4 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Channel Team StarCore 
 global.gp1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Grupo 
-global.gp2 = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v'//
+global.gp2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'//
 global.comunidad1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Comunidad Kakaroto 
 global.channel = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Canal Oficial
-global.channel2 = 'https://whatsapp.com/channel/0029VaylAM84SpkIzQJak42c' //Canal test
+global.channel2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Canal test
 global.yt = 'https://youtube.com/@kakaroto-bot?si=dRYFi-dAw8H_mgGI' //Canal De Youtube
 global.md = 'https://github.com/Diomar-s/Kakaroto-Bot-MD' //Github Oficial
 global.correo = 'darel0954@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VakfOZfHFxP7rNrUQk2d';
+global.cn ='https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t';
 
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
 global.saludo = '🍭' + hour;
