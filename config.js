@@ -219,7 +219,7 @@ global.rpg = {
     string = string.toLowerCase();
     const emot = {
       level: '🧬 Nivel',
-      yenes: '💴 Yenes',
+      dragones: '🐉 dragones',
       exp: '⚡ Experiencia',
       bank: '🏦 Banco',
       diamond: '💎 Diamante',
@@ -312,7 +312,7 @@ global.rpgg = { // Solo emojis
     string = string.toLowerCase();
     const emott = {
       level: '🧬',
-      yenes: '💴',
+      dragones: '🐉',
       exp: '⚡',
       bank: '🏦',
       diamond: '💎+',
