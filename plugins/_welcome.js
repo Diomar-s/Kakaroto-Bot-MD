@@ -20,8 +20,8 @@ export async function before(m, { conn, participants, groupMetadata }) {
     } else if (m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_REMOVE || m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_LEAVE) {
       let bye = `🐉 *Adiós* De ${groupMetadata.subject}\n ✰ ${taguser}\n${global.welcom2}\n •(=^●ω●^=)• Te esperamos pronto.,`
   
-      await conn.sendMessage(m.chat, { image: img, canal,  caption: bye, canal, mentions: [who] })
-  }
+      await conn.sendAi(m.chat, titulowm2, titu, welcome, img, img, canal, estilo);
+    }
   
   }
 
