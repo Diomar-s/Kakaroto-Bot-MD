@@ -21,8 +21,9 @@ export async function before(m, { conn, participants, groupMetadata }) {
       let bye = `🐉 *Adiós* De ${groupMetadata.subject}\n ✰ ${taguser}\n${global.welcom2}\n •(=^●ω●^=)• Te esperamos pronto, rcanal)
   }
   
-      await conn.sendMessage(m.chat, { image: img, caption: bye, mentions: [who] })
-    }
+      await conn.sendMessage(m.chat, { image: img, caption: bye, mentions: [who] } rcanal)
+  }
+  
   }
 
   return true
