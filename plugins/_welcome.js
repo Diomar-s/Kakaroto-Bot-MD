@@ -7,6 +7,11 @@ export async function before(m, { conn, participants, groupMetadata }) {
   let who = m.messageStubParameters[0]
   let userName = await conn.getName(who + '@s.whatsapp.net')
   let taguser = `@${who.split('@')[0]}`
+  let pp = await conn.profilePictureUrl(m.messageStubParameters[0], 'image').catch(_ => 'https://qu.ax/SpdFn.jpg')
+    let pp2 = await conn.profilePictureUrl(m.messageStubParameters[0], 'image').catch(_ => 'https://qu.ax/SpdFn.jpg')
+   img = await (await fetch(`${pp}`)).buffer()
+  let img2 = await (await fetch(`${pp2}`)).buffer()
+  
 
   let chat = global.db.data.chats[m.chat]
 
