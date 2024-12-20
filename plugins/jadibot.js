@@ -35,7 +35,7 @@ reportError(e)
 break
 
 case isCommand2:
-if (global.conn.user.jid == conn.user.jid) conn.reply(m.chat, `☁️ Si no es *SubBot* comuníquese al numero principal del *Bot* para ser *SubBot*, m, rcanal, )
+if (global.conn.user.jid == conn.user.jid) conn.reply(m.chat, `☁️ Si no es *SubBot* comuníquese al numero principal del *Bot* para ser *SubBot*`, m, rcanal, )
 else {
 await conn.reply(m.chat, `🐉 Kakaroto-bot desactivado.`, m)
 conn.ws.close()}  
