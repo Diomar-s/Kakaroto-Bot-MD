@@ -21,7 +21,8 @@ let info = `⛏️ *Te has adentrando en lo profundo de las cuevas*
 🪨 *Piedra*: ${stone}`
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '⚒️ *Minando.. - Kakaroto-Bot-MD* ✨', 'status@broadcast' )
-await m.react('⛏️')
+await m.react('⛏️') m, rcanal, )
+}
 
 user.health -= 50
 user.pickaxedurability -= 30
