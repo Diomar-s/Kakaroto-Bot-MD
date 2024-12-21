@@ -25,8 +25,7 @@ const texto1 = `*_𔓕꯭  ꯭ ꯭𓏲꯭֟፝੭ ꯭⌑𝐊𝐚𝐤𝐚�
 » 🔗 *Enlace:* ${yt_play[0].url}
 » 🎞️ *Canal:* ${yt_play[0].author.url}
 
-> 📽️ *Su Audio se está enviando, espere un momento...*`
-.trim();
+> 📽️ *Su Audio se está enviando, espere un momento...*`.trim();
 
 await conn.sendMessage(m.chat, {
 image: { url: yt_play[0].thumbnail }, caption: texto1, contextInfo: { externalAdReply: { title: '♡  ͜ ۬︵࣪᷼⏜݊᷼𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙨⏜࣪᷼︵۬ ͜ ', body: '<(✿◠‿◠)> 𝙆𝙖𝙠𝙖𝙧𝙤𝙩𝙤-𝘽𝙤𝙩-𝙈𝘿🐉', sourceUrl: cn, thumbnail: logo7 }}, quoted: estilo});
