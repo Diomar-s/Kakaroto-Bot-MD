@@ -6,8 +6,8 @@ import { promises } from 'fs'
 import { join } from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, command }) => {
 try {        
-let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
-let { exp, yenes, level, role } = global.db.data.users[m.sender]
+/*let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}*/
+let { exp, dragones, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
 let name = await conn.getName(m.sender)
 let _uptime = process.uptime() * 1000
@@ -495,7 +495,7 @@ let menu = `𔓕꯭  ꯭ 𓏲꯭֟፝੭ 𝓚𝓪𝓴𝓪𝓻𝓸𝓽𝓸-
 ┗━━━━━━━━━━━━━━━━━⪨
 > © 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆`.trim()
 
-await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '🐲 ꙰,𝐊𝐚𝐤𝐚𝐫𝐨𝐭𝐨𝐁𝐨𝐭', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
+await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '🐉 ꙰,𝐊𝐚𝐤𝐚𝐫𝐨𝐭𝐨𝐁𝐨𝐭', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
 }, }, gifPlayback: true, gifAttribution: 0 }, { quoted: null })
 await m.react(emojis)    
 
@@ -506,7 +506,7 @@ await m.react(error)
 
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['menu', 'help', 'menú'] 
+handler.command = ['menu', 'help', 'menú', 'allmenú', 'allmenu', 'menucompleto'] 
 handler.register = true
 export default handler
 
