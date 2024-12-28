@@ -108,7 +108,7 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1 }
 }}, { quoted: m }
-
+  
 global.icono = [ 
 'https://files.catbox.moe/eqw8cp.jpg',
 'https://files.catbox.moe/8qd102.jpg',
