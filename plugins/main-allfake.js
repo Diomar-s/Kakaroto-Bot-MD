@@ -110,12 +110,12 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
   
 global.icono = [ 
-'https://files.catbox.moe/eqw8cp.jpg',
-'https://files.catbox.moe/8qd102.jpg',
-'https://files.catbox.moe/e0457b.jpg',
-'https://files.catbox.moe/e9idhw.jpg',
-'https://files.catbox.moe/e0457b.jpg',
-'https://files.catbox.moe/e9idhw.jpg'
+'https://i.ibb.co/HtDpkFY/Yuki.jpg',
+'https://i.ibb.co/TqCd2k1/Yuki.jpg',
+'https://i.ibb.co/TqCd2k1/Yuki.jpg',
+'https://i.ibb.co/TYZgVqR/Yuki.jpg',
+'https://i.ibb.co/LQGm0Ss/Yuki.jpg',
+'https://i.ibb.co/2kYLPY3/Yuki.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '𝗞𝗮𝗸𝗮𝗿𝗼𝘁𝗼 | 𝗠𝘂𝗻𝗱𝗼 𝗮𝗻𝗶𝗺𝗲ᚐ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
