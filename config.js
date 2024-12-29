@@ -88,7 +88,7 @@ global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remote
 global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`͟͞ ĹєǤ𝒆𝐧𝐃 ͟͞`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `⚘݄Kᴀᴋᴀʀᴏᴛᴏ (^_^♪)\n ĹєǤ𝒆𝐧𝐃࠭ ͟͞`, 'jpegThumbnail': logo4 }}}
 
 global.ch = {
-ch1: '120363354007483445@newsletter',
+ch1: '120363323286489957@newsletter',
 ch2: '120363323286489957@newsletter',
 ch3: '120363323286489957@newsletter',
 }
