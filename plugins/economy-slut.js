@@ -23,25 +23,25 @@ let amountTaken = Math.floor(Math.random() * (maxAmount - minAmount + 1)) + minA
 let randomOption = Math.floor(Math.random() * 3)
 switch (randomOption) {
 case 0:
-users[senderId].yenes += amountTaken
-users[randomUserId].yenes -= amountTaken
+users[senderId].dragones += amountTaken
+users[randomUserId].dragones -= amountTaken
 conn.sendMessage(m.chat, {
-text: `🥵 ¡Te Postituiste Y Ganaste *${amountTaken} Yenes 💴* Dejaste Casi Seco A @${randomUserId.split("@")[0]}\n\nSe suman *+${amountTaken} Yenes 💴* a ${senderName}.`,
+text: `🥵 ¡Te Postituiste Y Ganaste *${amountTaken} dragones 🐉* Dejaste Casi Seco A @${randomUserId.split("@")[0]}\n\nSe suman *+${amountTaken} dragones 🐉* a ${senderName}.`,
 contextInfo: { 
 mentionedJid: [randomUserId],
 }}, { quoted: m })
 break
 case 1:
 let amountSubtracted = Math.min(Math.floor(Math.random() * (senderYenes - minAmount + 1)) + minAmount, maxAmount)
-users[senderId].yenes -= amountSubtracted
-conn.reply(m.chat, `🥵 Le Rompiste La Verga A Tu Cliente Te Cobro Y Se Te Quitan *-${amountSubtracted} Yenes 💴* a ${senderName}.`, m, rcanal)
+users[senderId].dragones -= amountSubtracted
+conn.reply(m.chat, `🥵 Le Rompiste La Verga A Tu Cliente Te Cobro Y Se Te Quitan *-${amountSubtracted} dragones 🐉* a ${senderName}.`, m, rcanal)
 break
 case 2:
 let smallAmountTaken = Math.min(Math.floor(Math.random() * (randomUserYenes / 2 - minAmount + 1)) + minAmount, maxAmount)
-users[senderId].yenes += smallAmountTaken
-users[randomUserId].yenes -= smallAmountTaken
+users[senderId].dragones += smallAmountTaken
+users[randomUserId].dragones -= smallAmountTaken
 conn.sendMessage(m.chat, {
-text: `🥵 Vuelves A Las Calles Y Te Vas A Un Motel Te Paga ${smallAmountTaken} Yenes 💴* de @${randomUserId.split("@")[0]}\n\nSe suman *+${smallAmountTaken} Yenes 💴* a ${senderName}.`,
+text: `🥵 Vuelves A Las Calles Y Te Vas A Un Motel Te Paga ${smallAmountTaken} dragones 🐉* de @${randomUserId.split("@")[0]}\n\nSe suman *+${smallAmountTaken} dragones 🐉* a ${senderName}.`,
 contextInfo: { 
 mentionedJid: [randomUserId],
 }}, { quoted: m })
