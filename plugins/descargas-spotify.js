@@ -1,85 +1,70 @@
-import fetch from 'node-fetch';
-import axios from 'axios';
+import _ from "lodash"
+import fetch from "node-fetch"
 
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) throw m.reply(`Ingresa una consulta\n*🐉 Ejemplo:* ${usedPrefix}${command} Joji Ew`);
+let handler = async (m, { conn, command, usedPrefix, args }) => {
+try {
+    
+const text = _.get(args, "length") ? args.join(" ") : _.get(m, "quoted.text") || _.get(m, "quoted.caption") || _.get(m, "quoted.description") || ""
 
-    conn.sendMessage(m.chat, { react: { text: "🕒", key: m.key } });
-
-    try {
-        let ouh = await fetch(`https://api.nyxs.pw/dl/spotify-direct?title=${text}`);
-
-        // Verifica que la respuesta sea correcta
-        if (!ouh.ok) {
-            throw new Error(`Error al acceder a la API: ${ouh.status} ${ouh.statusText}`);
-        }
-
-        let gyh = await ouh.json();
-
-        if (!gyh.result) throw m.reply(`*No se encontró la canción*`);
-
-        // Usar un acortador para el enlace de Spotify
-        let shortURL = await getTinyURL(gyh.result.urlSpotify);
-
-        const info = `☁️ *TITULO:*\n_${gyh.result.title} - Versión original_\n\n👤 *ARTISTA:*\n» ${gyh.result.artists}\n\n🔗 *LINK:*\n» ${shortURL}\n\n🥀 *Enviando Canción....*\n> ৎ୭࠭͢𝐊𝐚𝐤𝐚𝐫𝐨𝐭𝐨-𝐁𝐨𝐭-𝐌𝐃𓆪͟͞ `;
-
-        // Obtener la imagen en formato buffer de la URL original
-        const thumbnailBuffer = await (await fetch(gyh.result.thumbnail)).buffer();
-
-        // Enviar la información y la imagen como un enlace
-        await conn.sendMessage(m.chat, {
-            text: info,
-            contextInfo: {
-                externalAdReply: {
-                    title: gyh.result.title,
-                    body: `Artista: ${gyh.result.artists}`,
-                    mediaType: 1,
-                    thumbnail: thumbnailBuffer,
-                    mediaUrl: shortURL, // URL de la canción
-                    sourceUrl: shortURL, // URL de la canción
-                    showAdAttribution: true,
-                }
-            }
-        }, { quoted: m });
-
-        const doc = {
-            audio: { url: gyh.result.url },
-            mimetype: 'audio/mp4',
-            fileName: `${gyh.result.title}.mp3`,
-            contextInfo: {
-                externalAdReply: {
-                    showAdAttribution: true,
-                    mediaType: 2,
-                    mediaUrl: gyh.result.urlSpotify,
-                    title: gyh.result.title,
-                    sourceUrl: gyh.result.urlSpotify,
-                    thumbnail: thumbnailBuffer
-                }
-            }
-        };
-
-        // Enviar el archivo de audio
-        await conn.sendMessage(m.chat, doc, { quoted: m });
-        await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
-    } catch (error) {
-        console.error(error);
-        m.reply(`Error: ${error.message}`);
-    }
-};
-
-async function getTinyURL(text) {
-    try {
-        let response = await axios.get(`https://tinyurl.com/api-create.php?url=${text}`);
-        return response.data;
-    } catch (error) {
-        return text;
-    }
+if (!text.trim()) {
+return m.reply(`✦ Por favor, ingresa el nombre de la música.`)
 }
 
-handler.help = ['spotify'];
-handler.tags = ['descargas'];
-handler.command = /^(spotify|sp)$/i;
-handler.premium = true;
-handler.register = true;
+await m.reply("✦ Espere un momento...")
 
-export default handler;
+const searchResponse = await fetch(`https://deliriussapi-oficial.vercel.app/search/spotify?q=${encodeURIComponent(text)}`)
+const searchResult = await searchResponse.json()
+
+if (!searchResult.status || !searchResult.data.length) {
+return m.reply("✦ No se encontraron resultados para tu consulta.")
+}
+
+const firstResult = searchResult.data[0]
+const downloadResponse = await fetch(`https://deliriussapi-oficial.vercel.app/download/spotifydl?url=${firstResult.url}`)
+const downloadResult = await downloadResponse.json()
+
+if (!downloadResult.status || !downloadResult.data) {
+return m.reply("✦ No se pudo descargar el audio. Inténtalo de nuevo más tarde.")
+}
+
+const { title, author, url: downloadUrl, image } = downloadResult.data
+const captvid = `*✦Título:* ${title || "No encontrado"}
+*✧Popularidad:* ${firstResult.popularity || "No disponible"}
+*✦Artista:* ${author || "No encontrado"}
+*✧Álbum:* ${firstResult.album || "No disponible"}
+*✦Duración:* ${firstResult.duration || "No disponible"}
+*✦Publicado:* ${firstResult.publish || "No disponible"}
+*✧Enlace Spotify:* ${firstResult.url || "No disponible"}`
+
+const thumbnail = (await conn.getFile(image))?.data
+
+const infoReply = {
+contextInfo: {
+externalAdReply: {
+body: "✧ En unos momentos se entrega su audio",
+mediaType: 1,
+mediaUrl: firstResult.url,
+previewType: 0,
+renderLargerThumbnail: true,
+sourceUrl: firstResult.url,
+thumbnail: thumbnail,
+title: "S P O T I F Y - A U D I O",
+},},
+}
+
+await conn.reply(m.chat, captvid, m, infoReply)
+infoReply.contextInfo.externalAdReply.body = "Audio descargado con éxito" // Para confirmar la descarga Jjjj
+
+await conn.sendMessage(m.chat, { audio: { url: downloadUrl }, caption: captvid, mimetype: "audio/mpeg", contextInfo: infoReply.contextInfo, }, { quoted: m }
+)} catch (error) {
+console.error("Error en el handler de Spotify:", error)
+return m.reply("✦ Ocurrió un error al procesar tu solicitud. Inténtalo de nuevo más tarde.")
+}}
+
+
+handler.help = ["spotify"]
+handler.tags = ["descarga"]
+handler.command = ['splay', 'spotify']
+handler.limit = true
+
+export default handler
