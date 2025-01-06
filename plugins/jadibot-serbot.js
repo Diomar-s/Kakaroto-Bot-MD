@@ -134,7 +134,7 @@ let handler = async (_0x1f703f, {
             'image': await _0x19d2fd.toBuffer(_0x2b9520, {
               'scale': 0x8
             }),
-            'caption': "🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.\n" + _0x5129c4.toString("utf-8")
+            'caption': "🐉 KAKAROTO - S U B B O T 🐉\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : \n\nHaga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.\n" + _0x5129c4.toString("utf-8")
           }, {
             'quoted': _0x1f703f
           });
