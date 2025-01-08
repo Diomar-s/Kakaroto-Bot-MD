@@ -22,7 +22,7 @@ var handler = async (m, { conn }) => {
     }
 
     let pp = await conn.profilePictureUrl(who, 'image').catch(_ => imagen1);
-    let { premium, level, genre, birth, description, yenes, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[who] || {};
+    let { premium, level, genre, birth, description, dragones, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[who] || {};
     let username = conn.getName(who);
 
     genre = genre === 0 ? 'No especificado' : genre || 'No especificado';
@@ -34,9 +34,9 @@ var handler = async (m, { conn }) => {
     let isMarried = who in global.db.data.marriages;
     let partner = isMarried ? global.db.data.marriages[who] : null;
     let partnerName = partner ? conn.getName(partner) : 'Nadie';
-    let api = await axios.get(`https://deliriussapi-oficial.vercel.app/tools/country?text=${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}`);
+    /*let api = await axios.get(`https://deliriussapi-oficial.vercel.app/tools/country?text=${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}`);
     let userNationalityData = api.data.result;
-    let userNationality = userNationalityData ? `${userNationalityData.name} ${userNationalityData.emoji}` : 'Desconocido';
+    let userNationality = userNationalityData ? `${userNationalityData.name} ${userNationalityData.emoji}` : 'Desconocido';*/
     
     let noprem = `
 「 👤 *PERFIL DE USUARIO* 」
@@ -47,10 +47,9 @@ var handler = async (m, { conn }) => {
 👩‍❤️‍👩 *Casad@:* ${isMarried ? partnerName : 'Nadie'}
 📜 *Descripción:* ${description}
 🌀 *Registrado:* ${registered ? '✅': '❌'}
-🌐 *Pais:* ${userNationality}
 
 「 💰 *RECURSOS* 」
-💴 *Yenes:* ${yenes || 0}
+🐉 *Dragones:* ${dragones || 0}
 🌟 *Nivel:* ${level || 0}
 ✨ *Experiencia:* ${exp || 0}
 ⚜️ *Rango:* ${role}
@@ -65,12 +64,11 @@ var handler = async (m, { conn }) => {
 │⧼👩‍❤️‍👩⧽ *ᴄᴀsᴀᴅᴏ:* ${isMarried ? partnerName : 'Nadie'}
 │⧼📜⧽ *ᴅᴇsᴄʀɪᴘᴄɪᴏɴ:* ${description}
 │⧼🌀⧽ *ʀᴇɢɪsᴛʀᴀᴅᴏ:* ${registered ? '✅': '❌'}
-│⧼🌐⧽ *ᴘᴀɪs:* ${userNationality}
 
 ╰─────────────────⪨
 
 ╭────⪩ 𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒 ⪨
-│⧼💴⧽ *ʏᴇɴᴇs:* ${yenes || 0}
+│⧼🐉⧽ *Dragones:* ${dragones || 0}
 │⧼🌟⧽ *ɴɪᴠᴇʟ:* ${level || 0}
 │⧼✨⧽ *ᴇxᴘᴇʀɪᴇɴᴄɪᴀ:* ${exp || 0}
 │⧼⚜️⧽ *ʀᴀɴɢᴏ:* ${role}
